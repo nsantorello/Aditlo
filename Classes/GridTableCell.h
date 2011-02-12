@@ -13,7 +13,10 @@
 	UIImageView* img1;
 	UIImageView* img2;
 	UIImageView* img3;
-	UIImageView* img4;
 }
+
+@property (nonatomic, retain) IBOutlet UIImageView* img1;
+@property (nonatomic, retain) IBOutlet UIImageView* img2;
+@property (nonatomic, retain) IBOutlet UIImageView* img3;
 
 @end

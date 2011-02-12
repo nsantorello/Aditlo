@@ -8,28 +8,14 @@
 
 #import "GridTableCell.h"
 
-
 @implementation GridTableCell
 
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-    
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
-        // Initialization code.
-    }
-    return self;
-}
-
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    
-    [super setSelected:selected animated:animated];
-    
-    // Configure the view for the selected state.
-}
-
+@synthesize img1, img2, img3;
 
 - (void)dealloc {
+	[img1 release];
+	[img2 release];
+	[img3 release];
     [super dealloc];
 }
 

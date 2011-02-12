@@ -1,5 +1,12 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* AditloAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {804, 491}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 330}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* Aditlo */ = {
 		activeExec = 0;
 		executables = (
@@ -10,6 +17,11 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = D21234FA1306953D0024D902 /* Aditlo */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Aditlo */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Aditlo */,
+		);
+		breakpoints = (
+		);
 		codeSenseManager = D212350A130695400024D902 /* Code sense */;
 		executables = (
 			D21234FA1306953D0024D902 /* Aditlo */,
@@ -20,7 +32,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					1232,
 					20,
 					48.16259765625,
 					43,
@@ -40,6 +52,22 @@
 			PBXPerProjectTemplateStateSaveDate = 319198525;
 			PBXWorkspaceStateSaveDate = 319198525;
 		};
+		perUserProjectItems = {
+			D212354A13069E330024D902 /* PBXTextBookmark */ = D212354A13069E330024D902 /* PBXTextBookmark */;
+			D212354B13069E330024D902 /* PBXTextBookmark */ = D212354B13069E330024D902 /* PBXTextBookmark */;
+			D212354C13069E330024D902 /* PBXTextBookmark */ = D212354C13069E330024D902 /* PBXTextBookmark */;
+			D212354D13069E330024D902 /* PBXTextBookmark */ = D212354D13069E330024D902 /* PBXTextBookmark */;
+			D212354E13069E330024D902 /* PBXTextBookmark */ = D212354E13069E330024D902 /* PBXTextBookmark */;
+			D212354F13069E330024D902 /* PBXTextBookmark */ = D212354F13069E330024D902 /* PBXTextBookmark */;
+			D212355013069E330024D902 /* PBXTextBookmark */ = D212355013069E330024D902 /* PBXTextBookmark */;
+			D212355113069E330024D902 /* PBXTextBookmark */ = D212355113069E330024D902 /* PBXTextBookmark */;
+			D212356513069EA20024D902 /* PBXTextBookmark */ = D212356513069EA20024D902 /* PBXTextBookmark */;
+			D212356613069EA20024D902 /* PBXTextBookmark */ = D212356613069EA20024D902 /* PBXTextBookmark */;
+			D212356B13069F470024D902 /* PBXTextBookmark */ = D212356B13069F470024D902 /* PBXTextBookmark */;
+			D212356C13069F470024D902 /* PBXTextBookmark */ = D212356C13069F470024D902 /* PBXTextBookmark */;
+			D212356D13069F680024D902 /* PBXTextBookmark */ = D212356D13069F680024D902 /* PBXTextBookmark */;
+			D212356E13069F7C0024D902 /* PBXTextBookmark */ = D212356E13069F7C0024D902 /* PBXTextBookmark */;
+		};
 		sourceControlManager = D2123509130695400024D902 /* Source Control */;
 		userBuildSettings = {
 		};
@@ -51,7 +79,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -60,6 +88,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -67,9 +96,13 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = Aditlo;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	D2123509130695400024D902 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -84,5 +117,185 @@
 	D212350A130695400024D902 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	D212350D130697650024D902 /* GridTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 586}}";
+			sepNavSelRange = "{302, 0}";
+			sepNavVisRange = "{0, 311}";
+		};
+	};
+	D212350E130697650024D902 /* GridTableViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3614, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{3665, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{3715, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4416}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1615.86, 3675}}";
+			sepNavSelRange = "{1843, 0}";
+			sepNavVisRange = "{1429, 853}";
+		};
+	};
+	D2123512130697790024D902 /* GridTableCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {804, 491}}";
+			sepNavSelRange = "{452, 0}";
+			sepNavVisRange = "{0, 460}";
+		};
+	};
+	D2123513130697790024D902 /* GridTableCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 609}}";
+			sepNavSelRange = "{233, 0}";
+			sepNavVisRange = "{0, 334}";
+		};
+	};
+	D212352413069C7E0024D902 /* GridTable.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 609}}";
+			sepNavSelRange = "{198, 0}";
+			sepNavVisRange = "{0, 214}";
+		};
+	};
+	D212352513069C7E0024D902 /* GridTable.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1756.74, 1176}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{138, 825}";
+		};
+	};
+	D212354A13069E330024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* AditloAppDelegate.h */;
+		name = "AditloAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 330;
+		vrLoc = 0;
+	};
+	D212354B13069E330024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123512130697790024D902 /* GridTableCell.h */;
+		name = "GridTableCell.h: 20";
+		rLen = 0;
+		rLoc = 452;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 0;
+	};
+	D212354C13069E330024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 13";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	D212354D13069E330024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212352413069C7E0024D902 /* GridTable.h */;
+		name = "GridTable.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 219;
+		vrLoc = 0;
+	};
+	D212354E13069E330024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212352513069C7E0024D902 /* GridTable.m */;
+		name = "GridTable.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 825;
+		vrLoc = 138;
+	};
+	D212354F13069E330024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350D130697650024D902 /* GridTableViewController.h */;
+		name = "GridTableViewController.h: 13";
+		rLen = 0;
+		rLoc = 302;
+		rType = 0;
+		vrLen = 311;
+		vrLoc = 0;
+	};
+	D212355013069E330024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* GridTableViewController.m */;
+		name = "GridTableViewController.m: 80";
+		rLen = 0;
+		rLoc = 1956;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 1478;
+	};
+	D212355113069E330024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* GridTableViewController.m */;
+		name = "GridTableViewController.m: 80";
+		rLen = 0;
+		rLoc = 1956;
+		rType = 0;
+		vrLen = 788;
+		vrLoc = 1478;
+	};
+	D212356513069EA20024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* GridTableViewController.m */;
+		rLen = 0;
+		rLoc = 77;
+		rType = 1;
+	};
+	D212356613069EA20024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* GridTableViewController.m */;
+		name = "GridTableViewController.m: 78";
+		rLen = 0;
+		rLoc = 1843;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 1429;
+	};
+	D212356B13069F470024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* GridTableViewController.m */;
+		name = "GridTableViewController.m: 78";
+		rLen = 0;
+		rLoc = 1843;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 1429;
+	};
+	D212356C13069F470024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212352413069C7E0024D902 /* GridTable.h */;
+		name = "GridTable.h: 12";
+		rLen = 0;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 214;
+		vrLoc = 0;
+	};
+	D212356D13069F680024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212352413069C7E0024D902 /* GridTable.h */;
+		name = "GridTable.h: 12";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 209;
+		vrLoc = 0;
+	};
+	D212356E13069F7C0024D902 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212352413069C7E0024D902 /* GridTable.h */;
+		name = "GridTable.h: 12";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 214;
+		vrLoc = 0;
 	};
 }
