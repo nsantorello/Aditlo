@@ -30,10 +30,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *CellIdentifier = @"GridTableCellIdentifier";
+	static NSString *gridTableNibName = @"GridTableCell";
     
     GridTableCell *cell = (GridTableCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        [[NSBundle mainBundle] loadNibNamed:@"GridTableCell" owner:self options:nil];
+        [[NSBundle mainBundle] loadNibNamed:gridTableNibName owner:self options:nil];
 		cell = gridCell;
 		gridCell = nil;
     }    

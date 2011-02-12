@@ -18,6 +18,9 @@
 		D212352713069C7E0024D902 /* GridTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D212352513069C7E0024D902 /* GridTable.m */; };
 		D212356013069E720024D902 /* GridTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D212355F13069E720024D902 /* GridTableCell.xib */; };
 		D212359A1306A4A00024D902 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21235981306A4A00024D902 /* MainViewController.m */; };
+		D2B5104E13075159006542D9 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5104D13075159006542D9 /* sample.jpg */; };
+		D2B5105313075269006542D9 /* sample2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105113075269006542D9 /* sample2.jpg */; };
+		D2B5105413075269006542D9 /* sample3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105213075269006542D9 /* sample3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		D212355F13069E720024D902 /* GridTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridTableCell.xib; sourceTree = "<group>"; };
 		D21235971306A4A00024D902 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		D21235981306A4A00024D902 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D2B5104D13075159006542D9 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample.jpg; path = Images/sample.jpg; sourceTree = "<group>"; };
+		D2B5105113075269006542D9 /* sample2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample2.jpg; path = Images/sample2.jpg; sourceTree = "<group>"; };
+		D2B5105213075269006542D9 /* sample3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample3.jpg; path = Images/sample3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D2B5104C1307514D006542D9 /* Images */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -138,6 +145,16 @@
 			name = "Main View";
 			sourceTree = "<group>";
 		};
+		D2B5104C1307514D006542D9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D2B5105113075269006542D9 /* sample2.jpg */,
+				D2B5105213075269006542D9 /* sample3.jpg */,
+				D2B5104D13075159006542D9 /* sample.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,6 +206,9 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				D212356013069E720024D902 /* GridTableCell.xib in Resources */,
+				D2B5104E13075159006542D9 /* sample.jpg in Resources */,
+				D2B5105313075269006542D9 /* sample2.jpg in Resources */,
+				D2B5105413075269006542D9 /* sample3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
