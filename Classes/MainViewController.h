@@ -1,5 +1,5 @@
 //
-//  GridTable.h
+//  MainViewController.h
 //  Aditlo
 //
 //  Created by Noah Santorello on 2/12/11.
@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GridTableCell.h"
+#import "GridTable.h"
 
-
-@interface GridTable : UITableView {
+@interface MainViewController : UIViewController {
+	IBOutlet GridTable* gridTable;
 }
 
 @end

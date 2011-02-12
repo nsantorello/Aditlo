@@ -265,6 +265,7 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>D21235961306A4670024D902</string>
 								<string>D212350C130697400024D902</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
@@ -272,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>3</integer>
 									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -316,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GridTable.h</string>
+								<string>MainViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,20 +325,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GridTable.h</string>
+										<string>MainViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D212356E13069F7C0024D902</string>
+										<string>D21237371306B6A70024D902</string>
 										<key>history</key>
 										<array>
 											<string>D212354A13069E330024D902</string>
-											<string>D212354B13069E330024D902</string>
-											<string>D212354C13069E330024D902</string>
-											<string>D212354E13069E330024D902</string>
-											<string>D212354F13069E330024D902</string>
-											<string>D212356B13069F470024D902</string>
-											<string>D212354D13069E330024D902</string>
+											<string>D212367D1306ADA60024D902</string>
+											<string>D21236821306ADB70024D902</string>
+											<string>D21236961306AE4C0024D902</string>
+											<string>D21237021306B49B0024D902</string>
+											<string>D21237141306B4F50024D902</string>
+											<string>D21237351306B6A70024D902</string>
+											<string>D21237361306B6A70024D902</string>
+											<string>D21237001306B49B0024D902</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -535,11 +538,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>D21237381306B6A70024D902</string>
 		<string>D212356813069EA20024D902</string>
 		<string>D212355A13069E330024D902</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>D2123507130695400024D902</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/nsantorello/Documents/Aditlo/Aditlo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -875,6 +879,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -885,18 +891,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {650, 209}}</string>
+								<string>{{0, 0}, {652, 703}}</string>
 								<key>RubberWindowFrame</key>
-								<string>22 752 650 250 0 0 1680 1028 </string>
+								<string>22 258 652 744 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>209pt</string>
+							<string>703pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>209pt</string>
+					<string>703pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -916,11 +922,11 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>22 752 650 250 0 0 1680 1028 </string>
+			<string>22 258 652 744 0 0 1680 1028 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

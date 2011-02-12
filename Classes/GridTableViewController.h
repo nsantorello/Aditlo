@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "GridTableCell.h"
 
-@interface GridTableViewController : UITableViewController {
+@interface GridTableViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource> {
 	IBOutlet GridTableCell* gridCell;
 }
 
