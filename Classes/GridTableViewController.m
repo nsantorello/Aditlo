@@ -11,48 +11,6 @@
 
 @implementation GridTableViewController
 
-
-#pragma mark -
-#pragma mark View lifecycle
-
-/*
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-*/
-
-/*
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-}
-*/
-/*
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
-*/
-/*
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-}
-*/
-/*
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-}
-*/
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations.
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
-
 #pragma mark -
 #pragma mark Table view data source
 
@@ -71,17 +29,14 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"GridTableCell";
+    static NSString *CellIdentifier = @"GridTableCellIdentifier";
     
     GridTableCell *cell = (GridTableCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        [[NSBundle mainBundle] loadNibNamed:CellIdentifier owner:self options:nil];
+        [[NSBundle mainBundle] loadNibNamed:@"GridTableCell" owner:self options:nil];
 		cell = gridCell;
-		gridCell = nil;		
-    }
-    
-    // Configure the cell...
-    
+		gridCell = nil;
+    }    
     
     return cell;
 }
@@ -91,7 +46,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
 {
-
 	
 }
 
@@ -113,6 +67,7 @@
 
 
 - (void)dealloc {
+	[gridCell release];
     [super dealloc];
 }
 

@@ -10,13 +10,9 @@
 
 
 @interface GridTableCell : UITableViewCell {
-	UIImageView* img1;
-	UIImageView* img2;
-	UIImageView* img3;
+	IBOutlet UIImageView* img1;
+	IBOutlet UIImageView* img2;
+	IBOutlet UIImageView* img3;
 }
-
-@property (nonatomic, retain) IBOutlet UIImageView* img1;
-@property (nonatomic, retain) IBOutlet UIImageView* img2;
-@property (nonatomic, retain) IBOutlet UIImageView* img3;
 
 @end

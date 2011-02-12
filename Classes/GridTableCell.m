@@ -10,8 +10,6 @@
 
 @implementation GridTableCell
 
-@synthesize img1, img2, img3;
-
 - (void)dealloc {
 	[img1 release];
 	[img2 release];
