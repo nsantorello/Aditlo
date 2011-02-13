@@ -69,7 +69,6 @@
 
 
 - (void)dealloc {
-	[gridCell release];
     [super dealloc];
 }
 

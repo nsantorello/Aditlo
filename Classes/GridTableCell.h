@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ABTableViewCell.h"
+#import "FastTableViewCell.h"
 
-@interface GridTableCell : ABTableViewCell {
+@interface GridTableCell : FastTableViewCell {
 	UIImage* img1;
 	UIImage* img2;
 	UIImage* img3;
