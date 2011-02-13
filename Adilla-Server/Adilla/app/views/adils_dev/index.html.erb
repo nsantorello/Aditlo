@@ -2,18 +2,22 @@
 
 <table>
   <tr>
+    <th>Adil id</th>
     <th>Video url</th>
     <th>Created</th>
     <th>Thumb 104</th>
     <th>Thumb 208</th>
+    <th>Pseudohash</th>
   </tr>
 
 <% @adils.each do |adil| %>
   <tr>
+    <td><%=h adil.id %></td>
     <td><%=h adil.video_url %></td>
     <td><%=h adil.created %></td>
     <td><%=h adil.thumb_104 %></td>
     <td><%=h adil.thumb_208 %></td>
+    <td><%=h adil.pseudohash %></td>
     <td><%= link_to 'Show', adil %></td>
     <td><%= link_to 'Edit', edit_adil_path(adil) %></td>
     <td><%= link_to 'Destroy', adil, :confirm => 'Are you sure?', :method => :delete %></td>
