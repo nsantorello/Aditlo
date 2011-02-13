@@ -6,10 +6,10 @@
 //  Copyright 2011 Noah Santorello. All rights reserved.
 //
 
-#import "GridTableViewController.h"
+#import "AdilTableViewController.h"
 
 
-@implementation GridTableViewController
+@implementation AdilTableViewController
 
 #pragma mark -
 #pragma mark Table view data source

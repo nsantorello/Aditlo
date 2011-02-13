@@ -1,5 +1,5 @@
 /*
-     File: IconDownloader.h 
+     File: IconDownloader.m 
  Abstract: Helper object for managing the downloading of a particular app's icon.
  As a delegate "NSURLConnectionDelegate" is downloads the app icon in the background if it does not
  yet exist and works in conjunction with the RootViewController to manage which apps need their icon.
@@ -50,35 +50,100 @@
   
  */
 
-@class AppRecord;
-@class RootViewController;
+#import "IconDownloader.h"
+#import "Adil.h"
 
-@protocol IconDownloaderDelegate;
+#define kThumb104Height 104
+#define kThumb208Height 208
 
-@interface IconDownloader : NSObject
+
+@implementation IconDownloader
+
+@synthesize appRecord;
+@synthesize indexPathInTableView;
+@synthesize delegate;
+@synthesize activeDownload;
+@synthesize imageConnection;
+
+#pragma mark
+
+- (void)dealloc
 {
-    AppRecord *appRecord;
-    NSIndexPath *indexPathInTableView;
-    id <IconDownloaderDelegate> delegate;
+    [appRecord release];
+    [indexPathInTableView release];
     
-    NSMutableData *activeDownload;
-    NSURLConnection *imageConnection;
+    [activeDownload release];
+    
+    [imageConnection cancel];
+    [imageConnection release];
+    
+    [super dealloc];
 }
 
-@property (nonatomic, retain) AppRecord *appRecord;
-@property (nonatomic, retain) NSIndexPath *indexPathInTableView;
-@property (nonatomic, assign) id <IconDownloaderDelegate> delegate;
+- (void)startDownload
+{
+    self.activeDownload = [NSMutableData data];
+    // alloc+init and start an NSURLConnection; release on completion/failure
+    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:
+                             [NSURLRequest requestWithURL:
+                              [NSURL URLWithString:appRecord.imageURLString]] delegate:self];
+    self.imageConnection = conn;
+    [conn release];
+}
 
-@property (nonatomic, retain) NSMutableData *activeDownload;
-@property (nonatomic, retain) NSURLConnection *imageConnection;
+- (void)cancelDownload
+{
+    [self.imageConnection cancel];
+    self.imageConnection = nil;
+    self.activeDownload = nil;
+}
 
-- (void)startDownload;
-- (void)cancelDownload;
+
+#pragma mark -
+#pragma mark Download support (NSURLConnectionDelegate)
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+    [self.activeDownload appendData:data];
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+	// Clear the activeDownload property to allow later attempts
+    self.activeDownload = nil;
+    
+    // Release the connection now that it's finished
+    self.imageConnection = nil;
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection
+{
+    // Set appIcon and clear temporary data/image
+    UIImage *image = [[UIImage alloc] initWithData:self.activeDownload];
+    
+    if (image.size.width != kThumb104Height && image.size.height != kThumb104Height)
+	{
+        CGSize itemSize = CGSizeMake(kThumb104Height, kThumb104Height);
+		UIGraphicsBeginImageContext(itemSize);
+		CGRect imageRect = CGRectMake(0.0, 0.0, itemSize.width, itemSize.height);
+		[image drawInRect:imageRect];
+		self.appRecord.appIcon = UIGraphicsGetImageFromCurrentImageContext();
+		UIGraphicsEndImageContext();
+    }
+    else
+    {
+        self.appRecord.appIcon = image;
+    }
+    
+    self.activeDownload = nil;
+    [image release];
+    
+    // Release the connection now that it's finished
+    self.imageConnection = nil;
+        
+    // call our delegate and tell it that our icon is ready for display
+    [delegate appImageDidLoad:self.indexPathInTableView];
+}
 
 @end
 
-@protocol IconDownloaderDelegate 
-
-- (void)appImageDidLoad:(NSIndexPath *)indexPath;
-
-@end

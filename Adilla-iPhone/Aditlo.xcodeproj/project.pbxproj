@@ -13,7 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		D2123510130697650024D902 /* GridTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D212350E130697650024D902 /* GridTableViewController.m */; };
+		D2123510130697650024D902 /* AdilTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D212350E130697650024D902 /* AdilTableViewController.m */; };
 		D2123514130697790024D902 /* GridTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2123513130697790024D902 /* GridTableCell.m */; };
 		D212352713069C7E0024D902 /* GridTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D212352513069C7E0024D902 /* GridTable.m */; };
 		D212356013069E720024D902 /* GridTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D212355F13069E720024D902 /* GridTableCell.xib */; };
@@ -29,7 +29,6 @@
 		D26A1CFC13083323007B2D43 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1CFB13083323007B2D43 /* Constants.m */; };
 		D26A1D001308347D007B2D43 /* C.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1CFF1308347D007B2D43 /* C.m */; };
 		D26A1D9D13084823007B2D43 /* AdilViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */; };
-		D26A1DA113084943007B2D43 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1DA013084943007B2D43 /* IconDownloader.m */; };
 		D2B5104E13075159006542D9 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5104D13075159006542D9 /* sample.jpg */; };
 		D2B5105313075269006542D9 /* sample2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105113075269006542D9 /* sample2.jpg */; };
 		D2B5105413075269006542D9 /* sample3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105213075269006542D9 /* sample3.jpg */; };
@@ -52,8 +51,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Aditlo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aditlo_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Aditlo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Aditlo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		D212350D130697650024D902 /* GridTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridTableViewController.h; sourceTree = "<group>"; };
-		D212350E130697650024D902 /* GridTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTableViewController.m; sourceTree = "<group>"; };
+		D212350D130697650024D902 /* AdilTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilTableViewController.h; sourceTree = "<group>"; };
+		D212350E130697650024D902 /* AdilTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilTableViewController.m; sourceTree = "<group>"; };
 		D2123512130697790024D902 /* GridTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridTableCell.h; sourceTree = "<group>"; };
 		D2123513130697790024D902 /* GridTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTableCell.m; sourceTree = "<group>"; };
 		D212352413069C7E0024D902 /* GridTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridTable.h; sourceTree = "<group>"; };
@@ -84,8 +83,6 @@
 		D26A1CFF1308347D007B2D43 /* C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C.m; sourceTree = "<group>"; };
 		D26A1D9B13084823007B2D43 /* AdilViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilViewModel.h; sourceTree = "<group>"; };
 		D26A1D9C13084823007B2D43 /* AdilViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilViewModel.m; sourceTree = "<group>"; };
-		D26A1D9F13084943007B2D43 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconDownloader.h; path = "Lib/Icon Downloader/IconDownloader.h"; sourceTree = "<group>"; };
-		D26A1DA013084943007B2D43 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconDownloader.m; path = "Lib/Icon Downloader/IconDownloader.m"; sourceTree = "<group>"; };
 		D2B5104D13075159006542D9 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample.jpg; path = Images/sample.jpg; sourceTree = "<group>"; };
 		D2B5105113075269006542D9 /* sample2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample2.jpg; path = Images/sample2.jpg; sourceTree = "<group>"; };
 		D2B5105213075269006542D9 /* sample3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample3.jpg; path = Images/sample3.jpg; sourceTree = "<group>"; };
@@ -116,6 +113,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D26A1DC813084BB5007B2D43 /* Helpers */,
 				D26A1CCE13082C4F007B2D43 /* Core Objects */,
 				D26A1C8E13082649007B2D43 /* API */,
 				D26A1D97130847AB007B2D43 /* ViewModels */,
@@ -170,7 +168,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D26A1D9E13084934007B2D43 /* Icon Downloader */,
 				D26A1C75130824C6007B2D43 /* JSON */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
@@ -183,8 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				D2B511C313077F49006542D9 /* Faster Scrolling */,
-				D212350D130697650024D902 /* GridTableViewController.h */,
-				D212350E130697650024D902 /* GridTableViewController.m */,
+				D212350D130697650024D902 /* AdilTableViewController.h */,
+				D212350E130697650024D902 /* AdilTableViewController.m */,
 				D2123512130697790024D902 /* GridTableCell.h */,
 				D2123513130697790024D902 /* GridTableCell.m */,
 				D212352413069C7E0024D902 /* GridTable.h */,
@@ -274,10 +271,17 @@
 		D26A1D9E13084934007B2D43 /* Icon Downloader */ = {
 			isa = PBXGroup;
 			children = (
-				D26A1D9F13084943007B2D43 /* IconDownloader.h */,
-				D26A1DA013084943007B2D43 /* IconDownloader.m */,
 			);
 			name = "Icon Downloader";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D26A1DC813084BB5007B2D43 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D26A1D9E13084934007B2D43 /* Icon Downloader */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		D2B5104C1307514D006542D9 /* Images */ = {
@@ -381,7 +385,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AditloAppDelegate.m in Sources */,
-				D2123510130697650024D902 /* GridTableViewController.m in Sources */,
+				D2123510130697650024D902 /* AdilTableViewController.m in Sources */,
 				D2123514130697790024D902 /* GridTableCell.m in Sources */,
 				D212352713069C7E0024D902 /* GridTable.m in Sources */,
 				D212359A1306A4A00024D902 /* MainViewController.m in Sources */,
@@ -398,7 +402,6 @@
 				D26A1CFC13083323007B2D43 /* Constants.m in Sources */,
 				D26A1D001308347D007B2D43 /* C.m in Sources */,
 				D26A1D9D13084823007B2D43 /* AdilViewModel.m in Sources */,
-				D26A1DA113084943007B2D43 /* IconDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

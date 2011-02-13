@@ -48,7 +48,7 @@
 
 - (void)dealloc {
 	[gridTable release];
-	[gtvController release];
+	[adilController release];
 	[topNavBar release];
     [super dealloc];
 }
