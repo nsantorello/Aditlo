@@ -68,7 +68,7 @@
 
 
 - (void)dealloc {
-	[gridCell release];
+	gridCell = nil;
     [super dealloc];
 }
 

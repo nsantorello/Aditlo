@@ -11,9 +11,7 @@
 @implementation GridTableCell
 
 - (void)dealloc {
-	[img1 release];
-	[img2 release];
-	[img3 release];
+	img1 = img2 = img3 = nil;
     [super dealloc];
 }
 

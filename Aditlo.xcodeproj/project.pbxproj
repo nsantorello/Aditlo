@@ -23,6 +23,9 @@
 		D2B5105413075269006542D9 /* sample3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105213075269006542D9 /* sample3.jpg */; };
 		D2B5106413075DBA006542D9 /* adilla_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B5106313075DBA006542D9 /* adilla_logo.png */; };
 		D2B510821307616D006542D9 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B510811307616D006542D9 /* MainView.xib */; };
+		D2B5112513077816006542D9 /* adilla_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B5112413077816006542D9 /* adilla_logo@2x.png */; };
+		D2B5115613077ACE006542D9 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B5115413077ACE006542D9 /* VideoDetailViewController.m */; };
+		D2B5115713077ACE006542D9 /* VideoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B5115513077ACE006542D9 /* VideoDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,10 @@
 		D2B5105213075269006542D9 /* sample3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample3.jpg; path = Images/sample3.jpg; sourceTree = "<group>"; };
 		D2B5106313075DBA006542D9 /* adilla_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adilla_logo.png; path = Images/adilla_logo.png; sourceTree = "<group>"; };
 		D2B510811307616D006542D9 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		D2B5112413077816006542D9 /* adilla_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "adilla_logo@2x.png"; path = "Images/adilla_logo@2x.png"; sourceTree = "<group>"; };
+		D2B5115313077ACE006542D9 /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
+		D2B5115413077ACE006542D9 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
+		D2B5115513077ACE006542D9 /* VideoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +76,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D2B5114213077941006542D9 /* Detail View */,
+				D2B510D5130767A3006542D9 /* Tab Bar Wrapper */,
 				D21235961306A4670024D902 /* Main View */,
 				D212350C130697400024D902 /* Grid Table */,
 				1D3623240D0F684500981E51 /* AditloAppDelegate.h */,
@@ -153,12 +162,30 @@
 		D2B5104C1307514D006542D9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D2B5112413077816006542D9 /* adilla_logo@2x.png */,
 				D2B5106313075DBA006542D9 /* adilla_logo.png */,
 				D2B5105113075269006542D9 /* sample2.jpg */,
 				D2B5105213075269006542D9 /* sample3.jpg */,
 				D2B5104D13075159006542D9 /* sample.jpg */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		D2B510D5130767A3006542D9 /* Tab Bar Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tab Bar Wrapper";
+			sourceTree = "<group>";
+		};
+		D2B5114213077941006542D9 /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				D2B5115313077ACE006542D9 /* VideoDetailViewController.h */,
+				D2B5115413077ACE006542D9 /* VideoDetailViewController.m */,
+				D2B5115513077ACE006542D9 /* VideoDetailViewController.xib */,
+			);
+			name = "Detail View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +244,8 @@
 				D2B5105413075269006542D9 /* sample3.jpg in Resources */,
 				D2B5106413075DBA006542D9 /* adilla_logo.png in Resources */,
 				D2B510821307616D006542D9 /* MainView.xib in Resources */,
+				D2B5112513077816006542D9 /* adilla_logo@2x.png in Resources */,
+				D2B5115713077ACE006542D9 /* VideoDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +262,7 @@
 				D2123514130697790024D902 /* GridTableCell.m in Sources */,
 				D212352713069C7E0024D902 /* GridTable.m in Sources */,
 				D212359A1306A4A00024D902 /* MainViewController.m in Sources */,
+				D2B5115613077ACE006542D9 /* VideoDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

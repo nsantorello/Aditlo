@@ -13,6 +13,8 @@
 @interface MainViewController : UIViewController {
 	IBOutlet GridTable* gridTable;
 	IBOutlet GridTableViewController* gtvController;
+	
+	IBOutlet UINavigationBar* topNavBar;
 }
 
 @end

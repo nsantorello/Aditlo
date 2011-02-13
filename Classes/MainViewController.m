@@ -11,6 +11,25 @@
 
 @implementation MainViewController
 
+- (void)drawLogoInTopNav
+{
+	UIImage *headerImage = [UIImage imageNamed:@"adilla_logo.png"];
+	UIImageView *headerImageView = [[UIImageView alloc] initWithImage:headerImage];
+	headerImageView.contentMode = UIViewContentModeScaleAspectFit;
+	CGRect headerImageRect = headerImageView.frame;
+	headerImageRect.size.height = 50;
+	headerImageView.frame = headerImageRect;
+	topNavBar.topItem.titleView = headerImageView;
+	[headerImageView release];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+	[self drawLogoInTopNav];
+	
+	[super viewWillAppear:animated];
+}
+
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
@@ -26,7 +45,9 @@
 
 
 - (void)dealloc {
-	[gridTable release];
+	gridTable = nil;
+	gtvController = nil;
+	topNavBar = nil;
     [super dealloc];
 }
 
