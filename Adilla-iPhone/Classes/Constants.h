@@ -8,3 +8,6 @@
 
 extern NSString* const AdillaUrl_Server;
 extern NSString* const AdillaUrl_Today;
+extern NSString* const AwsDistUrl_Server;
+extern NSString* const AwsDistUrl_Thumbs;
+extern NSString* const AwsDistUrl_Adils;

@@ -19,4 +19,6 @@
 @property (nonatomic, retain) UIImage* thumb104;
 @property (nonatomic, retain) UIImage* thumb208;
 
+- (id)initWithAdil:(Adil*)ad;
+
 @end

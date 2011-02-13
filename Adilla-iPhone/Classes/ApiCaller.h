@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "JSON.h"
-#import "TodayResult.h"
+#import "ResultHeaders.h"
 
 @interface ApiCaller : NSObject {
 
 }
 
-+ (void)getJsonFromUrl:(NSURL *)url;
++ (TodayResult*)fetchToday;
 
 @end

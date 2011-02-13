@@ -8,13 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "GridTableCell.h"
+#import "ApiCaller.h"
+#import "ResultHeaders.h"
 
 @interface AdilTableViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource> {
-	NSArray *adils;   // the main data model for our UITableView
+	NSMutableArray *adilvms; // the viewmodels for each adil in the table
+	NSMutableArray *adiltcvms; // the table cell view models for each adil table cell
     NSMutableDictionary *imageDownloadsInProgress;  // the set of IconDownloader objects for each adil
 }
 
-@property (nonatomic, retain) NSArray *entries;
 @property (nonatomic, retain) NSMutableDictionary *imageDownloadsInProgress;
+
+- (void)setAdils:(NSArray*)adils;
 
 @end

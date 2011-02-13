@@ -51,7 +51,7 @@
  */
 
 #import "IconDownloader.h"
-#import "Adil.h"
+#import "AdilViewModel.h"
 
 #define kThumb104Height 104
 #define kThumb208Height 208
@@ -59,7 +59,7 @@
 
 @implementation IconDownloader
 
-@synthesize appRecord;
+@synthesize adilvm;
 @synthesize indexPathInTableView;
 @synthesize delegate;
 @synthesize activeDownload;
@@ -69,7 +69,7 @@
 
 - (void)dealloc
 {
-    [appRecord release];
+    [adilvm release];
     [indexPathInTableView release];
     
     [activeDownload release];
@@ -85,8 +85,7 @@
     self.activeDownload = [NSMutableData data];
     // alloc+init and start an NSURLConnection; release on completion/failure
     NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:
-                             [NSURLRequest requestWithURL:
-                              [NSURL URLWithString:appRecord.imageURLString]] delegate:self];
+                             [NSURLRequest requestWithURL:adilvm.adil.thumb104] delegate:self];
     self.imageConnection = conn;
     [conn release];
 }
@@ -127,12 +126,12 @@
 		UIGraphicsBeginImageContext(itemSize);
 		CGRect imageRect = CGRectMake(0.0, 0.0, itemSize.width, itemSize.height);
 		[image drawInRect:imageRect];
-		self.appRecord.appIcon = UIGraphicsGetImageFromCurrentImageContext();
+		self.adilvm.thumb104 = UIGraphicsGetImageFromCurrentImageContext();
 		UIGraphicsEndImageContext();
     }
     else
     {
-        self.appRecord.appIcon = image;
+        self.adilvm.thumb104 = image;
     }
     
     self.activeDownload = nil;

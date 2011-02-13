@@ -8,13 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "FastTableViewCell.h"
+#import "AdilTableCellViewModel.h"
 
 @interface GridTableCell : FastTableViewCell {
-	UIImage* img1;
-	UIImage* img2;
-	UIImage* img3;
+	AdilTableCellViewModel* adiltcvm;
 }
 
-- (void)setImg1:(UIImage *)im1 andImg2:(UIImage*)im2 andImg3:(UIImage*)im3;
+- (void)setAdilTableCellViewModel:(AdilTableCellViewModel*)vm;
 
 @end

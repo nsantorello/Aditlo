@@ -11,14 +11,24 @@
 
 @implementation C
 
-+ (NSURL*)serverUrl
++ (NSString*)serverString
 {
-	return [NSURL URLWithString:AdillaUrl_Server];
+	return AdillaUrl_Server;
 }
 
-+ (NSURL*)todayUrl
++ (NSURL*)todayURL
 {
-	return [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", [C serverUrl], AdillaUrl_Today]];
+	return [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", [C serverString], AdillaUrl_Today]];
+}
+
++ (NSString*)thumbsBaseString
+{
+	return [NSString stringWithFormat:@"%@%@", AwsDistUrl_Server, AwsDistUrl_Thumbs];
+}
+
++ (NSURL*)resolveThumbURL:(NSString*)url
+{
+	return [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", [C thumbsBaseString], url]];
 }
 
 @end

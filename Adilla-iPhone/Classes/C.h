@@ -13,7 +13,10 @@
 
 }
 
-+ (NSURL*)serverUrl;
-+ (NSURL*)todayUrl;
+// Retrieving constants.
++ (NSURL*)todayURL;
+
+// Resolving against constants.
++ (NSURL*)resolveThumbURL:(NSString*)url;
 
 @end

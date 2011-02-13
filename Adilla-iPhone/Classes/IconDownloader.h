@@ -50,14 +50,14 @@
   
  */
 
-@class Adil;
+@class AdilViewModel;
 @class AdilTableViewController;
 
 @protocol IconDownloaderDelegate;
 
 @interface IconDownloader : NSObject
 {
-    Adil *appRecord;
+    AdilViewModel *adilvm;
     NSIndexPath *indexPathInTableView;
     id <IconDownloaderDelegate> delegate;
     
@@ -65,7 +65,7 @@
     NSURLConnection *imageConnection;
 }
 
-@property (nonatomic, retain) AppRecord *appRecord;
+@property (nonatomic, retain) AdilViewModel *adilvm;
 @property (nonatomic, retain) NSIndexPath *indexPathInTableView;
 @property (nonatomic, assign) id <IconDownloaderDelegate> delegate;
 

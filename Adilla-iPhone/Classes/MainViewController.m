@@ -11,6 +11,12 @@
 
 @implementation MainViewController
 
+- (void)viewDidLoad
+{
+	[adilController setAdils:[ApiCaller fetchToday].todaysAdils];
+	[super viewDidLoad];
+}
+
 - (void)drawLogoInTopNav
 {
 	UIImage *headerImage = [UIImage imageNamed:@"adilla_logo.png"];
@@ -26,8 +32,6 @@
 - (void)viewWillAppear:(BOOL)animated
 {
 	[self drawLogoInTopNav];
-	
-	[ApiCaller getJsonFromUrl:[C todayUrl]];
 	
 	[super viewWillAppear:animated];
 }

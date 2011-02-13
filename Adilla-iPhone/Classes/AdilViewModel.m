@@ -13,6 +13,15 @@
 
 @synthesize adil, thumb104, thumb208;
 
+- (id)initWithAdil:(Adil *)ad
+{
+	self = [super init];
+	self.adil = ad;
+	NSString* thumbUrl = [[C resolveThumbURL:ad.thumb104] absoluteString];
+	self.thumb104 = [UIImage imageNamed:thumbUrl];
+	return self;
+}
+
 - (void)dealloc
 {
 	[adil release];

@@ -7,3 +7,5 @@
     #import <UIKit/UIKit.h>
 	#import "C.h"
 #endif
+
+#define DEV_BUILD

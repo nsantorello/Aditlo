@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "GridTable.h"
 #import "AdilTableViewController.h"
-#import "ApiCaller.h"
 
 @interface MainViewController : UIViewController {
 	// The grid table containing the image updates.
