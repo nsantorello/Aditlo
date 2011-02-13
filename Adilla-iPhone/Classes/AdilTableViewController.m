@@ -80,7 +80,7 @@
     
     GridTableCell *cell = (GridTableCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-		cell = [[[GridTableCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+		cell = [[[GridTableCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
     }    
 	
 	[cell setAdilTableCellViewModel:[adiltcvms objectAtIndex:indexPath.row]];

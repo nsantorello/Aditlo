@@ -85,7 +85,7 @@
     self.activeDownload = [NSMutableData data];
     // alloc+init and start an NSURLConnection; release on completion/failure
     NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:
-                             [NSURLRequest requestWithURL:adilvm.adil.thumb104] delegate:self];
+                             [NSURLRequest requestWithURL:[C resolveThumbURL:adilvm.adil.thumb104]] delegate:self];
     self.imageConnection = conn;
     [conn release];
 }

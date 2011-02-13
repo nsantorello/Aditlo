@@ -10,6 +10,13 @@
 
 @implementation GridTableCell
 
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+	self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+	[self setSelectionStyle:UITableViewCellSelectionStyleNone];
+	return self;
+}
+
 - (void)dealloc
 {
 	[adiltcvm release];
