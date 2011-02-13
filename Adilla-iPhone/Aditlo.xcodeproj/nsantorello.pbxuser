@@ -34,6 +34,30 @@
 			D21234FA1306953D0024D902 /* Aditlo */,
 		);
 		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
@@ -117,6 +141,53 @@
 			D262EEC713086E6000E75A0F /* PBXTextBookmark */ = D262EEC713086E6000E75A0F /* PBXTextBookmark */;
 			D262EEC813086E6000E75A0F /* PBXTextBookmark */ = D262EEC813086E6000E75A0F /* PBXTextBookmark */;
 			D262EEC913086E6000E75A0F /* PBXTextBookmark */ = D262EEC913086E6000E75A0F /* PBXTextBookmark */;
+			D262EEFC130882EA00E75A0F /* PBXTextBookmark */ = D262EEFC130882EA00E75A0F /* PBXTextBookmark */;
+			D262EEFD130882EA00E75A0F /* PBXTextBookmark */ = D262EEFD130882EA00E75A0F /* PBXTextBookmark */;
+			D262EEFE130882EA00E75A0F /* PBXTextBookmark */ = D262EEFE130882EA00E75A0F /* PBXTextBookmark */;
+			D262EEFF130882EA00E75A0F /* PBXTextBookmark */ = D262EEFF130882EA00E75A0F /* PBXTextBookmark */;
+			D262EF00130882EA00E75A0F /* PBXTextBookmark */ = D262EF00130882EA00E75A0F /* PBXTextBookmark */;
+			D262EF01130882EA00E75A0F /* PBXTextBookmark */ = D262EF01130882EA00E75A0F /* PBXTextBookmark */;
+			D262EF02130882EA00E75A0F /* PBXTextBookmark */ = D262EF02130882EA00E75A0F /* PBXTextBookmark */;
+			D262EF071308851600E75A0F /* PBXTextBookmark */ = D262EF071308851600E75A0F /* PBXTextBookmark */;
+			D262EF081308851600E75A0F /* PBXTextBookmark */ = D262EF081308851600E75A0F /* PBXTextBookmark */;
+			D262EF091308851600E75A0F /* PBXTextBookmark */ = D262EF091308851600E75A0F /* PBXTextBookmark */;
+			D262EF0A1308851600E75A0F /* PBXTextBookmark */ = D262EF0A1308851600E75A0F /* PBXTextBookmark */;
+			D262EF0B1308851600E75A0F /* PBXTextBookmark */ = D262EF0B1308851600E75A0F /* PBXTextBookmark */;
+			D262EF0C1308851600E75A0F /* PBXTextBookmark */ = D262EF0C1308851600E75A0F /* PBXTextBookmark */;
+			D262EF0F1308884800E75A0F /* PBXTextBookmark */ = D262EF0F1308884800E75A0F /* PBXTextBookmark */;
+			D262EF101308884800E75A0F /* XCBuildMessageTextBookmark */ = D262EF101308884800E75A0F /* XCBuildMessageTextBookmark */;
+			D262EF111308884800E75A0F /* PBXTextBookmark */ = D262EF111308884800E75A0F /* PBXTextBookmark */;
+			D262EF16130888BE00E75A0F /* PBXTextBookmark */ = D262EF16130888BE00E75A0F /* PBXTextBookmark */;
+			D262EF17130888BE00E75A0F /* XCBuildMessageTextBookmark */ = D262EF17130888BE00E75A0F /* XCBuildMessageTextBookmark */;
+			D262EF18130888BE00E75A0F /* PBXTextBookmark */ = D262EF18130888BE00E75A0F /* PBXTextBookmark */;
+			D262EF1B130888C000E75A0F /* PBXTextBookmark */ = D262EF1B130888C000E75A0F /* PBXTextBookmark */;
+			D262EF1C130888C000E75A0F /* PBXTextBookmark */ = D262EF1C130888C000E75A0F /* PBXTextBookmark */;
+			D262EF1D130888C000E75A0F /* PBXTextBookmark */ = D262EF1D130888C000E75A0F /* PBXTextBookmark */;
+			D262EF1E130888C000E75A0F /* PBXTextBookmark */ = D262EF1E130888C000E75A0F /* PBXTextBookmark */;
+			D262EF241308895700E75A0F /* PBXTextBookmark */ = D262EF241308895700E75A0F /* PBXTextBookmark */;
+			D262EF251308895700E75A0F /* PBXTextBookmark */ = D262EF251308895700E75A0F /* PBXTextBookmark */;
+			D262EF261308895700E75A0F /* PBXTextBookmark */ = D262EF261308895700E75A0F /* PBXTextBookmark */;
+			D262EF271308895700E75A0F /* PBXTextBookmark */ = D262EF271308895700E75A0F /* PBXTextBookmark */;
+			D262EF281308895700E75A0F /* PBXTextBookmark */ = D262EF281308895700E75A0F /* PBXTextBookmark */;
+			D262EF2C1308896B00E75A0F /* PBXTextBookmark */ = D262EF2C1308896B00E75A0F /* PBXTextBookmark */;
+			D262EF34130889F400E75A0F /* PBXTextBookmark */ = D262EF34130889F400E75A0F /* PBXTextBookmark */;
+			D262EF35130889F400E75A0F /* XCBuildMessageTextBookmark */ = D262EF35130889F400E75A0F /* XCBuildMessageTextBookmark */;
+			D262EF36130889F400E75A0F /* PBXTextBookmark */ = D262EF36130889F400E75A0F /* PBXTextBookmark */;
+			D262EF39130889F600E75A0F /* PBXTextBookmark */ = D262EF39130889F600E75A0F /* PBXTextBookmark */;
+			D262EF3A130889F600E75A0F /* PBXTextBookmark */ = D262EF3A130889F600E75A0F /* PBXTextBookmark */;
+			D262EF3B130889F600E75A0F /* PBXTextBookmark */ = D262EF3B130889F600E75A0F /* PBXTextBookmark */;
+			D262EF3C130889F600E75A0F /* PBXTextBookmark */ = D262EF3C130889F600E75A0F /* PBXTextBookmark */;
+			D262EF3D130889F600E75A0F /* PBXTextBookmark */ = D262EF3D130889F600E75A0F /* PBXTextBookmark */;
+			D262EF4213088A1100E75A0F /* PBXTextBookmark */ = D262EF4213088A1100E75A0F /* PBXTextBookmark */;
+			D262EF4313088A1100E75A0F /* PBXTextBookmark */ = D262EF4313088A1100E75A0F /* PBXTextBookmark */;
+			D262EF4413088A1100E75A0F /* PBXTextBookmark */ = D262EF4413088A1100E75A0F /* PBXTextBookmark */;
+			D262EF4913088A4500E75A0F /* PBXTextBookmark */ = D262EF4913088A4500E75A0F /* PBXTextBookmark */;
+			D262EF4C13088A5400E75A0F /* PBXTextBookmark */ = D262EF4C13088A5400E75A0F /* PBXTextBookmark */;
+			D262EF4D13088A5400E75A0F /* PBXTextBookmark */ = D262EF4D13088A5400E75A0F /* PBXTextBookmark */;
+			D262EF5213088A7F00E75A0F /* PBXTextBookmark */ = D262EF5213088A7F00E75A0F /* PBXTextBookmark */;
+			D262EF5513088A8800E75A0F /* PBXTextBookmark */ = D262EF5513088A8800E75A0F /* PBXTextBookmark */;
+			D262EF5813088A8E00E75A0F /* PBXTextBookmark */ = D262EF5813088A8E00E75A0F /* PBXTextBookmark */;
+			D262EF5913088AB300E75A0F /* PBXTextBookmark */ = D262EF5913088AB300E75A0F /* PBXTextBookmark */;
 			D26A1C3813079F1E007B2D43 = D26A1C3813079F1E007B2D43 /* PBXTextBookmark */;
 			D26A1C3913079F1E007B2D43 = D26A1C3913079F1E007B2D43 /* PlistBookmark */;
 			D26A1C3A13079F1E007B2D43 = D26A1C3A13079F1E007B2D43 /* PlistBookmark */;
@@ -480,32 +551,32 @@
 	};
 	D212350D130697650024D902 /* AdilTableViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 551}}";
-			sepNavSelRange = "{441, 0}";
-			sepNavVisRange = "{0, 733}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 574}}";
+			sepNavSelRange = "{402, 0}";
+			sepNavVisRange = "{0, 784}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
 	D212350E130697650024D902 /* AdilTableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 2478}}";
-			sepNavSelRange = "{2292, 0}";
-			sepNavVisRange = "{1863, 811}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 4137}}";
+			sepNavSelRange = "{4931, 0}";
+			sepNavVisRange = "{3545, 1012}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
 	D2123512130697790024D902 /* GridTableCell.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 594}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 574}}";
 			sepNavSelRange = "{378, 0}";
 			sepNavVisRange = "{0, 385}";
 		};
 	};
 	D2123513130697790024D902 /* GridTableCell.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 1155}}";
-			sepNavSelRange = "{422, 0}";
-			sepNavVisRange = "{0, 618}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 1848}}";
+			sepNavSelRange = "{336, 0}";
+			sepNavVisRange = "{832, 512}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -636,7 +707,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "AdilTableViewController.h: 16";
 		rLen = 0;
-		rLoc = 441;
+		rLoc = 492;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 0;
@@ -676,7 +747,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 22";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 866;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 238;
@@ -686,7 +757,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 16";
 		rLen = 0;
-		rLoc = 422;
+		rLoc = 636;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 0;
@@ -715,7 +786,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 16";
 		rLen = 0;
-		rLoc = 422;
+		rLoc = 636;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 0;
@@ -749,6 +820,470 @@
 		rType = 0;
 		vrLen = 684;
 		vrLoc = 0;
+	};
+	D262EEFC130882EA00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1CFB13083323007B2D43 /* Constants.m */;
+		name = "Constants.m: 14";
+		rLen = 0;
+		rLoc = 280;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 0;
+	};
+	D262EEFD130882EA00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1E611308517E007B2D43 /* AdilTableCellViewModel.h */;
+		name = "AdilTableCellViewModel.h: 7";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 0;
+	};
+	D262EEFE130882EA00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
+		name = "AdilTableViewController.h: 15";
+		rLen = 0;
+		rLoc = 402;
+		rType = 0;
+		vrLen = 784;
+		vrLoc = 0;
+	};
+	D262EEFF130882EA00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
+		name = "IconDownloader.m: 72";
+		rLen = 0;
+		rLoc = 3174;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 4307;
+	};
+	D262EF00130882EA00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
+		name = "IconDownloader.h: 65";
+		rLen = 0;
+		rLoc = 3161;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 2794;
+	};
+	D262EF01130882EA00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 147";
+		rLen = 0;
+		rLoc = 4417;
+		rType = 0;
+		vrLen = 797;
+		vrLoc = 4323;
+	};
+	D262EF02130882EA00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 125";
+		rLen = 0;
+		rLoc = 3541;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 3753;
+	};
+	D262EF071308851600E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 142";
+		rLen = 9;
+		rLoc = 4137;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 3498;
+	};
+	D262EF081308851600E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1CFA13083323007B2D43 /* Constants.h */;
+		name = "Constants.h: 11";
+		rLen = 83;
+		rLoc = 259;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 0;
+	};
+	D262EF091308851600E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1D9B13084823007B2D43 /* AdilViewModel.h */;
+		name = "AdilViewModel.h: 22";
+		rLen = 0;
+		rLoc = 457;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	D262EF0A1308851600E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
+		name = "AdilViewModel.m: 20";
+		rLen = 0;
+		rLoc = 309;
+		rType = 0;
+		vrLen = 425;
+		vrLoc = 140;
+	};
+	D262EF0B1308851600E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 33";
+		rLen = 0;
+		rLoc = 954;
+		rType = 0;
+		vrLen = 443;
+		vrLoc = 423;
+	};
+	D262EF0C1308851600E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 53";
+		rLen = 0;
+		rLoc = 1291;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 743;
+	};
+	D262EF0F1308884800E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
+		name = "IconDownloader.m: 88";
+		rLen = 0;
+		rLoc = 3573;
+		rType = 0;
+		vrLen = 371;
+		vrLoc = 3132;
+	};
+	D262EF101308884800E75A0F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Variable-sized object may not be initialized";
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 85;
+		rType = 1;
+	};
+	D262EF111308884800E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 86";
+		rLen = 0;
+		rLoc = 2451;
+		rType = 0;
+		vrLen = 756;
+		vrLoc = 2166;
+	};
+	D262EF16130888BE00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 86";
+		rLen = 0;
+		rLoc = 2451;
+		rType = 0;
+		vrLen = 760;
+		vrLoc = 2166;
+	};
+	D262EF17130888BE00E75A0F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ']' before 'NSString'";
+		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 19;
+		rType = 1;
+	};
+	D262EF18130888BE00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
+		name = "AdilViewModel.m: 19";
+		rLen = 0;
+		rLoc = 309;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 167;
+	};
+	D262EF1B130888C000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123512130697790024D902 /* GridTableCell.h */;
+		name = "GridTableCell.h: 17";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 385;
+		vrLoc = 0;
+	};
+	D262EF1C130888C000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 55";
+		rLen = 0;
+		rLoc = 1343;
+		rType = 0;
+		vrLen = 678;
+		vrLoc = 918;
+	};
+	D262EF1D130888C000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 86";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 1009;
+		vrLoc = 1995;
+	};
+	D262EF1E130888C000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 163";
+		rLen = 0;
+		rLoc = 4931;
+		rType = 0;
+		vrLen = 794;
+		vrLoc = 4315;
+	};
+	D262EF241308895700E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123512130697790024D902 /* GridTableCell.h */;
+		name = "GridTableCell.h: 17";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 385;
+		vrLoc = 0;
+	};
+	D262EF251308895700E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 163";
+		rLen = 0;
+		rLoc = 4931;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 3545;
+	};
+	D262EF261308895700E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
+		name = "AdilTableViewController.h: 15";
+		rLen = 0;
+		rLoc = 402;
+		rType = 0;
+		vrLen = 784;
+		vrLoc = 0;
+	};
+	D262EF271308895700E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 55";
+		rLen = 0;
+		rLoc = 1343;
+		rType = 0;
+		vrLen = 712;
+		vrLoc = 884;
+	};
+	D262EF281308895700E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 42";
+		rLen = 0;
+		rLoc = 1114;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 743;
+	};
+	D262EF2C1308896B00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 42";
+		rLen = 0;
+		rLoc = 1114;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 743;
+	};
+	D262EF34130889F400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
+		name = "AdilViewModel.m: 19";
+		rLen = 0;
+		rLoc = 309;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 167;
+	};
+	D262EF35130889F400E75A0F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Invalid initializer";
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 10;
+		rType = 1;
+	};
+	D262EF36130889F400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 406;
+		vrLoc = 0;
+	};
+	D262EF39130889F600E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1C8F130826B9007B2D43 /* ApiCaller.h */;
+		name = "ApiCaller.h: 18";
+		rLen = 0;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	D262EF3A130889F600E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123512130697790024D902 /* GridTableCell.h */;
+		name = "GridTableCell.h: 17";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 385;
+		vrLoc = 0;
+	};
+	D262EF3B130889F600E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 33";
+		rLen = 0;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 630;
+		vrLoc = 37;
+	};
+	D262EF3C130889F600E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
+		name = "ApiCaller.m: 16";
+		rLen = 127;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 750;
+		vrLoc = 133;
+	};
+	D262EF3D130889F600E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
+		name = "ApiCaller.m: 12";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 604;
+		vrLoc = 30;
+	};
+	D262EF4213088A1100E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
+		name = "ApiCaller.m: 23";
+		rLen = 0;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 159;
+	};
+	D262EF4313088A1100E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 163";
+		rLen = 0;
+		rLoc = 4931;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 3545;
+	};
+	D262EF4413088A1100E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 53";
+		rLen = 0;
+		rLoc = 1100;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 953;
+	};
+	D262EF4913088A4500E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		rLen = 1;
+		rLoc = 52;
+		rType = 1;
+	};
+	D262EF4C13088A5400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 53";
+		rLen = 0;
+		rLoc = 1100;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 891;
+	};
+	D262EF4D13088A5400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 50";
+		rLen = 0;
+		rLoc = 1077;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 646;
+	};
+	D262EF5213088A7F00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 20";
+		rLen = 0;
+		rLoc = 406;
+		rType = 0;
+		vrLen = 525;
+		vrLoc = 670;
+	};
+	D262EF5513088A8800E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 440;
+		vrLoc = 0;
+	};
+	D262EF5813088A8E00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 48";
+		rLen = 0;
+		rLoc = 984;
+		rType = 0;
+		vrLen = 525;
+		vrLoc = 670;
+	};
+	D262EF5913088AB300E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123513130697790024D902 /* GridTableCell.m */;
+		name = "GridTableCell.m: 20";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 832;
 	};
 	D26A1C3813079F1E007B2D43 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -811,7 +1346,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "GridTableViewController.h: 13";
 		rLen = 0;
-		rLoc = 726;
+		rLoc = 777;
 		rType = 0;
 		vrLen = 317;
 		vrLoc = 0;
@@ -823,7 +1358,7 @@
 		rLen = 0;
 		rLoc = 262;
 		rType = 0;
-		vrLen = 435;
+		vrLen = 385;
 		vrLoc = 0;
 	};
 	D26A1C531307A258007B2D43 /* PBXTextBookmark */ = {
@@ -841,7 +1376,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 15";
 		rLen = 0;
-		rLoc = 197;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 659;
 		vrLoc = 37;
@@ -851,7 +1386,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 15";
 		rLen = 0;
-		rLoc = 197;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 37;
@@ -861,7 +1396,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 20";
 		rLen = 0;
-		rLoc = 197;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 514;
 		vrLoc = 37;
@@ -871,7 +1406,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 20";
 		rLen = 0;
-		rLoc = 197;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 514;
 		vrLoc = 37;
@@ -881,7 +1416,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 13";
 		rLen = 0;
-		rLoc = 197;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 37;
@@ -891,7 +1426,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 11";
 		rLen = 0;
-		rLoc = 197;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 326;
 		vrLoc = 621;
@@ -921,7 +1456,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "GridTableViewController.m: 39";
 		rLen = 0;
-		rLoc = 2499;
+		rLoc = 3002;
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 388;
@@ -946,7 +1481,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "GridTableViewController.m: 41";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 3024;
 		rType = 0;
 		vrLen = 948;
 		vrLoc = 388;
@@ -1042,7 +1577,7 @@
 	};
 	D26A1C8F130826B9007B2D43 /* ApiCaller.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 594}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 574}}";
 			sepNavSelRange = "{281, 0}";
 			sepNavVisRange = "{0, 287}";
 		};
@@ -1050,8 +1585,8 @@
 	D26A1C90130826B9007B2D43 /* ApiCaller.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1410, 882}}";
-			sepNavSelRange = "{414, 0}";
-			sepNavVisRange = "{262, 791}";
+			sepNavSelRange = "{416, 0}";
+			sepNavVisRange = "{159, 876}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -1392,7 +1927,7 @@
 		rLen = 0;
 		rLoc = 213;
 		rType = 0;
-		vrLen = 294;
+		vrLen = 287;
 		vrLoc = 0;
 	};
 	D26A1CEC1308315F007B2D43 /* PBXTextBookmark */ = {
@@ -1484,8 +2019,8 @@
 	};
 	D26A1CFB13083323007B2D43 /* Constants.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 551}}";
-			sepNavSelRange = "{677, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 574}}";
+			sepNavSelRange = "{280, 0}";
 			sepNavVisRange = "{0, 684}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
@@ -1577,7 +2112,7 @@
 		rLen = 0;
 		rLoc = 213;
 		rType = 0;
-		vrLen = 294;
+		vrLen = 287;
 		vrLoc = 0;
 	};
 	D26A1D291308361B007B2D43 /* PBXTextBookmark */ = {
@@ -1702,16 +2237,16 @@
 	};
 	D26A1D9B13084823007B2D43 /* AdilViewModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 594}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 574}}";
 			sepNavSelRange = "{457, 0}";
 			sepNavVisRange = "{0, 464}";
 		};
 	};
 	D26A1D9C13084823007B2D43 /* AdilViewModel.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 714}}";
+			sepNavIntBoundsRect = "{{0, 0}, {847, 714}}";
 			sepNavSelRange = "{309, 0}";
-			sepNavVisRange = "{0, 482}";
+			sepNavVisRange = "{167, 375}";
 		};
 	};
 	D26A1D9F13084943007B2D43 /* IconDownloader.h */ = {
@@ -1747,7 +2282,7 @@
 		rLen = 0;
 		rLoc = 213;
 		rType = 0;
-		vrLen = 294;
+		vrLen = 287;
 		vrLoc = 0;
 	};
 	D26A1DAB13084B54007B2D43 /* PBXTextBookmark */ = {
@@ -1825,7 +2360,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "AdilTableViewController.h: 12";
 		rLen = 23;
-		rLoc = 261;
+		rLoc = 288;
 		rType = 0;
 		vrLen = 606;
 		vrLoc = 0;
@@ -1835,7 +2370,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 41";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 3024;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 402;
@@ -1865,7 +2400,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "AdilTableViewController.h: 10";
 		rLen = 0;
-		rLoc = 248;
+		rLoc = 275;
 		rType = 0;
 		vrLen = 606;
 		vrLoc = 0;
@@ -1875,7 +2410,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "AdilTableViewController.h: 10";
 		rLen = 0;
-		rLoc = 248;
+		rLoc = 275;
 		rType = 0;
 		vrLen = 606;
 		vrLoc = 0;
@@ -1951,15 +2486,15 @@
 	D26A1DC913084C67007B2D43 /* IconDownloader.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1410, 1764}}";
-			sepNavSelRange = "{2854, 0}";
-			sepNavVisRange = "{2910, 720}";
+			sepNavSelRange = "{3161, 0}";
+			sepNavVisRange = "{2794, 739}";
 		};
 	};
 	D26A1DCA13084C67007B2D43 /* IconDownloader.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 3486}}";
-			sepNavSelRange = "{3672, 0}";
-			sepNavVisRange = "{3228, 715}";
+			sepNavIntBoundsRect = "{{0, 0}, {1258.25, 3486}}";
+			sepNavSelRange = "{3573, 0}";
+			sepNavVisRange = "{3132, 371}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -2103,7 +2638,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "AdilTableViewController.h: 11";
 		rLen = 0;
-		rLoc = 248;
+		rLoc = 275;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 0;
@@ -2163,7 +2698,7 @@
 		comments = "Property 'entries' requires the method 'setEntries:' to be defined - use @synthesize, @dynamic or provide a method implementation";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 123;
+		rLoc = 189;
 		rType = 1;
 	};
 	D26A1E0E13084F7C007B2D43 /* PBXTextBookmark */ = {
@@ -2189,7 +2724,7 @@
 		comments = "Property 'entries' requires method '-entries' to be defined - use @synthesize, @dynamic or provide a method implementation";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 123;
+		rLoc = 189;
 		rType = 1;
 	};
 	D26A1E1313084F88007B2D43 /* PBXTextBookmark */ = {
@@ -2197,7 +2732,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 80";
 		rLen = 0;
-		rLoc = 3218;
+		rLoc = 5477;
 		rType = 0;
 		vrLen = 332;
 		vrLoc = 1581;
@@ -2267,7 +2802,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "AdilTableViewController.h: 12";
 		rLen = 0;
-		rLoc = 248;
+		rLoc = 275;
 		rType = 0;
 		vrLen = 654;
 		vrLoc = 0;
@@ -2287,7 +2822,7 @@
 		comments = "Property 'entries' requires method '-entries' to be defined - use @synthesize, @dynamic or provide a method implementation";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 123;
+		rLoc = 189;
 		rType = 1;
 	};
 	D26A1E1F13084F92007B2D43 /* PBXTextBookmark */ = {
@@ -2295,7 +2830,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 49";
 		rLen = 49;
-		rLoc = 2524;
+		rLoc = 3027;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 372;
@@ -2315,7 +2850,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 80";
 		rLen = 0;
-		rLoc = 3218;
+		rLoc = 5477;
 		rType = 0;
 		vrLen = 1251;
 		vrLoc = 662;
@@ -2355,7 +2890,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 80";
 		rLen = 0;
-		rLoc = 3218;
+		rLoc = 5477;
 		rType = 0;
 		vrLen = 1251;
 		vrLoc = 662;
@@ -2365,7 +2900,7 @@
 		comments = "Property 'entries' requires method '-entries' to be defined - use @synthesize, @dynamic or provide a method implementation";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 123;
+		rLoc = 189;
 		rType = 1;
 	};
 	D26A1E3B13085001007B2D43 /* PBXTextBookmark */ = {
@@ -2373,7 +2908,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "AdilTableViewController.h: 19";
 		rLen = 0;
-		rLoc = 613;
+		rLoc = 664;
 		rType = 0;
 		vrLen = 652;
 		vrLoc = 0;
@@ -2383,7 +2918,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 65";
 		rLen = 0;
-		rLoc = 2755;
+		rLoc = 5014;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 0;
@@ -2393,7 +2928,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 65";
 		rLen = 0;
-		rLoc = 2755;
+		rLoc = 5014;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 0;
@@ -2549,7 +3084,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "AdilTableViewController.h: 19";
 		rLen = 0;
-		rLoc = 613;
+		rLoc = 664;
 		rType = 0;
 		vrLen = 652;
 		vrLoc = 0;
@@ -2596,7 +3131,7 @@
 	};
 	D26A1E611308517E007B2D43 /* AdilTableCellViewModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 594}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 574}}";
 			sepNavSelRange = "{148, 0}";
 			sepNavVisRange = "{0, 601}";
 		};
@@ -2663,7 +3198,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 34";
 		rLen = 0;
-		rLoc = 901;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 649;
 		vrLoc = 215;
@@ -2673,7 +3208,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 41";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1790;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 259;
@@ -2703,7 +3238,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 41";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1790;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 259;
@@ -2771,7 +3306,7 @@
 		comments = "'GridTableCell' may not respond to '-setImg1:andImg2:andImg3:'";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 85;
+		rLoc = 102;
 		rType = 1;
 	};
 	D26A1E861308576D007B2D43 /* PBXTextBookmark */ = {
@@ -2779,7 +3314,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 74";
 		rLen = 0;
-		rLoc = 2495;
+		rLoc = 2998;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 1904;
@@ -2789,7 +3324,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 41";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1790;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 259;
@@ -2849,7 +3384,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "AdilTableViewController.h: 16";
 		rLen = 0;
-		rLoc = 441;
+		rLoc = 492;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 0;
@@ -2927,7 +3462,7 @@
 		comments = "'GridTableCell' may not respond to '-setImg1:andImg2:andImg3:'";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 85;
+		rLoc = 102;
 		rType = 1;
 	};
 	D26A1E9C130858A3007B2D43 /* PBXTextBookmark */ = {
@@ -2935,7 +3470,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2495;
+		rLoc = 2998;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 1771;
@@ -2955,7 +3490,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2435;
+		rLoc = 2938;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 1995;
@@ -2965,7 +3500,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 22";
 		rLen = 0;
-		rLoc = 643;
+		rLoc = 857;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 238;
@@ -2975,7 +3510,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 22";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 866;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 238;
@@ -3005,7 +3540,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 22";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 866;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 238;
@@ -3015,7 +3550,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2435;
+		rLoc = 2938;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 1995;
@@ -3025,7 +3560,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2499;
+		rLoc = 3002;
 		rType = 0;
 		vrLen = 839;
 		vrLoc = 1995;
@@ -3055,7 +3590,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2469;
+		rLoc = 2972;
 		rType = 0;
 		vrLen = 839;
 		vrLoc = 1995;
@@ -3115,7 +3650,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2469;
+		rLoc = 2972;
 		rType = 0;
 		vrLen = 839;
 		vrLoc = 1995;
@@ -3125,7 +3660,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "AdilTableViewController.h: 16";
 		rLen = 0;
-		rLoc = 441;
+		rLoc = 492;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 0;
@@ -3145,7 +3680,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 22";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 866;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 238;
@@ -3155,7 +3690,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 22";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 866;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 238;
@@ -3185,7 +3720,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "AdilTableViewController.h: 16";
 		rLen = 0;
-		rLoc = 441;
+		rLoc = 492;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 0;
@@ -3215,7 +3750,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 22";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 866;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 238;
@@ -3235,7 +3770,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2469;
+		rLoc = 2972;
 		rType = 0;
 		vrLen = 922;
 		vrLoc = 673;
@@ -3385,7 +3920,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2499;
+		rLoc = 3002;
 		rType = 0;
 		vrLen = 735;
 		vrLoc = 1771;
@@ -3808,7 +4343,7 @@
 		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
 		name = "GridTableViewController.h: 13";
 		rLen = 0;
-		rLoc = 726;
+		rLoc = 777;
 		rType = 0;
 		vrLen = 317;
 		vrLoc = 0;
@@ -3820,7 +4355,7 @@
 		rLen = 0;
 		rLoc = 262;
 		rType = 0;
-		vrLen = 435;
+		vrLen = 385;
 		vrLoc = 0;
 	};
 	D2B5129513078977006542D9 /* FastTableViewCell.h */ = {
@@ -3862,7 +4397,7 @@
 		fRef = D2123513130697790024D902 /* GridTableCell.m */;
 		name = "GridTableCell.m: 13";
 		rLen = 0;
-		rLoc = 197;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 350;
 		vrLoc = 597;

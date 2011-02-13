@@ -10,8 +10,9 @@
 #import "GridTableCell.h"
 #import "ApiCaller.h"
 #import "ResultHeaders.h"
+#import "IconDownloader.h"
 
-@interface AdilTableViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource> {
+@interface AdilTableViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource, IconDownloaderDelegate> {
 	NSMutableArray *adilvms; // the viewmodels for each adil in the table
 	NSMutableArray *adiltcvms; // the table cell view models for each adil table cell
     NSMutableDictionary *imageDownloadsInProgress;  // the set of IconDownloader objects for each adil

@@ -82,6 +82,23 @@
     if (cell == nil) {
 		cell = [[[GridTableCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
     }    
+	/*
+	AdilTableCellViewModel* adiltcvm = [adiltcvms objectAtIndex:indexPath.row];
+	// Only load cached images.
+	if (!adiltcvm.adilvm1.)
+	{
+		//if (self.tableView.dragging == NO && self.tableView.decelerating == NO)
+		{
+			[self startIconDownload:appRecord forIndexPath:indexPath];
+		}
+		// if a download is deferred or in progress, return a placeholder image
+		cell.imageView.image = [UIImage imageNamed:@"Placeholder.png"];                
+	}
+	else
+	{
+		cell.imageView.image = appRecord.appIcon;
+	}*/
+	
 	
 	[cell setAdilTableCellViewModel:[adiltcvms objectAtIndex:indexPath.row]];
     
@@ -95,6 +112,55 @@
 {
 	
 }
+/*
+#pragma mark -
+#pragma mark Table cell image support
+
+- (void)startIconDownload:(AdilViewModel *)adilvm forIndexPath:(NSIndexPath *)indexPath
+{
+    IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:indexPath];
+    if (iconDownloader == nil) 
+    {
+        iconDownloader = [[IconDownloader alloc] init];
+        iconDownloader.adilvm = adilvm;
+        iconDownloader.indexPathInTableView = indexPath;
+        iconDownloader.delegate = self;
+        [imageDownloadsInProgress setObject:iconDownloader forKey:indexPath];
+        [iconDownloader startDownload];
+        [iconDownloader release];   
+    }
+}
+
+// this method is used in case the user scrolled into a set of cells that don't have their app icons yet
+- (void)loadImagesForOnscreenRows
+{
+    if ([self.entries count] > 0)
+    {
+        NSArray *visiblePaths = [self.tableView indexPathsForVisibleRows];
+        for (NSIndexPath *indexPath in visiblePaths)
+        {
+            AppRecord *appRecord = [self.entries objectAtIndex:indexPath.row];
+            
+            if (!appRecord.appIcon) // avoid the app icon download if the app already has an icon
+            {
+                [self startIconDownload:appRecord forIndexPath:indexPath];
+            }
+        }
+    }
+}
+
+// called by our ImageDownloader when an icon is ready to be displayed
+- (void)appImageDidLoad:(NSIndexPath *)indexPath
+{
+    IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:indexPath];
+    if (iconDownloader != nil)
+    {
+        GridTableCell *cell = (GridTableCell*)[self.tableView cellForRowAtIndexPath:iconDownloader.indexPathInTableView];
+        
+        // Display the newly loaded image
+        cell.imageView.image = iconDownloader.appRecord.appIcon;
+    }
+}*/
 
 
 #pragma mark -

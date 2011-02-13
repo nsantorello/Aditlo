@@ -8,7 +8,18 @@
 
 #import "GridTableCell.h"
 
+static UIColor* nilThumbColor = nil;
+
 @implementation GridTableCell
+
++ (void)initialize
+{
+	if (!nilThumbColor)
+	{
+		// Create parser to be used for all calls.
+		nilThumbColor = [[UIColor alloc] initWithRed:0.9 green:0.9 blue:0.9 alpha:1];
+	}
+}
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -31,7 +42,21 @@
 	[adiltcvm release];
 	adiltcvm = vm;
 	[adiltcvm retain];
+	
 	[self setNeedsDisplay];
+}
+
+- (void)drawThumbOrBlank:(UIImage*)img inRect:(CGRect)rect inContext:(CGContextRef)context
+{
+	if (img == nil)
+	{
+		[nilThumbColor set];
+		CGContextFillRect(context, rect);
+	}
+	else 
+	{
+		[img drawInRect:rect];
+	}
 }
 
 - (void)drawContentView:(CGRect)r
@@ -43,9 +68,13 @@
 	[backgroundColor set];
 	CGContextFillRect(context, r);
 	
-	[adiltcvm.adilvm1.thumb104 drawInRect:CGRectMake(2, 1, 104, 104)];
-	[adiltcvm.adilvm2.thumb104 drawInRect:CGRectMake(108, 1, 104, 104)];
-	[adiltcvm.adilvm3.thumb104 drawInRect:CGRectMake(214, 1, 104, 104)];
+	CGRect rect1 = CGRectMake(2, 1, 104, 104);
+	CGRect rect2 = CGRectMake(108, 1, 104, 104);
+	CGRect rect3 = CGRectMake(214, 1, 104, 104);
+	
+	[self drawThumbOrBlank:adiltcvm.adilvm1.thumb104 inRect:rect1 inContext:context];
+	[self drawThumbOrBlank:adiltcvm.adilvm2.thumb104 inRect:rect2 inContext:context];
+	[self drawThumbOrBlank:adiltcvm.adilvm3.thumb104 inRect:rect3 inContext:context];
 }
 
 @end
