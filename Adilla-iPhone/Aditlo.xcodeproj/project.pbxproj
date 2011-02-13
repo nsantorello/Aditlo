@@ -28,6 +28,8 @@
 		D26A1CD113082C59007B2D43 /* Adil.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1CD013082C59007B2D43 /* Adil.m */; };
 		D26A1CFC13083323007B2D43 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1CFB13083323007B2D43 /* Constants.m */; };
 		D26A1D001308347D007B2D43 /* C.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1CFF1308347D007B2D43 /* C.m */; };
+		D26A1D9D13084823007B2D43 /* AdilViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */; };
+		D26A1DA113084943007B2D43 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1DA013084943007B2D43 /* IconDownloader.m */; };
 		D2B5104E13075159006542D9 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5104D13075159006542D9 /* sample.jpg */; };
 		D2B5105313075269006542D9 /* sample2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105113075269006542D9 /* sample2.jpg */; };
 		D2B5105413075269006542D9 /* sample3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105213075269006542D9 /* sample3.jpg */; };
@@ -80,6 +82,10 @@
 		D26A1CFB13083323007B2D43 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		D26A1CFE1308347D007B2D43 /* C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C.h; sourceTree = "<group>"; };
 		D26A1CFF1308347D007B2D43 /* C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C.m; sourceTree = "<group>"; };
+		D26A1D9B13084823007B2D43 /* AdilViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilViewModel.h; sourceTree = "<group>"; };
+		D26A1D9C13084823007B2D43 /* AdilViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilViewModel.m; sourceTree = "<group>"; };
+		D26A1D9F13084943007B2D43 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconDownloader.h; path = "Lib/Icon Downloader/IconDownloader.h"; sourceTree = "<group>"; };
+		D26A1DA013084943007B2D43 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconDownloader.m; path = "Lib/Icon Downloader/IconDownloader.m"; sourceTree = "<group>"; };
 		D2B5104D13075159006542D9 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample.jpg; path = Images/sample.jpg; sourceTree = "<group>"; };
 		D2B5105113075269006542D9 /* sample2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample2.jpg; path = Images/sample2.jpg; sourceTree = "<group>"; };
 		D2B5105213075269006542D9 /* sample3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample3.jpg; path = Images/sample3.jpg; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 			children = (
 				D26A1CCE13082C4F007B2D43 /* Core Objects */,
 				D26A1C8E13082649007B2D43 /* API */,
+				D26A1D97130847AB007B2D43 /* ViewModels */,
 				D2B5114213077941006542D9 /* Detail View */,
 				D21235961306A4670024D902 /* Main View */,
 				D212350C130697400024D902 /* Grid Table */,
@@ -163,6 +170,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D26A1D9E13084934007B2D43 /* Icon Downloader */,
 				D26A1C75130824C6007B2D43 /* JSON */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
@@ -252,6 +260,24 @@
 				D26A1CFF1308347D007B2D43 /* C.m */,
 			);
 			name = Constants;
+			sourceTree = "<group>";
+		};
+		D26A1D97130847AB007B2D43 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D26A1D9B13084823007B2D43 /* AdilViewModel.h */,
+				D26A1D9C13084823007B2D43 /* AdilViewModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		D26A1D9E13084934007B2D43 /* Icon Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				D26A1D9F13084943007B2D43 /* IconDownloader.h */,
+				D26A1DA013084943007B2D43 /* IconDownloader.m */,
+			);
+			name = "Icon Downloader";
 			sourceTree = "<group>";
 		};
 		D2B5104C1307514D006542D9 /* Images */ = {
@@ -371,6 +397,8 @@
 				D26A1CD113082C59007B2D43 /* Adil.m in Sources */,
 				D26A1CFC13083323007B2D43 /* Constants.m in Sources */,
 				D26A1D001308347D007B2D43 /* C.m in Sources */,
+				D26A1D9D13084823007B2D43 /* AdilViewModel.m in Sources */,
+				D26A1DA113084943007B2D43 /* IconDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

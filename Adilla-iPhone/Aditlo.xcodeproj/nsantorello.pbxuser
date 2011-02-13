@@ -177,6 +177,7 @@
 			D26A1D311308361B007B2D43 /* PBXTextBookmark */ = D26A1D311308361B007B2D43 /* PBXTextBookmark */;
 			D26A1D321308361B007B2D43 /* PBXTextBookmark */ = D26A1D321308361B007B2D43 /* PBXTextBookmark */;
 			D26A1D351308361B007B2D43 /* PBXTextBookmark */ = D26A1D351308361B007B2D43 /* PBXTextBookmark */;
+			D26A1D9113084696007B2D43 /* PBXTextBookmark */ = D26A1D9113084696007B2D43 /* PBXTextBookmark */;
 			D2B510B713076378006542D9 = D2B510B713076378006542D9 /* PBXBookmark */;
 			D2B510B813076378006542D9 = D2B510B813076378006542D9 /* PBXBookmark */;
 			D2B510B913076378006542D9 = D2B510B913076378006542D9 /* PBXBookmark */;
@@ -317,9 +318,9 @@
 	};
 	D21235981306A4A00024D902 /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1462, 1155}}";
+			sepNavIntBoundsRect = "{{0, 0}, {911.464, 1113}}";
 			sepNavSelRange = "{724, 0}";
-			sepNavVisRange = "{0, 1190}";
+			sepNavVisRange = "{388, 546}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -508,9 +509,9 @@
 	};
 	D26A1C6D13082269007B2D43 /* TodayResult.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {954.812, 798}}";
-			sepNavSelRange = "{333, 0}";
-			sepNavVisRange = "{256, 341}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 798}}";
+			sepNavSelRange = "{527, 0}";
+			sepNavVisRange = "{163, 434}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -622,7 +623,7 @@
 	D26A1C90130826B9007B2D43 /* ApiCaller.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1410, 1071}}";
-			sepNavSelRange = "{1048, 0}";
+			sepNavSelRange = "{576, 0}";
 			sepNavVisRange = "{412, 1068}";
 		};
 	};
@@ -1267,6 +1268,30 @@
 		rType = 0;
 		vrLen = 1190;
 		vrLoc = 0;
+	};
+	D26A1D9113084696007B2D43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D21235981306A4A00024D902 /* MainViewController.m */;
+		name = "MainViewController.m: 29";
+		rLen = 0;
+		rLoc = 724;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 388;
+	};
+	D26A1D9B13084823007B2D43 /* AdilViewModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 594}}";
+			sepNavSelRange = "{415, 0}";
+			sepNavVisRange = "{0, 433}";
+		};
+	};
+	D26A1D9C13084823007B2D43 /* AdilViewModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 594}}";
+			sepNavSelRange = "{315, 0}";
+			sepNavVisRange = "{0, 342}";
+		};
 	};
 	D2B5106313075DBA006542D9 /* adilla_logo.png */ = {
 		uiCtxt = {
