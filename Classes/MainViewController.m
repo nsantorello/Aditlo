@@ -45,9 +45,9 @@
 
 
 - (void)dealloc {
-	gridTable = nil;
-	gtvController = nil;
-	topNavBar = nil;
+	[gridTable release];
+	[gtvController release];
+	[topNavBar release];
     [super dealloc];
 }
 

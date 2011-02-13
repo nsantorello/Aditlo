@@ -10,7 +10,7 @@
 #import "GridTableCell.h"
 
 @interface GridTableViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource> {
-	IBOutlet GridTableCell* gridCell;
+	
 }
 
 @end

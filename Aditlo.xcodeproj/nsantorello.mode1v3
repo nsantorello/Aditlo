@@ -197,7 +197,88 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>D2B51269130787E9006542D9</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>GridTableViewController.h</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>D2B5126A130787E9006542D9</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>GridTableViewController.h</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>D2B5127513078810006542D9</string>
+						<key>history</key>
+						<array>
+							<string>D2B51264130787E3006542D9</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1521, 1090}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>-1905 -86 1521 1131 -1920 -150 1920 1200 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>D2B511B313077DF7006542D9</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>MainViewController.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>D2B511B413077DF7006542D9</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>MainViewController.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>D2B5127613078810006542D9</string>
+						<key>history</key>
+						<array>
+							<string>D2B511AD13077DF3006542D9</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1521, 1090}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>-1905 -86 1521 1131 -1920 -150 1920 1200 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -266,6 +347,7 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>D2B5104C1307514D006542D9</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>D2B511C313077F49006542D9</string>
 								<string>D2B5114213077941006542D9</string>
 								<string>D2B510D5130767A3006542D9</string>
 								<string>D21235961306A4670024D902</string>
@@ -277,8 +359,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>13</integer>
+									<integer>21</integer>
+									<integer>20</integer>
 									<integer>7</integer>
 									<integer>0</integer>
 								</array>
@@ -321,7 +403,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MainViewController.m</string>
+								<string>GridTableViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +411,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MainViewController.m</string>
+										<string>GridTableViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D2B5116E13077BEF006542D9</string>
+										<string>D2B5127413078810006542D9</string>
 										<key>history</key>
 										<array>
 											<string>D2B510B713076378006542D9</string>
@@ -345,14 +427,16 @@
 											<string>D2B510EC130774E1006542D9</string>
 											<string>D2B5115A13077B1A006542D9</string>
 											<string>D2B5115B13077B1A006542D9</string>
-											<string>D2B5115C13077B1A006542D9</string>
-											<string>D2B5115D13077B1A006542D9</string>
-											<string>D2B5115E13077B1A006542D9</string>
-											<string>D2B5115F13077B1A006542D9</string>
-											<string>D2B5116013077B1A006542D9</string>
-											<string>D2B5116113077B1A006542D9</string>
-											<string>D2B5116213077B1A006542D9</string>
-											<string>D2B5116313077B1A006542D9</string>
+											<string>D2B511BF13077F0C006542D9</string>
+											<string>D2B51204130785AB006542D9</string>
+											<string>D2B51205130785AB006542D9</string>
+											<string>D2B51206130785AB006542D9</string>
+											<string>D2B5121A13078616006542D9</string>
+											<string>D2B512561307877E006542D9</string>
+											<string>D2B5125B1307879E006542D9</string>
+											<string>D2B51267130787E9006542D9</string>
+											<string>D2B5126F130787FA006542D9</string>
+											<string>D2B51270130787FA006542D9</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -550,12 +634,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>D2B5126D130787E9006542D9</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>D2B5101613074081006542D9</string>
 		<string>D2B50FF913073EE6006542D9</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>D2123507130695400024D902</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>D2B511B313077DF7006542D9</string>
+		<string>D2123507130695400024D902</string>
+		<string>D2B51269130787E9006542D9</string>
 		<string>/Users/nsantorello/Documents/Aditlo/Aditlo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -580,7 +667,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>GridTableViewController.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -597,6 +684,8 @@
 							<string>445pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -649,7 +738,7 @@
 			<key>WindowToolGUID</key>
 			<string>D2123507130695400024D902</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

@@ -29,15 +29,16 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"GridTableCellIdentifier";
-	static NSString *gridTableNibName = @"GridTableCell";
+    static NSString *CellIdentifier = @"GridTableCell";
     
     GridTableCell *cell = (GridTableCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        [[NSBundle mainBundle] loadNibNamed:gridTableNibName owner:self options:nil];
-		cell = gridCell;
-		gridCell = nil;
+		cell = [[[GridTableCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
     }    
+
+	cell.img1 = [UIImage imageNamed:@"sample.jpg"];
+	cell.img2 = [UIImage imageNamed:@"sample2.jpg"];
+	cell.img3 = [UIImage imageNamed:@"sample3.jpg"];
     
     return cell;
 }
@@ -68,7 +69,7 @@
 
 
 - (void)dealloc {
-	gridCell = nil;
+	[gridCell release];
     [super dealloc];
 }
 

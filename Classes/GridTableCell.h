@@ -7,12 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ABTableViewCell.h"
 
-
-@interface GridTableCell : UITableViewCell {
-	IBOutlet UIImageView* img1;
-	IBOutlet UIImageView* img2;
-	IBOutlet UIImageView* img3;
+@interface GridTableCell : ABTableViewCell {
+	UIImage* img1;
+	UIImage* img2;
+	UIImage* img3;
 }
+
+@property (nonatomic, retain) UIImage* img1;
+@property (nonatomic, retain) UIImage* img2;
+@property (nonatomic, retain) UIImage* img3;
 
 @end
