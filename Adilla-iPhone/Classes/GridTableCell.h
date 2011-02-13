@@ -16,4 +16,6 @@
 
 - (void)setAdilTableCellViewModel:(AdilTableCellViewModel*)vm;
 
+- (AdilTableCellViewModel*)getViewModel;
+
 @end

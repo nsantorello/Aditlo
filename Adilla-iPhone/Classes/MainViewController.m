@@ -11,9 +11,15 @@
 
 @implementation MainViewController
 
-- (void)viewDidLoad
+- (void)setupAdilTableViewController
 {
 	[adilController setAdils:[ApiCaller fetchToday].todaysAdils];
+	adilController.imageDownloadsInProgress = [NSMutableDictionary dictionary];
+}
+
+- (void)viewDidLoad
+{
+	[self setupAdilTableViewController];
 	[super viewDidLoad];
 }
 

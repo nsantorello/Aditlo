@@ -79,6 +79,6 @@
 
 @protocol IconDownloaderDelegate 
 
-- (void)appImageDidLoad:(NSIndexPath *)indexPath;
+- (void)thumbDidLoad:(NSIndexPath *)indexPath;
 
 @end

@@ -84,8 +84,9 @@
 {
     self.activeDownload = [NSMutableData data];
     // alloc+init and start an NSURLConnection; release on completion/failure
+	NSURL* thumbUrl = [C resolveThumbURL:adilvm.adil.thumb104];
     NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:
-                             [NSURLRequest requestWithURL:[C resolveThumbURL:adilvm.adil.thumb104]] delegate:self];
+                             [NSURLRequest requestWithURL:thumbUrl] delegate:self];
     self.imageConnection = conn;
     [conn release];
 }
@@ -141,7 +142,7 @@
     self.imageConnection = nil;
         
     // call our delegate and tell it that our icon is ready for display
-    [delegate appImageDidLoad:self.indexPathInTableView];
+    [delegate thumbDidLoad:self.indexPathInTableView];
 }
 
 @end

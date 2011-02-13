@@ -82,25 +82,15 @@
     if (cell == nil) {
 		cell = [[[GridTableCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
     }    
-	/*
+	
 	AdilTableCellViewModel* adiltcvm = [adiltcvms objectAtIndex:indexPath.row];
 	// Only load cached images.
-	if (!adiltcvm.adilvm1.)
+	if (!adiltcvm.adilvm1.thumb104)
 	{
-		//if (self.tableView.dragging == NO && self.tableView.decelerating == NO)
-		{
-			[self startIconDownload:appRecord forIndexPath:indexPath];
-		}
-		// if a download is deferred or in progress, return a placeholder image
-		cell.imageView.image = [UIImage imageNamed:@"Placeholder.png"];                
+		[self startIconDownload:adiltcvm.adilvm1 forIndexPath:indexPath];            
 	}
-	else
-	{
-		cell.imageView.image = appRecord.appIcon;
-	}*/
 	
-	
-	[cell setAdilTableCellViewModel:[adiltcvms objectAtIndex:indexPath.row]];
+	[cell setAdilTableCellViewModel:adiltcvm];
     
     return cell;
 }
@@ -112,7 +102,7 @@
 {
 	
 }
-/*
+
 #pragma mark -
 #pragma mark Table cell image support
 
@@ -131,26 +121,8 @@
     }
 }
 
-// this method is used in case the user scrolled into a set of cells that don't have their app icons yet
-- (void)loadImagesForOnscreenRows
-{
-    if ([self.entries count] > 0)
-    {
-        NSArray *visiblePaths = [self.tableView indexPathsForVisibleRows];
-        for (NSIndexPath *indexPath in visiblePaths)
-        {
-            AppRecord *appRecord = [self.entries objectAtIndex:indexPath.row];
-            
-            if (!appRecord.appIcon) // avoid the app icon download if the app already has an icon
-            {
-                [self startIconDownload:appRecord forIndexPath:indexPath];
-            }
-        }
-    }
-}
-
 // called by our ImageDownloader when an icon is ready to be displayed
-- (void)appImageDidLoad:(NSIndexPath *)indexPath
+- (void)thumbDidLoad:(NSIndexPath *)indexPath
 {
     IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:indexPath];
     if (iconDownloader != nil)
@@ -158,9 +130,9 @@
         GridTableCell *cell = (GridTableCell*)[self.tableView cellForRowAtIndexPath:iconDownloader.indexPathInTableView];
         
         // Display the newly loaded image
-        cell.imageView.image = iconDownloader.appRecord.appIcon;
+		[cell setAdilTableCellViewModel:[cell getViewModel]];
     }
-}*/
+}
 
 
 #pragma mark -
@@ -170,7 +142,9 @@
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
     
-    // Relinquish ownership any cached data, images, etc. that aren't in use.
+	// terminate all pending download connections
+    NSArray *allDownloads = [self.imageDownloadsInProgress allValues];
+    [allDownloads makeObjectsPerformSelector:@selector(cancelDownload)];
 }
 
 - (void)viewDidUnload {

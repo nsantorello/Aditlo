@@ -46,6 +46,11 @@ static UIColor* nilThumbColor = nil;
 	[self setNeedsDisplay];
 }
 
+- (AdilTableCellViewModel*)getViewModel
+{
+	return adiltcvm;
+}
+
 - (void)drawThumbOrBlank:(UIImage*)img inRect:(CGRect)rect inContext:(CGContextRef)context
 {
 	if (img == nil)
