@@ -26,7 +26,7 @@
 		D2B5112513077816006542D9 /* adilla_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B5112413077816006542D9 /* adilla_logo@2x.png */; };
 		D2B5115613077ACE006542D9 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B5115413077ACE006542D9 /* VideoDetailViewController.m */; };
 		D2B5115713077ACE006542D9 /* VideoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B5115513077ACE006542D9 /* VideoDetailViewController.xib */; };
-		D2B511C913077F57006542D9 /* FastTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B511C713077F57006542D9 /* FastTableViewCell.m */; };
+		D2B5129713078977006542D9 /* FastTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B5129613078977006542D9 /* FastTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,8 +58,8 @@
 		D2B5115313077ACE006542D9 /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
 		D2B5115413077ACE006542D9 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
 		D2B5115513077ACE006542D9 /* VideoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoDetailViewController.xib; sourceTree = "<group>"; };
-		D2B511C613077F57006542D9 /* FastTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FastTableViewCell.h; path = ../../Downloads/FastScrolling/Classes/FastTableViewCell.h; sourceTree = SOURCE_ROOT; };
-		D2B511C713077F57006542D9 /* FastTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FastTableViewCell.m; path = ../../Downloads/FastScrolling/Classes/FastTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		D2B5129513078977006542D9 /* FastTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastTableViewCell.h; sourceTree = "<group>"; };
+		D2B5129613078977006542D9 /* FastTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +195,8 @@
 		D2B511C313077F49006542D9 /* Faster Scrolling */ = {
 			isa = PBXGroup;
 			children = (
-				D2B511C613077F57006542D9 /* FastTableViewCell.h */,
-				D2B511C713077F57006542D9 /* FastTableViewCell.m */,
+				D2B5129513078977006542D9 /* FastTableViewCell.h */,
+				D2B5129613078977006542D9 /* FastTableViewCell.m */,
 			);
 			name = "Faster Scrolling";
 			sourceTree = "<group>";
@@ -276,7 +276,7 @@
 				D212352713069C7E0024D902 /* GridTable.m in Sources */,
 				D212359A1306A4A00024D902 /* MainViewController.m in Sources */,
 				D2B5115613077ACE006542D9 /* VideoDetailViewController.m in Sources */,
-				D2B511C913077F57006542D9 /* FastTableViewCell.m in Sources */,
+				D2B5129713078977006542D9 /* FastTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
