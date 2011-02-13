@@ -103,6 +103,15 @@
 			D262EDBF1308608200E75A0F /* PBXTextBookmark */ = D262EDBF1308608200E75A0F /* PBXTextBookmark */;
 			D262EDC01308608200E75A0F /* PBXTextBookmark */ = D262EDC01308608200E75A0F /* PBXTextBookmark */;
 			D262EDC31308609A00E75A0F /* PBXTextBookmark */ = D262EDC31308609A00E75A0F /* PBXTextBookmark */;
+			D262EDCB1308631400E75A0F /* PBXTextBookmark */ = D262EDCB1308631400E75A0F /* PBXTextBookmark */;
+			D262EDCC1308631400E75A0F /* PBXTextBookmark */ = D262EDCC1308631400E75A0F /* PBXTextBookmark */;
+			D262EDCD1308631400E75A0F /* PBXTextBookmark */ = D262EDCD1308631400E75A0F /* PBXTextBookmark */;
+			D262EDCE1308631400E75A0F /* PBXTextBookmark */ = D262EDCE1308631400E75A0F /* PBXTextBookmark */;
+			D262EDCF1308631400E75A0F /* PBXTextBookmark */ = D262EDCF1308631400E75A0F /* PBXTextBookmark */;
+			D262EDD01308631400E75A0F /* PBXTextBookmark */ = D262EDD01308631400E75A0F /* PBXTextBookmark */;
+			D262EDD61308637000E75A0F /* PBXTextBookmark */ = D262EDD61308637000E75A0F /* PBXTextBookmark */;
+			D262EDD71308637000E75A0F /* PBXTextBookmark */ = D262EDD71308637000E75A0F /* PBXTextBookmark */;
+			D262EDD81308637000E75A0F /* PBXTextBookmark */ = D262EDD81308637000E75A0F /* PBXTextBookmark */;
 			D26A1C3813079F1E007B2D43 = D26A1C3813079F1E007B2D43 /* PBXTextBookmark */;
 			D26A1C3913079F1E007B2D43 = D26A1C3913079F1E007B2D43 /* PlistBookmark */;
 			D26A1C3A13079F1E007B2D43 = D26A1C3A13079F1E007B2D43 /* PlistBookmark */;
@@ -482,7 +491,7 @@
 	};
 	D2123512130697790024D902 /* GridTableCell.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 594}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 566}}";
 			sepNavSelRange = "{378, 0}";
 			sepNavVisRange = "{0, 385}";
 		};
@@ -597,6 +606,96 @@
 		vrLen = 482;
 		vrLoc = 0;
 	};
+	D262EDCB1308631400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2123512130697790024D902 /* GridTableCell.h */;
+		name = "GridTableCell.h: 17";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 385;
+		vrLoc = 0;
+	};
+	D262EDCC1308631400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1CFA13083323007B2D43 /* Constants.h */;
+		name = "Constants.h: 11";
+		rLen = 83;
+		rLoc = 259;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 0;
+	};
+	D262EDCD1308631400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1CFB13083323007B2D43 /* Constants.m */;
+		name = "Constants.m: 20";
+		rLen = 0;
+		rLoc = 509;
+		rType = 0;
+		vrLen = 668;
+		vrLoc = 0;
+	};
+	D262EDCE1308631400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1E611308517E007B2D43 /* AdilTableCellViewModel.h */;
+		name = "AdilTableCellViewModel.h: 7";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 0;
+	};
+	D262EDCF1308631400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
+		name = "AdilViewModel.m: 19";
+		rLen = 0;
+		rLoc = 309;
+		rType = 0;
+		vrLen = 482;
+		vrLoc = 0;
+	};
+	D262EDD01308631400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
+		name = "AdilViewModel.m: 19";
+		rLen = 0;
+		rLoc = 309;
+		rType = 0;
+		vrLen = 482;
+		vrLoc = 0;
+	};
+	D262EDD61308637000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
+		name = "AdilViewModel.m: 17";
+		rLen = 0;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 524;
+		vrLoc = 0;
+	};
+	D262EDD71308637000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1CFA13083323007B2D43 /* Constants.h */;
+		name = "Constants.h: 11";
+		rLen = 83;
+		rLoc = 259;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 0;
+	};
+	D262EDD81308637000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1CFB13083323007B2D43 /* Constants.m */;
+		name = "Constants.m: 19";
+		rLen = 0;
+		rLoc = 493;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 0;
+	};
 	D26A1C3813079F1E007B2D43 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
@@ -670,7 +769,7 @@
 		rLen = 0;
 		rLoc = 262;
 		rType = 0;
-		vrLen = 435;
+		vrLen = 385;
 		vrLoc = 0;
 	};
 	D26A1C531307A258007B2D43 /* PBXTextBookmark */ = {
@@ -1324,16 +1423,16 @@
 	};
 	D26A1CFA13083323007B2D43 /* Constants.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 594}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 589}}";
 			sepNavSelRange = "{259, 83}";
 			sepNavVisRange = "{0, 342}";
 		};
 	};
 	D26A1CFB13083323007B2D43 /* Constants.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1462, 1059}}";
-			sepNavSelRange = "{143, 0}";
-			sepNavVisRange = "{0, 680}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 566}}";
+			sepNavSelRange = "{493, 0}";
+			sepNavVisRange = "{0, 686}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -1472,7 +1571,7 @@
 		fRef = D26A1CFB13083323007B2D43 /* Constants.m */;
 		name = "Constants.m: 10";
 		rLen = 0;
-		rLoc = 680;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 240;
 		vrLoc = 0;
@@ -1556,9 +1655,9 @@
 	};
 	D26A1D9C13084823007B2D43 /* AdilViewModel.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 714}}";
-			sepNavSelRange = "{309, 0}";
-			sepNavVisRange = "{0, 482}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 672}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRange = "{0, 524}";
 		};
 	};
 	D26A1D9F13084943007B2D43 /* IconDownloader.h */ = {
@@ -2443,7 +2542,7 @@
 	};
 	D26A1E611308517E007B2D43 /* AdilTableCellViewModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 594}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 566}}";
 			sepNavSelRange = "{148, 0}";
 			sepNavVisRange = "{0, 601}";
 		};
@@ -3182,7 +3281,7 @@
 		fRef = D26A1CFB13083323007B2D43 /* Constants.m */;
 		name = "Constants.m: 14";
 		rLen = 0;
-		rLoc = 352;
+		rLoc = 354;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 0;
@@ -3667,7 +3766,7 @@
 		rLen = 0;
 		rLoc = 262;
 		rType = 0;
-		vrLen = 435;
+		vrLen = 385;
 		vrLoc = 0;
 	};
 	D2B5129513078977006542D9 /* FastTableViewCell.h */ = {
