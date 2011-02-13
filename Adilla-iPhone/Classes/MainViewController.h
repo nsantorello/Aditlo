@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "GridTable.h"
 #import "GridTableViewController.h"
+#import "ApiCaller.h"
 
 @interface MainViewController : UIViewController {
+	// The grid table containing the image updates.
 	IBOutlet GridTable* gridTable;
+	// Reference to the controller so that it gets retained.
 	IBOutlet GridTableViewController* gtvController;
 	
 	IBOutlet UINavigationBar* topNavBar;

@@ -24,6 +24,10 @@
 		D26A1C8913082590007B2D43 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C8213082590007B2D43 /* SBJsonBase.m */; };
 		D26A1C8A13082590007B2D43 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C8413082590007B2D43 /* SBJsonParser.m */; };
 		D26A1C8B13082590007B2D43 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C8613082590007B2D43 /* SBJsonWriter.m */; };
+		D26A1C91130826B9007B2D43 /* ApiCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */; };
+		D26A1CD113082C59007B2D43 /* Adil.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1CD013082C59007B2D43 /* Adil.m */; };
+		D26A1CFC13083323007B2D43 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1CFB13083323007B2D43 /* Constants.m */; };
+		D26A1D001308347D007B2D43 /* C.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1CFF1308347D007B2D43 /* C.m */; };
 		D2B5104E13075159006542D9 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5104D13075159006542D9 /* sample.jpg */; };
 		D2B5105313075269006542D9 /* sample2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105113075269006542D9 /* sample2.jpg */; };
 		D2B5105413075269006542D9 /* sample3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105213075269006542D9 /* sample3.jpg */; };
@@ -68,6 +72,14 @@
 		D26A1C8413082590007B2D43 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = Lib/JSON/SBJsonParser.m; sourceTree = "<group>"; };
 		D26A1C8513082590007B2D43 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = Lib/JSON/SBJsonWriter.h; sourceTree = "<group>"; };
 		D26A1C8613082590007B2D43 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = Lib/JSON/SBJsonWriter.m; sourceTree = "<group>"; };
+		D26A1C8F130826B9007B2D43 /* ApiCaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiCaller.h; sourceTree = "<group>"; };
+		D26A1C90130826B9007B2D43 /* ApiCaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiCaller.m; sourceTree = "<group>"; };
+		D26A1CCF13082C59007B2D43 /* Adil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adil.h; sourceTree = "<group>"; };
+		D26A1CD013082C59007B2D43 /* Adil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adil.m; sourceTree = "<group>"; };
+		D26A1CFA13083323007B2D43 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D26A1CFB13083323007B2D43 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		D26A1CFE1308347D007B2D43 /* C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C.h; sourceTree = "<group>"; };
+		D26A1CFF1308347D007B2D43 /* C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C.m; sourceTree = "<group>"; };
 		D2B5104D13075159006542D9 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample.jpg; path = Images/sample.jpg; sourceTree = "<group>"; };
 		D2B5105113075269006542D9 /* sample2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample2.jpg; path = Images/sample2.jpg; sourceTree = "<group>"; };
 		D2B5105213075269006542D9 /* sample3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample3.jpg; path = Images/sample3.jpg; sourceTree = "<group>"; };
@@ -98,8 +110,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D26A1C6B13082249007B2D43 /* API Objects */,
-				D2B511C313077F49006542D9 /* Faster Scrolling */,
+				D26A1CCE13082C4F007B2D43 /* Core Objects */,
+				D26A1C8E13082649007B2D43 /* API */,
 				D2B5114213077941006542D9 /* Detail View */,
 				D21235961306A4670024D902 /* Main View */,
 				D212350C130697400024D902 /* Grid Table */,
@@ -162,6 +174,7 @@
 		D212350C130697400024D902 /* Grid Table */ = {
 			isa = PBXGroup;
 			children = (
+				D2B511C313077F49006542D9 /* Faster Scrolling */,
 				D212350D130697650024D902 /* GridTableViewController.h */,
 				D212350E130697650024D902 /* GridTableViewController.m */,
 				D2123512130697790024D902 /* GridTableCell.h */,
@@ -183,13 +196,13 @@
 			name = "Main View";
 			sourceTree = "<group>";
 		};
-		D26A1C6B13082249007B2D43 /* API Objects */ = {
+		D26A1C6B13082249007B2D43 /* Result Objects */ = {
 			isa = PBXGroup;
 			children = (
 				D26A1C6C13082269007B2D43 /* TodayResult.h */,
 				D26A1C6D13082269007B2D43 /* TodayResult.m */,
 			);
-			name = "API Objects";
+			name = "Result Objects";
 			sourceTree = "<group>";
 		};
 		D26A1C75130824C6007B2D43 /* JSON */ = {
@@ -208,6 +221,37 @@
 				D26A1C8613082590007B2D43 /* SBJsonWriter.m */,
 			);
 			name = JSON;
+			sourceTree = "<group>";
+		};
+		D26A1C8E13082649007B2D43 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D26A1C6B13082249007B2D43 /* Result Objects */,
+				D26A1C8F130826B9007B2D43 /* ApiCaller.h */,
+				D26A1C90130826B9007B2D43 /* ApiCaller.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		D26A1CCE13082C4F007B2D43 /* Core Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D26A1CFD1308346E007B2D43 /* Constants */,
+				D26A1CCF13082C59007B2D43 /* Adil.h */,
+				D26A1CD013082C59007B2D43 /* Adil.m */,
+			);
+			name = "Core Objects";
+			sourceTree = "<group>";
+		};
+		D26A1CFD1308346E007B2D43 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D26A1CFA13083323007B2D43 /* Constants.h */,
+				D26A1CFB13083323007B2D43 /* Constants.m */,
+				D26A1CFE1308347D007B2D43 /* C.h */,
+				D26A1CFF1308347D007B2D43 /* C.m */,
+			);
+			name = Constants;
 			sourceTree = "<group>";
 		};
 		D2B5104C1307514D006542D9 /* Images */ = {
@@ -323,6 +367,10 @@
 				D26A1C8913082590007B2D43 /* SBJsonBase.m in Sources */,
 				D26A1C8A13082590007B2D43 /* SBJsonParser.m in Sources */,
 				D26A1C8B13082590007B2D43 /* SBJsonWriter.m in Sources */,
+				D26A1C91130826B9007B2D43 /* ApiCaller.m in Sources */,
+				D26A1CD113082C59007B2D43 /* Adil.m in Sources */,
+				D26A1CFC13083323007B2D43 /* Constants.m in Sources */,
+				D26A1D001308347D007B2D43 /* C.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,6 +27,8 @@
 {
 	[self drawLogoInTopNav];
 	
+	[ApiCaller getJsonFromUrl:[C todayUrl]];
+	
 	[super viewWillAppear:animated];
 }
 

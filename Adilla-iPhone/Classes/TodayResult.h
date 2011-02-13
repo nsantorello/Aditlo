@@ -7,10 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Adil.h"
 
-
-@interface TodayResult : NSObject {
-
+@interface TodayResult : NSObject
+{
+	NSMutableArray* todaysAdils;
 }
+
+@property (nonatomic, retain) NSMutableArray* todaysAdils;
+
+- (id)initFromArray:(NSArray*)adils;
 
 @end
