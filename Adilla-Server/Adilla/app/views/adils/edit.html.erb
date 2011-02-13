@@ -1,0 +1,28 @@
+<h1>Editing adil</h1>
+
+<% form_for(@adil) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :video_url %><br />
+    <%= f.text_field :video_url %>
+  </p>
+  <p>
+    <%= f.label :created %><br />
+    <%= f.datetime_select :created %>
+  </p>
+  <p>
+    <%= f.label :thumb_104 %><br />
+    <%= f.text_field :thumb_104 %>
+  </p>
+  <p>
+    <%= f.label :thumb_208 %><br />
+    <%= f.text_field :thumb_208 %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @adil %> |
+<%= link_to 'Back', adils_path %>

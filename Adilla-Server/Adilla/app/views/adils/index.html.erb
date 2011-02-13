@@ -1,0 +1,26 @@
+<h1>Listing adils</h1>
+
+<table>
+  <tr>
+    <th>Video url</th>
+    <th>Created</th>
+    <th>Thumb 104</th>
+    <th>Thumb 208</th>
+  </tr>
+
+<% @adils.each do |adil| %>
+  <tr>
+    <td><%=h adil.video_url %></td>
+    <td><%=h adil.created %></td>
+    <td><%=h adil.thumb_104 %></td>
+    <td><%=h adil.thumb_208 %></td>
+    <td><%= link_to 'Show', adil %></td>
+    <td><%= link_to 'Edit', edit_adil_path(adil) %></td>
+    <td><%= link_to 'Destroy', adil, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New adil', new_adil_path %>
