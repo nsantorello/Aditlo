@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GridTableCell.h"
 
 
 @interface GridTable : UITableView {

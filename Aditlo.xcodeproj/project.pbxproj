@@ -21,6 +21,8 @@
 		D2B5104E13075159006542D9 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5104D13075159006542D9 /* sample.jpg */; };
 		D2B5105313075269006542D9 /* sample2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105113075269006542D9 /* sample2.jpg */; };
 		D2B5105413075269006542D9 /* sample3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105213075269006542D9 /* sample3.jpg */; };
+		D2B5106413075DBA006542D9 /* adilla_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B5106313075DBA006542D9 /* adilla_logo.png */; };
+		D2B510821307616D006542D9 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B510811307616D006542D9 /* MainView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		D2B5104D13075159006542D9 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample.jpg; path = Images/sample.jpg; sourceTree = "<group>"; };
 		D2B5105113075269006542D9 /* sample2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample2.jpg; path = Images/sample2.jpg; sourceTree = "<group>"; };
 		D2B5105213075269006542D9 /* sample3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample3.jpg; path = Images/sample3.jpg; sourceTree = "<group>"; };
+		D2B5106313075DBA006542D9 /* adilla_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adilla_logo.png; path = Images/adilla_logo.png; sourceTree = "<group>"; };
+		D2B510811307616D006542D9 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 			children = (
 				D21235971306A4A00024D902 /* MainViewController.h */,
 				D21235981306A4A00024D902 /* MainViewController.m */,
+				D2B510811307616D006542D9 /* MainView.xib */,
 			);
 			name = "Main View";
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 		D2B5104C1307514D006542D9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D2B5106313075DBA006542D9 /* adilla_logo.png */,
 				D2B5105113075269006542D9 /* sample2.jpg */,
 				D2B5105213075269006542D9 /* sample3.jpg */,
 				D2B5104D13075159006542D9 /* sample.jpg */,
@@ -209,6 +215,8 @@
 				D2B5104E13075159006542D9 /* sample.jpg in Resources */,
 				D2B5105313075269006542D9 /* sample2.jpg in Resources */,
 				D2B5105413075269006542D9 /* sample3.jpg in Resources */,
+				D2B5106413075DBA006542D9 /* adilla_logo.png in Resources */,
+				D2B510821307616D006542D9 /* MainView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "GridTable.h"
+#import "GridTableViewController.h"
 
 @interface MainViewController : UIViewController {
 	IBOutlet GridTable* gridTable;
+	IBOutlet GridTableViewController* gtvController;
 }
 
 @end
