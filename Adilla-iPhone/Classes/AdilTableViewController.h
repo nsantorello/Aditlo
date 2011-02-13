@@ -21,6 +21,6 @@
 @property (nonatomic, retain) NSMutableDictionary *imageDownloadsInProgress;
 
 - (void)setAdils:(NSArray*)adils;
-- (void)startIconDownload:(AdilViewModel *)adilvm forIndexPath:(NSIndexPath *)indexPath;
+- (void)startIconDownload:(AdilViewModel *)adilvm forIndex:(NSNumber *)indexPath;
 
 @end

@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>D262F03F1308A1D100E75A0F</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>AdilTableViewController.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>D262F0401308A1D100E75A0F</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>AdilTableViewController.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>D262F06E1308A2C500E75A0F</string>
+						<key>history</key>
+						<array>
+							<string>D262F02D13089FE600E75A0F</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1521, 840}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>0 147 1521 881 0 0 1680 1028 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -286,14 +327,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>36</integer>
+									<integer>37</integer>
 									<integer>32</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 169}, {186, 809}}</string>
+							<string>{{0, 0}, {186, 809}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -330,7 +371,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AdilTableViewController.h</string>
+								<string>AdilTableViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -338,11 +379,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AdilTableViewController.h</string>
+										<string>AdilTableViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D262F00013089BAB00E75A0F</string>
+										<string>D262F06D1308A2C500E75A0F</string>
 										<key>history</key>
 										<array>
 											<string>D2B510B713076378006542D9</string>
@@ -370,8 +411,6 @@
 											<string>D26A1EED13085EB1007B2D43</string>
 											<string>D26A1EFF13085F64007B2D43</string>
 											<string>D262EDBD1308608200E75A0F</string>
-											<string>D262EEAC13086E3700E75A0F</string>
-											<string>D262EEAD13086E3700E75A0F</string>
 											<string>D262EEC813086E6000E75A0F</string>
 											<string>D262EF081308851600E75A0F</string>
 											<string>D262EF091308851600E75A0F</string>
@@ -383,12 +422,14 @@
 											<string>D262EF9F1308931B00E75A0F</string>
 											<string>D262EFA8130894F200E75A0F</string>
 											<string>D262EFA9130894F200E75A0F</string>
-											<string>D262EFAA130894F200E75A0F</string>
-											<string>D262EFED13089B4F00E75A0F</string>
-											<string>D262EFF813089B9900E75A0F</string>
-											<string>D262EFF913089B9900E75A0F</string>
-											<string>D262EFFE13089BAB00E75A0F</string>
-											<string>D262EFFF13089BAB00E75A0F</string>
+											<string>D262F01A13089D2300E75A0F</string>
+											<string>D262F01B13089D2300E75A0F</string>
+											<string>D262F03A1308A1D100E75A0F</string>
+											<string>D262F03B1308A1D100E75A0F</string>
+											<string>D262F0541308A23D00E75A0F</string>
+											<string>D262F0551308A23D00E75A0F</string>
+											<string>D262F0561308A23D00E75A0F</string>
+											<string>D262F0571308A23D00E75A0F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -586,13 +627,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D262EFFC13089B9900E75A0F</string>
+		<string>D262F06F1308A2C500E75A0F</string>
 		<string>D262EF5613088A8800E75A0F</string>
 		<string>D262EEB913086E3700E75A0F</string>
 		<string>D262EEBA13086E3700E75A0F</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>D2123507130695400024D902</string>
-		<string>1C78EAAD065D492600B07095</string>
+		<string>D262F03F1308A1D100E75A0F</string>
 		<string>/Users/nsantorello/Documents/Aditlo/Adilla-iPhone/Aditlo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -688,7 +730,7 @@
 			<key>WindowToolGUID</key>
 			<string>D2123507130695400024D902</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -969,7 +1011,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

@@ -83,14 +83,23 @@
 		cell = [[[GridTableCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
     }    
 	
-	AdilTableCellViewModel* adiltcvm = [adiltcvms objectAtIndex:indexPath.row];
+	int index = indexPath.row;
+	AdilTableCellViewModel* adiltcvm = [adiltcvms objectAtIndex:index];
 	// Only load cached images.
 	if (!adiltcvm.adilvm1.thumb104)
 	{
-		[self startIconDownload:adiltcvm.adilvm1 forIndexPath:indexPath];            
+		[self startIconDownload:adiltcvm.adilvm1 forIndex:[NSNumber numberWithInt:(index * 3)]];            
+	}
+	if (!adiltcvm.adilvm2.thumb104)
+	{
+		[self startIconDownload:adiltcvm.adilvm2 forIndex:[NSNumber numberWithInt:((index * 3) + 1)]];            
+	}
+	if (!adiltcvm.adilvm3.thumb104)
+	{
+		[self startIconDownload:adiltcvm.adilvm3 forIndex:[NSNumber numberWithInt:((index * 3) + 2)]];            
 	}
 	
-	[cell setAdilTableCellViewModel:adiltcvm];
+	[cell setViewModel:adiltcvm];
     
     return cell;
 }
@@ -106,31 +115,32 @@
 #pragma mark -
 #pragma mark Table cell image support
 
-- (void)startIconDownload:(AdilViewModel *)adilvm forIndexPath:(NSIndexPath *)indexPath
+- (void)startIconDownload:(AdilViewModel *)adilvm forIndex:(NSNumber *)index
 {
-    IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:indexPath];
+    IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:index];
     if (iconDownloader == nil) 
     {
         iconDownloader = [[IconDownloader alloc] init];
         iconDownloader.adilvm = adilvm;
-        iconDownloader.indexPathInTableView = indexPath;
+        iconDownloader.index = index;
         iconDownloader.delegate = self;
-        [imageDownloadsInProgress setObject:iconDownloader forKey:indexPath];
+        [imageDownloadsInProgress setObject:iconDownloader forKey:index];
         [iconDownloader startDownload];
         [iconDownloader release];   
     }
 }
 
 // called by our ImageDownloader when an icon is ready to be displayed
-- (void)thumbDidLoad:(NSIndexPath *)indexPath
+- (void)thumbDidLoad:(NSNumber *)index
 {
-    IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:indexPath];
+    IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:index];
     if (iconDownloader != nil)
     {
-        GridTableCell *cell = (GridTableCell*)[self.tableView cellForRowAtIndexPath:iconDownloader.indexPathInTableView];
+		int row = ([index intValue] / 3);
+        GridTableCell *cell = (GridTableCell*)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:row inSection:0]];
         
-        // Display the newly loaded image
-		[cell setAdilTableCellViewModel:[cell getViewModel]];
+        // Display the newly loaded image by triggering a setNeedsDisplay by reassigning the view model of the cell.
+		[cell setViewModel:[cell getViewModel]];
     }
 }
 

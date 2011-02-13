@@ -37,7 +37,7 @@ static UIColor* nilThumbColor = nil;
 // the reason I don't synthesize setters for these is because I need to 
 // call -setNeedsDisplay when they change
 
-- (void)setAdilTableCellViewModel:(AdilTableCellViewModel *)vm
+- (void)setViewModel:(AdilTableCellViewModel *)vm
 {
 	[adiltcvm release];
 	adiltcvm = vm;

@@ -58,7 +58,7 @@
 @interface IconDownloader : NSObject
 {
     AdilViewModel *adilvm;
-    NSIndexPath *indexPathInTableView;
+    NSNumber *index;
     id <IconDownloaderDelegate> delegate;
     
     NSMutableData *activeDownload;
@@ -66,7 +66,7 @@
 }
 
 @property (nonatomic, retain) AdilViewModel *adilvm;
-@property (nonatomic, retain) NSIndexPath *indexPathInTableView;
+@property (nonatomic, assign) NSNumber *index;
 @property (nonatomic, assign) id <IconDownloaderDelegate> delegate;
 
 @property (nonatomic, retain) NSMutableData *activeDownload;
@@ -79,6 +79,6 @@
 
 @protocol IconDownloaderDelegate 
 
-- (void)thumbDidLoad:(NSIndexPath *)indexPath;
+- (void)thumbDidLoad:(NSNumber *)indexPath;
 
 @end

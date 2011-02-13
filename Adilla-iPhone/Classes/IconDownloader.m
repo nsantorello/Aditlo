@@ -60,7 +60,7 @@
 @implementation IconDownloader
 
 @synthesize adilvm;
-@synthesize indexPathInTableView;
+@synthesize index;
 @synthesize delegate;
 @synthesize activeDownload;
 @synthesize imageConnection;
@@ -70,7 +70,7 @@
 - (void)dealloc
 {
     [adilvm release];
-    [indexPathInTableView release];
+    [index release];
     
     [activeDownload release];
     
@@ -142,7 +142,7 @@
     self.imageConnection = nil;
         
     // call our delegate and tell it that our icon is ready for display
-    [delegate thumbDidLoad:self.indexPathInTableView];
+    [delegate thumbDidLoad:index];
 }
 
 @end
