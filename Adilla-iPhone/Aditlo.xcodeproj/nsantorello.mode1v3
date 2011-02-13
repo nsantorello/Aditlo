@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -264,23 +266,24 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>D2B5104C1307514D006542D9</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>D26A1C6B13082249007B2D43</string>
 								<string>D2B511C313077F49006542D9</string>
 								<string>D2B5114213077941006542D9</string>
-								<string>D2B510D5130767A3006542D9</string>
 								<string>D21235961306A4670024D902</string>
 								<string>D212350C130697400024D902</string>
+								<string>29B97315FDCFA39411CA2CEA</string>
+								<string>D2B5104C1307514D006542D9</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>22</integer>
-									<integer>20</integer>
-									<integer>7</integer>
+									<integer>39</integer>
+									<integer>38</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -315,14 +318,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GridTableViewController.m</string>
+								<string>TodayResult.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,11 +331,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GridTableViewController.m</string>
+										<string>TodayResult.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D26A1C681307A345007B2D43</string>
+										<string>D26A1C7B130824CE007B2D43</string>
 										<key>history</key>
 										<array>
 											<string>D2B510B713076378006542D9</string>
@@ -355,7 +356,10 @@
 											<string>D26A1C511307A258007B2D43</string>
 											<string>D26A1C651307A345007B2D43</string>
 											<string>D26A1C661307A345007B2D43</string>
-											<string>D26A1C671307A345007B2D43</string>
+											<string>D26A1C76130824CE007B2D43</string>
+											<string>D26A1C77130824CE007B2D43</string>
+											<string>D26A1C79130824CE007B2D43</string>
+											<string>D26A1C7A130824CE007B2D43</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -553,7 +557,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D26A1C691307A345007B2D43</string>
 		<string>D26A1C571307A258007B2D43</string>
 		<string>D26A1C4613079F1E007B2D43</string>
 		<string>1C78EAAD065D492600B07095</string>
