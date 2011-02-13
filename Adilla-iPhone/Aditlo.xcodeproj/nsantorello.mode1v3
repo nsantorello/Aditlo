@@ -278,8 +278,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>33</integer>
-									<integer>31</integer>
+									<integer>22</integer>
+									<integer>20</integer>
+									<integer>7</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -314,12 +315,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Aditlo-Info.plist</string>
+								<string>GridTableViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Aditlo-Info.plist</string>
+										<string>GridTableViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D26A1C3A13079F1E007B2D43</string>
+										<string>D26A1C681307A345007B2D43</string>
 										<key>history</key>
 										<array>
 											<string>D2B510B713076378006542D9</string>
@@ -343,16 +346,16 @@
 											<string>D2B5115A13077B1A006542D9</string>
 											<string>D2B5115B13077B1A006542D9</string>
 											<string>D2B51205130785AB006542D9</string>
-											<string>D2B51206130785AB006542D9</string>
-											<string>D2B51285130788D7006542D9</string>
-											<string>D2B51286130788D7006542D9</string>
 											<string>D2B512A213078C14006542D9</string>
 											<string>D2B512A313078C14006542D9</string>
-											<string>D2B512A413078C14006542D9</string>
 											<string>D2B512A513078C14006542D9</string>
 											<string>D2B512B813079D5E006542D9</string>
-											<string>D26A1C3813079F1E007B2D43</string>
-											<string>D26A1C3913079F1E007B2D43</string>
+											<string>D26A1C4F1307A258007B2D43</string>
+											<string>D26A1C501307A258007B2D43</string>
+											<string>D26A1C511307A258007B2D43</string>
+											<string>D26A1C651307A345007B2D43</string>
+											<string>D26A1C661307A345007B2D43</string>
+											<string>D26A1C671307A345007B2D43</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -550,7 +553,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D26A1C4513079F1E007B2D43</string>
+		<string>D26A1C691307A345007B2D43</string>
+		<string>D26A1C571307A258007B2D43</string>
 		<string>D26A1C4613079F1E007B2D43</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>

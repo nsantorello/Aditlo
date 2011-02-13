@@ -36,9 +36,7 @@
 		cell = [[[GridTableCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
     }    
 
-	cell.img1 = [UIImage imageNamed:@"sample.jpg"];
-	cell.img2 = [UIImage imageNamed:@"sample2.jpg"];
-	cell.img3 = [UIImage imageNamed:@"sample3.jpg"];
+	[cell setImg1:[UIImage imageNamed:@"sample.jpg"] andImg2:[UIImage imageNamed:@"sample2.jpg"] andImg3:[UIImage imageNamed:@"sample3.jpg"]];
     
     return cell;
 }

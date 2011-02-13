@@ -10,8 +10,6 @@
 
 @implementation GridTableCell
 
-@synthesize img1, img2, img3;
-
 - (void)dealloc
 {
 	[img1 release];
@@ -45,6 +43,14 @@
 	img3 = img;
 	[img3 retain];
 	[self setNeedsDisplay]; 
+}
+
+- (void)setImg1:(UIImage *)im1 andImg2:(UIImage*)im2 andImg3:(UIImage*)im3
+{
+	[self setImg1:im1];
+	[self setImg2:im2];
+	[self setImg3:im3];
+	[self setSelectionStyle:UITableViewCellSelectionStyleNone];
 }
 
 - (void)drawContentView:(CGRect)r

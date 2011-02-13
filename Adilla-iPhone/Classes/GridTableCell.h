@@ -15,8 +15,6 @@
 	UIImage* img3;
 }
 
-@property (nonatomic, retain) UIImage* img1;
-@property (nonatomic, retain) UIImage* img2;
-@property (nonatomic, retain) UIImage* img3;
+- (void)setImg1:(UIImage *)im1 andImg2:(UIImage*)im2 andImg3:(UIImage*)im3;
 
 @end
