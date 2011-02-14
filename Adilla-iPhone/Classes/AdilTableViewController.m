@@ -56,6 +56,8 @@
 	[self setAdilViewModels:adils];
 	
 	[self setAdilTableCellViewModels:adilvms];
+	
+	[self.tableView reloadData];
 }
 
 #pragma mark -

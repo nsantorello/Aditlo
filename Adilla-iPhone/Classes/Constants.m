@@ -10,15 +10,20 @@
 #define DEV_CONSTANTS 1
 #endif
 
-NSString* const AdillaUrl_Server = @"http://adil.la/";
+// URL connection constants.
 NSString* const AdillaUrl_Today = @"today.json";
 
 #ifdef DEV_CONSTANTS
-NSString* const AwsDistUrl_Server = @"http://dl-dev.adil.la.s3.amazonaws.com/";
-NSString* const AwsDistUrl_Thumbs = @"thumbs/";
-NSString* const AwsDistUrl_Adils = @"adils/";
+NSString* const AdillaUrl_Server = @"http://adil.la/";//@"http://dev.adil.la";
+NSString* const AwsUrl_Server = @"http://dl-dev.adil.la.s3.amazonaws.com/";
+NSString* const AwsUrl_Thumbs = @"thumbs/";
+NSString* const AwsUrl_Adils = @"adils/";
 #else
-NSString* const AwsDistUrl_Server = @"http://dl.adil.la.s3.amazonaws.com/";
-NSString* const AwsDistUrl_Thumbs = @"thumbs/";
-NSString* const AwsDistUrl_Adils = @"adils/";
+NSString* const AdillaUrl_Server = @"http://adil.la/";
+NSString* const AwsUrl_Server = @"http://dl.adil.la.s3.amazonaws.com/";
+NSString* const AwsUrl_Thumbs = @"thumbs/";
+NSString* const AwsUrl_Adils = @"adils/";
 #endif
+
+// API Caller Async Downloader Keys.
+NSString* const AsyncKey_Today = @"AsyncKey_Today";

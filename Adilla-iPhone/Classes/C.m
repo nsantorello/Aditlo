@@ -23,7 +23,7 @@
 
 + (NSString*)thumbsBaseString
 {
-	return [NSString stringWithFormat:@"%@%@", AwsDistUrl_Server, AwsDistUrl_Thumbs];
+	return [NSString stringWithFormat:@"%@%@", AwsUrl_Server, AwsUrl_Thumbs];
 }
 
 + (NSURL*)resolveThumbURL:(NSString*)url

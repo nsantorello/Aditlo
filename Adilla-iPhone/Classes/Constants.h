@@ -6,8 +6,12 @@
 //  Copyright 2011 Noah Santorello. All rights reserved.
 //
 
+// URL connection constants.
 extern NSString* const AdillaUrl_Server;
 extern NSString* const AdillaUrl_Today;
-extern NSString* const AwsDistUrl_Server;
-extern NSString* const AwsDistUrl_Thumbs;
-extern NSString* const AwsDistUrl_Adils;
+extern NSString* const AwsUrl_Server;
+extern NSString* const AwsUrl_Thumbs;
+extern NSString* const AwsUrl_Adils;
+
+// API Caller keys to distinguish callbacks which call was made.
+extern NSString* const AsyncKey_Today;

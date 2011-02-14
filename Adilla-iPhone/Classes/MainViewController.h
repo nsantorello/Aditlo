@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "GridTable.h"
 #import "AdilTableViewController.h"
+#import "ApiCaller.h"
 
-@interface MainViewController : UIViewController {
+@interface MainViewController : UIViewController<ApiResponseDelegate> {
+	ApiCaller* api;
+	
 	// The grid table containing the image updates.
 	IBOutlet GridTable* gridTable;
 	// Reference to the controller so that it gets retained.
@@ -18,5 +21,9 @@
 	
 	IBOutlet UINavigationBar* topNavBar;
 }
+
+// ApiResponseDelegate methods.
+- (void)connectionTimedOut;
+- (void)fetchedToday:(TodayResult*)todayResult;
 
 @end

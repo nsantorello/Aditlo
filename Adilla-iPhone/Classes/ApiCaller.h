@@ -9,20 +9,27 @@
 #import <Foundation/Foundation.h>
 #import "JSON.h"
 #import "ResultHeaders.h"
+#import "AsyncDownloader.h"
 
-@interface ApiCaller : NSObject {
+@protocol  ApiResponseDelegate;
 
+@interface ApiCaller : NSObject<AsyncDownloaderDelegate> {
+	AsyncDownloader* downloader;
+	id<ApiResponseDelegate> delegate;
 }
 
-+ (TodayResult*)fetchToday;
+@property (nonatomic, assign) id <ApiResponseDelegate> delegate;
+
+- (id)initWithDelegate:(id)del;
+- (void)fetchToday;
 
 @end
 
-@protocol ApiResponseDelegate
+@protocol ApiResponseDelegate<NSObject>
 
 @optional
-- (void)connectionTimedOut:(NSInteger)callType;
-- (void)didFetchToday:(TodayResult*)todayResult;
+- (void)connectionTimedOut;
+- (void)fetchedToday:(TodayResult*)todayResult;
 
 @end
 

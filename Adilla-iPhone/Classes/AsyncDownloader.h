@@ -25,7 +25,8 @@
 @property (nonatomic, retain) NSMutableData *activeDownload;
 @property (nonatomic, retain) NSURLConnection *dlConnection;
 
-- (void)startDownload:(NSURL*)url forKey:(NSObject*)dlKey withDelegate:(id)del;
+- (id)initWithDelegate:(id)del;
+- (void)startDownload:(NSURL*)url forKey:(NSObject*)dlKey;
 - (void)cancelDownload;
 
 @end

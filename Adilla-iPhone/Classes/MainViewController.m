@@ -13,12 +13,13 @@
 
 - (void)setupAdilTableViewController
 {
-	[adilController setAdils:[ApiCaller fetchToday].todaysAdils];
+	[api fetchToday];
 	adilController.imageDownloadsInProgress = [NSMutableDictionary dictionary];
 }
 
 - (void)viewDidLoad
 {
+	api = [[ApiCaller alloc] initWithDelegate:self];
 	[self setupAdilTableViewController];
 	[super viewDidLoad];
 }
@@ -42,6 +43,16 @@
 	[super viewWillAppear:animated];
 }
 
+- (void)connectionTimedOut
+{
+	// Todo: (ns): Display a message eventually (but just do nothing for now).
+}
+
+- (void)fetchedToday:(TodayResult*)todayResult
+{
+	[adilController setAdils:todayResult.todaysAdils];
+}
+
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
@@ -57,6 +68,7 @@
 
 
 - (void)dealloc {
+	[api release];
 	[gridTable release];
 	[adilController release];
 	[topNavBar release];

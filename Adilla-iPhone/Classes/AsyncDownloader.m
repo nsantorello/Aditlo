@@ -17,6 +17,13 @@
 
 #pragma mark
 
+- (id)initWithDelegate:(id)del
+{
+	self = [super init];
+	self.delegate = del;
+	return self;
+}
+
 - (void)dealloc
 {
     [key release];
@@ -29,11 +36,10 @@
     [super dealloc];
 }
 
-- (void)startDownload:(NSURL*)url forKey:(NSObject*)dlKey withDelegate:(id)del;
+- (void)startDownload:(NSURL*)url forKey:(NSObject*)dlKey
 {
     self.activeDownload = [NSMutableData data];
 	self.key = dlKey;
-	self.delegate = del;
     // alloc+init and start an NSURLConnection; release on completion/failure
     NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:
                              [NSURLRequest requestWithURL:url] delegate:self];
