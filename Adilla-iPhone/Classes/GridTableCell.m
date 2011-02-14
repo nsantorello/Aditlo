@@ -64,6 +64,25 @@ static UIColor* nilThumbColor = nil;
 	}
 }
 
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	CGPoint touch = [[touches anyObject] locationInView:self];
+	// There is so little space between images in the cell that we'll ignore the whitespace.
+	int x = touch.x;
+	if (x < 108)
+	{
+		NSLog(@"Clicked image 1!");
+	}
+	else if (x < 214)
+	{
+		NSLog(@"Clicked image 2!");
+	}
+	else
+	{
+		NSLog(@"Clicked image 3!");
+	}
+}
+
 - (void)drawContentView:(CGRect)r
 {
 	CGContextRef context = UIGraphicsGetCurrentContext();
