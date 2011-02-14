@@ -20,12 +20,12 @@
 }
 
 @property (nonatomic, retain) NSObject *key;
-@property (nonatomic, assign) id <IconDownloaderDelegate> delegate;
+@property (nonatomic, assign) id <AsyncDownloaderDelegate> delegate;
 
 @property (nonatomic, retain) NSMutableData *activeDownload;
 @property (nonatomic, retain) NSURLConnection *dlConnection;
 
-- (void)startDownload:(NSURL*)url withKey:(NSObject*)dlKey;
+- (void)startDownload:(NSURL*)url forKey:(NSObject*)dlKey withDelegate:(id)del;
 - (void)cancelDownload;
 
 @end

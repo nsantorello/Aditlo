@@ -17,3 +17,12 @@
 + (TodayResult*)fetchToday;
 
 @end
+
+@protocol ApiResponseDelegate
+
+@optional
+- (void)connectionTimedOut:(NSInteger)callType;
+- (void)didFetchToday:(TodayResult*)todayResult;
+
+@end
+

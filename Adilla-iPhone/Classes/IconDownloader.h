@@ -50,27 +50,23 @@
   
  */
 
+#import "AsyncDownloader.h"
+
 @class AdilViewModel;
-@class AdilTableViewController;
 
 @protocol IconDownloaderDelegate;
 
-@interface IconDownloader : NSObject
+@interface IconDownloader : NSObject<AsyncDownloaderDelegate>
 {
     AdilViewModel *adilvm;
     NSNumber *index;
+	AsyncDownloader* downloader;
     id <IconDownloaderDelegate> delegate;
-    
-    NSMutableData *activeDownload;
-    NSURLConnection *imageConnection;
 }
 
 @property (nonatomic, retain) AdilViewModel *adilvm;
 @property (nonatomic, assign) NSNumber *index;
 @property (nonatomic, assign) id <IconDownloaderDelegate> delegate;
-
-@property (nonatomic, retain) NSMutableData *activeDownload;
-@property (nonatomic, retain) NSURLConnection *imageConnection;
 
 - (void)startDownload;
 - (void)cancelDownload;

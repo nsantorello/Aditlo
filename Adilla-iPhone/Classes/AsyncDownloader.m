@@ -29,7 +29,7 @@
     [super dealloc];
 }
 
-- (void)startDownload:(NSURL*)url withKey:(NSObject*)dlKey withDelegate:(id)del;
+- (void)startDownload:(NSURL*)url forKey:(NSObject*)dlKey withDelegate:(id)del;
 {
     self.activeDownload = [NSMutableData data];
 	self.key = dlKey;

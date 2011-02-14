@@ -62,8 +62,6 @@
 @synthesize adilvm;
 @synthesize index;
 @synthesize delegate;
-@synthesize activeDownload;
-@synthesize imageConnection;
 
 #pragma mark
 
@@ -72,54 +70,33 @@
     [adilvm release];
     [index release];
     
-    [activeDownload release];
-    
-    [imageConnection cancel];
-    [imageConnection release];
+    [downloader cancelDownload];
+	[downloader release];
     
     [super dealloc];
 }
 
 - (void)startDownload
 {
-    self.activeDownload = [NSMutableData data];
-    // alloc+init and start an NSURLConnection; release on completion/failure
+	downloader = [[AsyncDownloader alloc] init];
 	NSURL* thumbUrl = [C resolveThumbURL:adilvm.adil.thumb104];
-    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:
-                             [NSURLRequest requestWithURL:thumbUrl] delegate:self];
-    self.imageConnection = conn;
-    [conn release];
+	[downloader startDownload:thumbUrl forKey:nil withDelegate:self];
 }
 
 - (void)cancelDownload
 {
-    [self.imageConnection cancel];
-    self.imageConnection = nil;
-    self.activeDownload = nil;
+    [downloader cancelDownload];
+	[downloader release];
 }
 
 
 #pragma mark -
 #pragma mark Download support (NSURLConnectionDelegate)
 
-- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+- (void)didDownload:(NSData*)dledData forKey:(NSObject*)key
 {
-    [self.activeDownload appendData:data];
-}
-
-- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
-{
-	// Clear the activeDownload property to allow later attempts
-    self.activeDownload = nil;
-    
-    // Release the connection now that it's finished
-    self.imageConnection = nil;
-}
-
-- (void)connectionDidFinishLoading:(NSURLConnection *)connection
-{
-    // Set appIcon and clear temporary data/image
-    UIImage *image = [[UIImage alloc] initWithData:self.activeDownload];
+	// Set appIcon and clear temporary data/image
+    UIImage *image = [[UIImage alloc] initWithData:dledData];
     
     if (image.size.width != kThumb104Height && image.size.height != kThumb104Height)
 	{
@@ -134,15 +111,14 @@
     {
         self.adilvm.thumb104 = image;
     }
-    
-    self.activeDownload = nil;
-    [image release];
-    
-    // Release the connection now that it's finished
-    self.imageConnection = nil;
-        
+	
     // call our delegate and tell it that our icon is ready for display
     [delegate thumbDidLoad:index];
+}
+
+- (void)downloadFailedForKey:(NSObject*)key
+{
+	
 }
 
 @end

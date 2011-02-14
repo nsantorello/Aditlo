@@ -332,6 +332,49 @@
 			D262F0961308C5DC00E75A0F /* PBXTextBookmark */ = D262F0961308C5DC00E75A0F /* PBXTextBookmark */;
 			D262F0971308C63800E75A0F /* PBXTextBookmark */ = D262F0971308C63800E75A0F /* PBXTextBookmark */;
 			D262F0981308C63800E75A0F /* PBXTextBookmark */ = D262F0981308C63800E75A0F /* PBXTextBookmark */;
+			D262F09B1308C8D300E75A0F /* PBXTextBookmark */ = D262F09B1308C8D300E75A0F /* PBXTextBookmark */;
+			D262F09C1308C8D300E75A0F /* XCBuildMessageTextBookmark */ = D262F09C1308C8D300E75A0F /* XCBuildMessageTextBookmark */;
+			D262F09D1308C8D300E75A0F /* PBXTextBookmark */ = D262F09D1308C8D300E75A0F /* PBXTextBookmark */;
+			D262F0A01308C8D900E75A0F /* PBXTextBookmark */ = D262F0A01308C8D900E75A0F /* PBXTextBookmark */;
+			D262F0A11308C8D900E75A0F /* PBXTextBookmark */ = D262F0A11308C8D900E75A0F /* PBXTextBookmark */;
+			D262F0A21308C8D900E75A0F /* PBXTextBookmark */ = D262F0A21308C8D900E75A0F /* PBXTextBookmark */;
+			D262F0A31308C8D900E75A0F /* PBXTextBookmark */ = D262F0A31308C8D900E75A0F /* PBXTextBookmark */;
+			D262F0A41308C8D900E75A0F /* XCBuildMessageTextBookmark */ = D262F0A41308C8D900E75A0F /* XCBuildMessageTextBookmark */;
+			D262F0A51308C8D900E75A0F /* PBXTextBookmark */ = D262F0A51308C8D900E75A0F /* PBXTextBookmark */;
+			D262F0A61308C8D900E75A0F /* PBXTextBookmark */ = D262F0A61308C8D900E75A0F /* PBXTextBookmark */;
+			D262F0A71308C8DF00E75A0F /* PBXTextBookmark */ = D262F0A71308C8DF00E75A0F /* PBXTextBookmark */;
+			D262F0A81308C8DF00E75A0F /* XCBuildMessageTextBookmark */ = D262F0A81308C8DF00E75A0F /* XCBuildMessageTextBookmark */;
+			D262F0A91308C8DF00E75A0F /* PBXTextBookmark */ = D262F0A91308C8DF00E75A0F /* PBXTextBookmark */;
+			D262F0B21308CB7800E75A0F /* XCBuildMessageTextBookmark */ = D262F0B21308CB7800E75A0F /* XCBuildMessageTextBookmark */;
+			D262F0B31308CB7800E75A0F /* PBXTextBookmark */ = D262F0B31308CB7800E75A0F /* PBXTextBookmark */;
+			D262F0B81308CBA400E75A0F /* PBXTextBookmark */ = D262F0B81308CBA400E75A0F /* PBXTextBookmark */;
+			D262F0B91308CBA400E75A0F /* PBXTextBookmark */ = D262F0B91308CBA400E75A0F /* PBXTextBookmark */;
+			D262F0BA1308CBA400E75A0F /* PBXTextBookmark */ = D262F0BA1308CBA400E75A0F /* PBXTextBookmark */;
+			D262F0BB1308CBA400E75A0F /* PBXTextBookmark */ = D262F0BB1308CBA400E75A0F /* PBXTextBookmark */;
+			D262F0BC1308CBA400E75A0F /* PBXTextBookmark */ = D262F0BC1308CBA400E75A0F /* PBXTextBookmark */;
+			D262F0BD1308CBA400E75A0F /* PBXTextBookmark */ = D262F0BD1308CBA400E75A0F /* PBXTextBookmark */;
+			D262F0BE1308CBA400E75A0F /* PBXTextBookmark */ = D262F0BE1308CBA400E75A0F /* PBXTextBookmark */;
+			D262F0BF1308CBA400E75A0F /* PBXTextBookmark */ = D262F0BF1308CBA400E75A0F /* PBXTextBookmark */;
+			D262F0C71308CBC000E75A0F /* PBXTextBookmark */ = D262F0C71308CBC000E75A0F /* PBXTextBookmark */;
+			D262F0C81308CBC000E75A0F /* PBXTextBookmark */ = D262F0C81308CBC000E75A0F /* PBXTextBookmark */;
+			D262F0C91308CBC000E75A0F /* PBXTextBookmark */ = D262F0C91308CBC000E75A0F /* PBXTextBookmark */;
+			D262F0CA1308CBC000E75A0F /* PBXTextBookmark */ = D262F0CA1308CBC000E75A0F /* PBXTextBookmark */;
+			D262F0CB1308CBC000E75A0F /* PBXTextBookmark */ = D262F0CB1308CBC000E75A0F /* PBXTextBookmark */;
+			D262F0D11308CBEE00E75A0F /* PBXTextBookmark */ = D262F0D11308CBEE00E75A0F /* PBXTextBookmark */;
+			D262F0D21308CBEE00E75A0F /* PBXTextBookmark */ = D262F0D21308CBEE00E75A0F /* PBXTextBookmark */;
+			D262F0D31308CBEE00E75A0F /* PBXTextBookmark */ = D262F0D31308CBEE00E75A0F /* PBXTextBookmark */;
+			D262F0D41308CBEE00E75A0F /* PBXTextBookmark */ = D262F0D41308CBEE00E75A0F /* PBXTextBookmark */;
+			D262F0D51308CBEE00E75A0F /* PBXTextBookmark */ = D262F0D51308CBEE00E75A0F /* PBXTextBookmark */;
+			D262F0DB1308CC4500E75A0F /* PBXTextBookmark */ = D262F0DB1308CC4500E75A0F /* PBXTextBookmark */;
+			D262F0DC1308CC4500E75A0F /* PBXTextBookmark */ = D262F0DC1308CC4500E75A0F /* PBXTextBookmark */;
+			D262F0DD1308CC4500E75A0F /* PBXTextBookmark */ = D262F0DD1308CC4500E75A0F /* PBXTextBookmark */;
+			D262F0DE1308CC4500E75A0F /* PBXTextBookmark */ = D262F0DE1308CC4500E75A0F /* PBXTextBookmark */;
+			D262F0DF1308CC4500E75A0F /* PBXTextBookmark */ = D262F0DF1308CC4500E75A0F /* PBXTextBookmark */;
+			D262F0E01308CC4500E75A0F /* PBXTextBookmark */ = D262F0E01308CC4500E75A0F /* PBXTextBookmark */;
+			D262F0E41308CC4F00E75A0F /* PBXTextBookmark */ = D262F0E41308CC4F00E75A0F /* PBXTextBookmark */;
+			D262F0E51308CC4F00E75A0F /* PBXTextBookmark */ = D262F0E51308CC4F00E75A0F /* PBXTextBookmark */;
+			D262F0E61308CC4F00E75A0F /* PBXTextBookmark */ = D262F0E61308CC4F00E75A0F /* PBXTextBookmark */;
+			D262F0E71308CC4F00E75A0F /* PBXTextBookmark */ = D262F0E71308CC4F00E75A0F /* PBXTextBookmark */;
 			D26A1C3813079F1E007B2D43 = D26A1C3813079F1E007B2D43 /* PBXTextBookmark */;
 			D26A1C3913079F1E007B2D43 = D26A1C3913079F1E007B2D43 /* PlistBookmark */;
 			D26A1C3A13079F1E007B2D43 = D26A1C3A13079F1E007B2D43 /* PlistBookmark */;
@@ -697,7 +740,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1410, 567}}";
 			sepNavSelRange = "{836, 0}";
-			sepNavVisRange = "{3, 863}";
+			sepNavVisRange = "{0, 866}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -705,7 +748,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1462, 3360}}";
 			sepNavSelRange = "{4908, 0}";
-			sepNavVisRange = "{2451, 1221}";
+			sepNavVisRange = "{2451, 1220}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -911,8 +954,8 @@
 		comments = "Incompatible Objective-C types 'struct NSString *', expected 'struct NSURL *' when passing argument 1 of 'requestWithURL:' from distinct Objective-C type";
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 88;
+		rLen = 0;
+		rLoc = 82;
 		rType = 1;
 	};
 	D262EEBD13086E3D00E75A0F /* PBXTextBookmark */ = {
@@ -920,7 +963,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 88";
 		rLen = 0;
-		rLoc = 3604;
+		rLoc = 3423;
 		rType = 0;
 		vrLen = 497;
 		vrLoc = 3228;
@@ -940,7 +983,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 88";
 		rLen = 0;
-		rLoc = 3671;
+		rLoc = 3423;
 		rType = 0;
 		vrLen = 715;
 		vrLoc = 3228;
@@ -1000,7 +1043,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 72";
 		rLen = 0;
-		rLoc = 3159;
+		rLoc = 3102;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 4307;
@@ -1010,7 +1053,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 65";
 		rLen = 0;
-		rLoc = 3143;
+		rLoc = 3125;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 2794;
@@ -1100,7 +1143,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 88";
 		rLen = 0;
-		rLoc = 3604;
+		rLoc = 3423;
 		rType = 0;
 		vrLen = 371;
 		vrLoc = 3132;
@@ -1454,7 +1497,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 60";
 		rLen = 13;
-		rLoc = 2988;
+		rLoc = 3010;
 		rType = 0;
 		vrLen = 686;
 		vrLoc = 2854;
@@ -1504,7 +1547,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 72";
 		rLen = 0;
-		rLoc = 3159;
+		rLoc = 3102;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 4307;
@@ -1514,7 +1557,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 72";
 		rLen = 0;
-		rLoc = 3159;
+		rLoc = 3102;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 4307;
@@ -1524,7 +1567,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 101";
 		rLen = 0;
-		rLoc = 3885;
+		rLoc = 3526;
 		rType = 0;
 		vrLen = 802;
 		vrLoc = 3352;
@@ -1534,7 +1577,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 60";
 		rLen = 13;
-		rLoc = 2988;
+		rLoc = 3010;
 		rType = 0;
 		vrLen = 689;
 		vrLoc = 2850;
@@ -1693,7 +1736,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 82";
 		rLen = 0;
-		rLoc = 3552;
+		rLoc = 3400;
 		rType = 0;
 		vrLen = 683;
 		vrLoc = 2944;
@@ -1713,7 +1756,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 121";
 		rLen = 0;
-		rLoc = 4497;
+		rLoc = 4396;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 4307;
@@ -1803,7 +1846,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 87";
 		rLen = 0;
-		rLoc = 3489;
+		rLoc = 3423;
 		rType = 0;
 		vrLen = 773;
 		vrLoc = 3324;
@@ -1813,7 +1856,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 84";
 		rLen = 0;
-		rLoc = 3346;
+		rLoc = 3423;
 		rType = 0;
 		vrLen = 730;
 		vrLoc = 3324;
@@ -1823,7 +1866,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 93";
 		rLen = 0;
-		rLoc = 3743;
+		rLoc = 3426;
 		rType = 0;
 		vrLen = 730;
 		vrLoc = 3324;
@@ -1853,7 +1896,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 93";
 		rLen = 0;
-		rLoc = 3743;
+		rLoc = 3426;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 3329;
@@ -2053,7 +2096,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 82";
 		rLen = 0;
-		rLoc = 3552;
+		rLoc = 3400;
 		rType = 0;
 		vrLen = 682;
 		vrLoc = 2945;
@@ -2303,7 +2346,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 69";
 		rLen = 0;
-		rLoc = 3253;
+		rLoc = 3227;
 		rType = 0;
 		vrLen = 674;
 		vrLoc = 2855;
@@ -2313,7 +2356,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 93";
 		rLen = 0;
-		rLoc = 3743;
+		rLoc = 3426;
 		rType = 0;
 		vrLen = 773;
 		vrLoc = 3324;
@@ -2380,7 +2423,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 73";
 		rLen = 0;
-		rLoc = 3182;
+		rLoc = 3125;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 1913;
@@ -2390,7 +2433,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 82";
 		rLen = 0;
-		rLoc = 3569;
+		rLoc = 3417;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 2548;
@@ -2668,15 +2711,15 @@
 	D262F0821308C0F600E75A0F /* AsyncDownloader.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1410, 798}}";
-			sepNavSelRange = "{852, 0}";
-			sepNavVisRange = "{178, 697}";
+			sepNavSelRange = "{429, 0}";
+			sepNavVisRange = "{178, 718}";
 		};
 	};
 	D262F0831308C0F600E75A0F /* AsyncDownloader.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 1785}}";
-			sepNavSelRange = "{1881, 0}";
-			sepNavVisRange = "{0, 445}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 1827}}";
+			sepNavSelRange = "{556, 0}";
+			sepNavVisRange = "{350, 692}";
 		};
 	};
 	D262F0851308C25D00E75A0F /* PBXTextBookmark */ = {
@@ -2694,7 +2737,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 73";
 		rLen = 0;
-		rLoc = 3182;
+		rLoc = 3125;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 2937;
@@ -2734,7 +2777,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 70";
 		rLen = 0;
-		rLoc = 3296;
+		rLoc = 3270;
 		rType = 0;
 		vrLen = 649;
 		vrLoc = 2854;
@@ -2803,7 +2846,7 @@
 		isa = PBXTextBookmark;
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 53";
-		rLen = 2428;
+		rLen = 1549;
 		rLoc = 2855;
 		rType = 0;
 		vrLen = 747;
@@ -2814,7 +2857,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 70";
 		rLen = 0;
-		rLoc = 3296;
+		rLoc = 3270;
 		rType = 0;
 		vrLen = 649;
 		vrLoc = 2854;
@@ -2824,7 +2867,7 @@
 		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
 		name = "AsyncDownloader.h: 36";
 		rLen = 0;
-		rLoc = 852;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 178;
@@ -2834,7 +2877,7 @@
 		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
 		name = "AsyncDownloader.m: 73";
 		rLen = 0;
-		rLoc = 1805;
+		rLoc = 1804;
 		rType = 0;
 		vrLen = 690;
 		vrLoc = 1157;
@@ -2844,7 +2887,7 @@
 		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
 		name = "AsyncDownloader.m: 69";
 		rLen = 22;
-		rLoc = 1545;
+		rLoc = 1544;
 		rType = 0;
 		vrLen = 649;
 		vrLoc = 906;
@@ -2864,7 +2907,7 @@
 		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
 		name = "AsyncDownloader.m: 82";
 		rLen = 0;
-		rLoc = 1881;
+		rLoc = 1880;
 		rType = 0;
 		vrLen = 445;
 		vrLoc = 0;
@@ -2877,6 +2920,429 @@
 		rLoc = 4908;
 		rType = 0;
 		vrLen = 1221;
+		vrLoc = 2451;
+	};
+	D262F09B1308C8D300E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 93";
+		rLen = 0;
+		rLoc = 2725;
+		rType = 0;
+		vrLen = 734;
+		vrLoc = 2293;
+	};
+	D262F09C1308C8D300E75A0F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Cannot find protocol declaration for 'IconDownloaderDelegate'";
+		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 22;
+		rType = 1;
+	};
+	D262F09D1308C8D300E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		name = "AsyncDownloader.h: 23";
+		rLen = 0;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 509;
+		vrLoc = 213;
+	};
+	D262F0A01308C8D900E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
+		name = "IconDownloader.h: 70";
+		rLen = 0;
+		rLoc = 3270;
+		rType = 0;
+		vrLen = 649;
+		vrLoc = 2854;
+	};
+	D262F0A11308C8D900E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 82";
+		rLen = 0;
+		rLoc = 1880;
+		rType = 0;
+		vrLen = 445;
+		vrLoc = 0;
+	};
+	D262F0A21308C8D900E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
+		name = "ApiCaller.m: 23";
+		rLen = 0;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 769;
+		vrLoc = 159;
+	};
+	D262F0A31308C8D900E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1C8F130826B9007B2D43 /* ApiCaller.h */;
+		name = "ApiCaller.h: 25";
+		rLen = 0;
+		rLoc = 425;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 19;
+	};
+	D262F0A41308C8D900E75A0F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Cannot find protocol declaration for 'IconDownloaderDelegate'";
+		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 22;
+		rType = 1;
+	};
+	D262F0A51308C8D900E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		name = "AsyncDownloader.h: 23";
+		rLen = 0;
+		rLoc = 497;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 39;
+	};
+	D262F0A61308C8D900E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 168";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 2451;
+	};
+	D262F0A71308C8DF00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		name = "AsyncDownloader.h: 23";
+		rLen = 0;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 213;
+	};
+	D262F0A81308C8DF00E75A0F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incomplete implementation of class 'AsyncDownloader'";
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 84;
+		rType = 1;
+	};
+	D262F0A91308C8DF00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 85";
+		rLen = 0;
+		rLoc = 1884;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 1453;
+	};
+	D262F0B21308CB7800E75A0F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "No declaration of property 'key' found in the interface";
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 12;
+		rType = 1;
+	};
+	D262F0B31308CB7800E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 13";
+		rLen = 0;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 330;
+		vrLoc = 25;
+	};
+	D262F0B81308CBA400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 101";
+		rLen = 0;
+		rLoc = 3001;
+		rType = 0;
+		vrLen = 755;
+		vrLoc = 2583;
+	};
+	D262F0B91308CBA400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350D130697650024D902 /* AdilTableViewController.h */;
+		name = "AdilTableViewController.h: 24";
+		rLen = 0;
+		rLoc = 836;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 0;
+	};
+	D262F0BA1308CBA400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		name = "AsyncDownloader.h: 21";
+		rLen = 45;
+		rLoc = 394;
+		rType = 0;
+		vrLen = 718;
+		vrLoc = 178;
+	};
+	D262F0BB1308CBA400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 12";
+		rLen = 17;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 329;
+	};
+	D262F0BC1308CBA400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
+		name = "IconDownloader.h: 59";
+		rLen = 0;
+		rLoc = 3003;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 2883;
+	};
+	D262F0BD1308CBA400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
+		name = "IconDownloader.m: 119";
+		rLen = 0;
+		rLoc = 4394;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 3061;
+	};
+	D262F0BE1308CBA400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
+		name = "IconDownloader.m: 77";
+		rLen = 0;
+		rLoc = 3224;
+		rType = 0;
+		vrLen = 644;
+		vrLoc = 3711;
+	};
+	D262F0BF1308CBA400E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 168";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 2451;
+	};
+	D262F0C71308CBC000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 12";
+		rLen = 17;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 329;
+	};
+	D262F0C81308CBC000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
+		name = "IconDownloader.h: 59";
+		rLen = 0;
+		rLoc = 3003;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 2883;
+	};
+	D262F0C91308CBC000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
+		name = "IconDownloader.m: 110";
+		rLen = 0;
+		rLoc = 4217;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 3091;
+	};
+	D262F0CA1308CBC000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
+		name = "IconDownloader.m: 110";
+		rLen = 0;
+		rLoc = 4217;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 3093;
+	};
+	D262F0CB1308CBC000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 168";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 2451;
+	};
+	D262F0D11308CBEE00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
+		name = "IconDownloader.m: 82";
+		rLen = 0;
+		rLoc = 3357;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 3093;
+	};
+	D262F0D21308CBEE00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		name = "AsyncDownloader.h: 22";
+		rLen = 0;
+		rLoc = 429;
+		rType = 0;
+		vrLen = 718;
+		vrLoc = 178;
+	};
+	D262F0D31308CBEE00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 12";
+		rLen = 17;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 698;
+		vrLoc = 313;
+	};
+	D262F0D41308CBEE00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 12";
+		rLen = 17;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 331;
+	};
+	D262F0D51308CBEE00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 168";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 2451;
+	};
+	D262F0DB1308CC4500E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 12";
+		rLen = 17;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 711;
+		vrLoc = 331;
+	};
+	D262F0DC1308CC4500E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DF713084EFB007B2D43 /* ResultHeaders.h */;
+		name = "ResultHeaders.h: 10";
+		rLen = 0;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 165;
+		vrLoc = 0;
+	};
+	D262F0DD1308CC4500E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
+		name = "IconDownloader.m: 81";
+		rLen = 0;
+		rLoc = 3295;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 3093;
+	};
+	D262F0DE1308CC4500E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
+		name = "IconDownloader.h: 63";
+		rLen = 10;
+		rLoc = 3072;
+		rType = 0;
+		vrLen = 553;
+		vrLoc = 2883;
+	};
+	D262F0DF1308CC4500E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
+		name = "IconDownloader.h: 63";
+		rLen = 0;
+		rLoc = 3083;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 2884;
+	};
+	D262F0E01308CC4500E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 168";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 2451;
+	};
+	D262F0E41308CC4F00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
+		name = "IconDownloader.h: 63";
+		rLen = 0;
+		rLoc = 3083;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 2884;
+	};
+	D262F0E51308CC4F00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		rLen = 0;
+		rLoc = 33;
+		rType = 1;
+	};
+	D262F0E61308CC4F00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 34";
+		rLen = 0;
+		rLoc = 556;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 350;
+	};
+	D262F0E71308CC4F00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 168";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 1220;
 		vrLoc = 2451;
 	};
 	D26A1C3813079F1E007B2D43 /* PBXTextBookmark */ = {
@@ -3171,9 +3637,9 @@
 	};
 	D26A1C8F130826B9007B2D43 /* ApiCaller.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 549}}";
-			sepNavSelRange = "{281, 0}";
-			sepNavVisRange = "{0, 287}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 609}}";
+			sepNavSelRange = "{425, 0}";
+			sepNavVisRange = "{19, 414}";
 		};
 	};
 	D26A1C90130826B9007B2D43 /* ApiCaller.m */ = {
@@ -4079,16 +4545,16 @@
 	};
 	D26A1DC913084C67007B2D43 /* IconDownloader.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 1764}}";
-			sepNavSelRange = "{3296, 0}";
-			sepNavVisRange = "{2854, 649}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 1722}}";
+			sepNavSelRange = "{3083, 0}";
+			sepNavVisRange = "{2884, 552}";
 		};
 	};
 	D26A1DCA13084C67007B2D43 /* IconDownloader.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 3150}}";
-			sepNavSelRange = "{2855, 2428}";
-			sepNavVisRange = "{4536, 747}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 2835}}";
+			sepNavSelRange = "{3295, 0}";
+			sepNavVisRange = "{3093, 551}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -4107,7 +4573,7 @@
 		comments = "'appRecord' undeclared (first use in this function)";
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		rLen = 1;
-		rLoc = 71;
+		rLoc = 69;
 		rType = 1;
 	};
 	D26A1DEC13084DB7007B2D43 /* PBXTextBookmark */ = {
@@ -4115,14 +4581,14 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 72";
 		rLen = 0;
-		rLoc = 3150;
+		rLoc = 3093;
 		rType = 0;
 		vrLen = 359;
 		vrLoc = 2928;
 	};
 	D26A1DF713084EFB007B2D43 /* ResultHeaders.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 571}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 549}}";
 			sepNavSelRange = "{165, 0}";
 			sepNavVisRange = "{0, 165}";
 		};
@@ -4172,7 +4638,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 52";
 		rLen = 0;
-		rLoc = 2854;
+		rLoc = 2883;
 		rType = 0;
 		vrLen = 742;
 		vrLoc = 2791;
@@ -4182,7 +4648,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 134";
 		rLen = 0;
-		rLoc = 4995;
+		rLoc = 4396;
 		rType = 0;
 		vrLen = 899;
 		vrLoc = 4387;
@@ -4274,7 +4740,7 @@
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 179;
+		vrLen = 165;
 		vrLoc = 0;
 	};
 	D26A1E0813084F25007B2D43 /* PBXTextBookmark */ = {
@@ -4308,7 +4774,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 72";
 		rLen = 0;
-		rLoc = 3150;
+		rLoc = 3093;
 		rType = 0;
 		vrLen = 349;
 		vrLoc = 2909;
@@ -4346,7 +4812,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 52";
 		rLen = 0;
-		rLoc = 2854;
+		rLoc = 2883;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 2791;
@@ -4356,7 +4822,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 134";
 		rLen = 0;
-		rLoc = 4995;
+		rLoc = 4396;
 		rType = 0;
 		vrLen = 894;
 		vrLoc = 4387;
@@ -4628,7 +5094,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
 		name = "IconDownloader.m: 134";
 		rLen = 0;
-		rLoc = 4995;
+		rLoc = 4396;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 4322;
@@ -4638,7 +5104,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
 		name = "IconDownloader.h: 52";
 		rLen = 0;
-		rLoc = 2854;
+		rLoc = 2883;
 		rType = 0;
 		vrLen = 720;
 		vrLoc = 2910;
