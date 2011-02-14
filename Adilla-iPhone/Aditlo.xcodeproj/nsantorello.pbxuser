@@ -308,6 +308,30 @@
 			D262F0691308A2BE00E75A0F /* PBXTextBookmark */ = D262F0691308A2BE00E75A0F /* PBXTextBookmark */;
 			D262F06D1308A2C500E75A0F /* PBXTextBookmark */ = D262F06D1308A2C500E75A0F /* PBXTextBookmark */;
 			D262F06E1308A2C500E75A0F /* PBXTextBookmark */ = D262F06E1308A2C500E75A0F /* PBXTextBookmark */;
+			D262F07B1308AD4300E75A0F /* PBXTextBookmark */ = D262F07B1308AD4300E75A0F /* PBXTextBookmark */;
+			D262F07C1308AD4300E75A0F /* PBXTextBookmark */ = D262F07C1308AD4300E75A0F /* PBXTextBookmark */;
+			D262F07F1308ADD000E75A0F /* PBXTextBookmark */ = D262F07F1308ADD000E75A0F /* PBXTextBookmark */;
+			D262F0801308ADD000E75A0F /* PBXTextBookmark */ = D262F0801308ADD000E75A0F /* PBXTextBookmark */;
+			D262F0851308C25D00E75A0F /* PBXTextBookmark */ = D262F0851308C25D00E75A0F /* PBXTextBookmark */;
+			D262F0861308C25D00E75A0F /* PBXTextBookmark */ = D262F0861308C25D00E75A0F /* PBXTextBookmark */;
+			D262F0871308C25D00E75A0F /* PBXTextBookmark */ = D262F0871308C25D00E75A0F /* PBXTextBookmark */;
+			D262F0881308C25D00E75A0F /* PBXTextBookmark */ = D262F0881308C25D00E75A0F /* PBXTextBookmark */;
+			D262F0891308C25D00E75A0F /* PBXTextBookmark */ = D262F0891308C25D00E75A0F /* PBXTextBookmark */;
+			D262F08A1308C25D00E75A0F /* PBXTextBookmark */ = D262F08A1308C25D00E75A0F /* PBXTextBookmark */;
+			D262F08B1308C25D00E75A0F /* PBXTextBookmark */ = D262F08B1308C25D00E75A0F /* PBXTextBookmark */;
+			D262F08C1308C25D00E75A0F /* PBXTextBookmark */ = D262F08C1308C25D00E75A0F /* PBXTextBookmark */;
+			D262F08D1308C25D00E75A0F /* PBXTextBookmark */ = D262F08D1308C25D00E75A0F /* PBXTextBookmark */;
+			D262F08E1308C25D00E75A0F /* PBXTextBookmark */ = D262F08E1308C25D00E75A0F /* PBXTextBookmark */;
+			D262F08F1308C25D00E75A0F /* PBXTextBookmark */ = D262F08F1308C25D00E75A0F /* PBXTextBookmark */;
+			D262F0901308C5DC00E75A0F /* PBXTextBookmark */ = D262F0901308C5DC00E75A0F /* PBXTextBookmark */;
+			D262F0911308C5DC00E75A0F /* PBXTextBookmark */ = D262F0911308C5DC00E75A0F /* PBXTextBookmark */;
+			D262F0921308C5DC00E75A0F /* PBXTextBookmark */ = D262F0921308C5DC00E75A0F /* PBXTextBookmark */;
+			D262F0931308C5DC00E75A0F /* PBXTextBookmark */ = D262F0931308C5DC00E75A0F /* PBXTextBookmark */;
+			D262F0941308C5DC00E75A0F /* PBXTextBookmark */ = D262F0941308C5DC00E75A0F /* PBXTextBookmark */;
+			D262F0951308C5DC00E75A0F /* PBXTextBookmark */ = D262F0951308C5DC00E75A0F /* PBXTextBookmark */;
+			D262F0961308C5DC00E75A0F /* PBXTextBookmark */ = D262F0961308C5DC00E75A0F /* PBXTextBookmark */;
+			D262F0971308C63800E75A0F /* PBXTextBookmark */ = D262F0971308C63800E75A0F /* PBXTextBookmark */;
+			D262F0981308C63800E75A0F /* PBXTextBookmark */ = D262F0981308C63800E75A0F /* PBXTextBookmark */;
 			D26A1C3813079F1E007B2D43 = D26A1C3813079F1E007B2D43 /* PBXTextBookmark */;
 			D26A1C3913079F1E007B2D43 = D26A1C3913079F1E007B2D43 /* PlistBookmark */;
 			D26A1C3A13079F1E007B2D43 = D26A1C3A13079F1E007B2D43 /* PlistBookmark */;
@@ -679,9 +703,9 @@
 	};
 	D212350E130697650024D902 /* AdilTableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1462, 3591}}";
-			sepNavSelRange = "{5021, 0}";
-			sepNavVisRange = "{2551, 1148}";
+			sepNavIntBoundsRect = "{{0, 0}, {1462, 3360}}";
+			sepNavSelRange = "{4908, 0}";
+			sepNavVisRange = "{2451, 1221}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -726,9 +750,9 @@
 	};
 	D21235981306A4A00024D902 /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 1407}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 1365}}";
 			sepNavSelRange = "{416, 0}";
-			sepNavVisRange = "{252, 774}";
+			sepNavVisRange = "{252, 740}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -776,8 +800,8 @@
 		isa = PBXTextBookmark;
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
-		rLen = 37;
-		rLoc = 354;
+		rLen = 0;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 471;
 		vrLoc = 0;
@@ -787,7 +811,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 0;
@@ -996,7 +1020,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 147";
 		rLen = 0;
-		rLoc = 3783;
+		rLoc = 3670;
 		rType = 0;
 		vrLen = 797;
 		vrLoc = 4323;
@@ -1006,7 +1030,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 125";
 		rLen = 0;
-		rLoc = 3543;
+		rLoc = 3430;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 3753;
@@ -1016,7 +1040,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 142";
 		rLen = 0;
-		rLoc = 3783;
+		rLoc = 3670;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 3498;
@@ -1087,7 +1111,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 86;
+		rLoc = 87;
 		rType = 1;
 	};
 	D262EF111308884800E75A0F /* PBXTextBookmark */ = {
@@ -1095,7 +1119,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2477;
+		rLoc = 2475;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 2166;
@@ -1105,7 +1129,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2477;
+		rLoc = 2475;
 		rType = 0;
 		vrLen = 760;
 		vrLoc = 2166;
@@ -1115,8 +1139,8 @@
 		comments = "Expected ']' before 'NSString'";
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 19;
+		rLen = 0;
+		rLoc = 18;
 		rType = 1;
 	};
 	D262EF18130888BE00E75A0F /* PBXTextBookmark */ = {
@@ -1154,7 +1178,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2453;
+		rLoc = 2451;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 1995;
@@ -1164,7 +1188,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 163";
 		rLen = 0;
-		rLoc = 4362;
+		rLoc = 4249;
 		rType = 0;
 		vrLen = 794;
 		vrLoc = 4315;
@@ -1184,7 +1208,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 163";
 		rLen = 0;
-		rLoc = 4362;
+		rLoc = 4249;
 		rType = 0;
 		vrLen = 1012;
 		vrLoc = 3545;
@@ -1323,7 +1347,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 163";
 		rLen = 0;
-		rLoc = 4362;
+		rLoc = 4249;
 		rType = 0;
 		vrLen = 1012;
 		vrLoc = 3545;
@@ -1470,7 +1494,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 142";
 		rLen = 0;
-		rLoc = 3783;
+		rLoc = 3670;
 		rType = 0;
 		vrLen = 984;
 		vrLoc = 3441;
@@ -1560,7 +1584,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 93";
 		rLen = 0;
-		rLoc = 2589;
+		rLoc = 2643;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 2161;
@@ -1580,7 +1604,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 114";
 		rLen = 76;
-		rLoc = 3250;
+		rLoc = 3137;
 		rType = 0;
 		vrLen = 728;
 		vrLoc = 2643;
@@ -1590,7 +1614,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 114";
 		rLen = 76;
-		rLoc = 3250;
+		rLoc = 3137;
 		rType = 0;
 		vrLen = 901;
 		vrLoc = 2100;
@@ -1610,7 +1634,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 114";
 		rLen = 76;
-		rLoc = 3250;
+		rLoc = 3137;
 		rType = 0;
 		vrLen = 818;
 		vrLoc = 2425;
@@ -1620,7 +1644,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 167";
 		rLen = 0;
-		rLoc = 4544;
+		rLoc = 4431;
 		rType = 0;
 		vrLen = 820;
 		vrLoc = 4597;
@@ -1641,7 +1665,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 130;
+		rLoc = 124;
 		rType = 1;
 	};
 	D262EF7F1308918B00E75A0F /* PBXTextBookmark */ = {
@@ -1649,7 +1673,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 137";
 		rLen = 0;
-		rLoc = 3783;
+		rLoc = 3670;
 		rType = 0;
 		vrLen = 744;
 		vrLoc = 3728;
@@ -1679,7 +1703,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 156";
 		rLen = 0;
-		rLoc = 4312;
+		rLoc = 4199;
 		rType = 0;
 		vrLen = 892;
 		vrLoc = 3981;
@@ -1739,7 +1763,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 156";
 		rLen = 0;
-		rLoc = 4354;
+		rLoc = 4241;
 		rType = 0;
 		vrLen = 1167;
 		vrLoc = 3155;
@@ -1769,7 +1793,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 21";
 		rLen = 0;
-		rLoc = 387;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 474;
 		vrLoc = 80;
@@ -1839,7 +1863,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 157";
 		rLen = 0;
-		rLoc = 4354;
+		rLoc = 4241;
 		rType = 0;
 		vrLen = 772;
 		vrLoc = 4322;
@@ -1859,7 +1883,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 157";
 		rLen = 0;
-		rLoc = 4354;
+		rLoc = 4241;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 2161;
@@ -1869,7 +1893,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 156";
 		rLen = 0;
-		rLoc = 4354;
+		rLoc = 4241;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 3900;
@@ -1879,7 +1903,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 157";
 		rLen = 0;
-		rLoc = 4354;
+		rLoc = 4241;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 4034;
@@ -1949,7 +1973,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 157";
 		rLen = 0;
-		rLoc = 4354;
+		rLoc = 4241;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 4034;
@@ -1959,7 +1983,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 157";
 		rLen = 0;
-		rLoc = 4354;
+		rLoc = 4241;
 		rType = 0;
 		vrLen = 831;
 		vrLoc = 4034;
@@ -1969,7 +1993,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 156";
 		rLen = 0;
-		rLoc = 4352;
+		rLoc = 4239;
 		rType = 0;
 		vrLen = 735;
 		vrLoc = 4308;
@@ -1979,7 +2003,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 153";
 		rLen = 0;
-		rLoc = 4138;
+		rLoc = 4025;
 		rType = 0;
 		vrLen = 985;
 		vrLoc = 3427;
@@ -1989,7 +2013,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 153";
 		rLen = 0;
-		rLoc = 4138;
+		rLoc = 4025;
 		rType = 0;
 		vrLen = 914;
 		vrLoc = 3427;
@@ -1999,7 +2023,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 135";
 		rLen = 0;
-		rLoc = 4123;
+		rLoc = 4010;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 3243;
@@ -2009,7 +2033,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 135";
 		rLen = 0;
-		rLoc = 4123;
+		rLoc = 4010;
 		rType = 0;
 		vrLen = 1055;
 		vrLoc = 3155;
@@ -2019,7 +2043,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 90";
 		rLen = 0;
-		rLoc = 2677;
+		rLoc = 2725;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 1946;
@@ -2039,7 +2063,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 120";
 		rLen = 0;
-		rLoc = 3775;
+		rLoc = 3662;
 		rType = 0;
 		vrLen = 866;
 		vrLoc = 3488;
@@ -2099,7 +2123,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 120";
 		rLen = 0;
-		rLoc = 3775;
+		rLoc = 3662;
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 3488;
@@ -2109,7 +2133,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 120";
 		rLen = 0;
-		rLoc = 3775;
+		rLoc = 3662;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 3488;
@@ -2119,7 +2143,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 120";
 		rLen = 0;
-		rLoc = 3775;
+		rLoc = 3662;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 3488;
@@ -2129,7 +2153,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 120";
 		rLen = 0;
-		rLoc = 3775;
+		rLoc = 3662;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 3488;
@@ -2159,7 +2183,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 93";
 		rLen = 0;
-		rLoc = 3001;
+		rLoc = 3037;
 		rType = 0;
 		vrLen = 659;
 		vrLoc = 2564;
@@ -2219,7 +2243,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 93";
 		rLen = 0;
-		rLoc = 3001;
+		rLoc = 3037;
 		rType = 0;
 		vrLen = 692;
 		vrLoc = 2531;
@@ -2310,7 +2334,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 134;
+		rLoc = 128;
 		rType = 1;
 	};
 	D262F02613089D9600E75A0F /* PBXTextBookmark */ = {
@@ -2318,7 +2342,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 125";
 		rLen = 0;
-		rLoc = 3886;
+		rLoc = 3773;
 		rType = 0;
 		vrLen = 802;
 		vrLoc = 3223;
@@ -2329,7 +2353,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 173;
+		rLoc = 167;
 		rType = 1;
 	};
 	D262F0301308A1B500E75A0F /* XCBuildMessageTextBookmark */ = {
@@ -2338,7 +2362,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 90;
+		rLoc = 92;
 		rType = 1;
 	};
 	D262F0311308A1B500E75A0F /* PBXTextBookmark */ = {
@@ -2346,7 +2370,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 93";
 		rLen = 0;
-		rLoc = 2677;
+		rLoc = 2725;
 		rType = 0;
 		vrLen = 677;
 		vrLoc = 2293;
@@ -2386,7 +2410,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 92";
 		rLen = 0;
-		rLoc = 2677;
+		rLoc = 2725;
 		rType = 0;
 		vrLen = 804;
 		vrLoc = 2551;
@@ -2396,7 +2420,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 103";
 		rLen = 0;
-		rLoc = 3095;
+		rLoc = 3081;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 2584;
@@ -2406,7 +2430,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 167";
 		rLen = 0;
-		rLoc = 5021;
+		rLoc = 4908;
 		rType = 0;
 		vrLen = 1215;
 		vrLoc = 2551;
@@ -2416,7 +2440,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 93";
 		rLen = 0;
-		rLoc = 2677;
+		rLoc = 2725;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 2425;
@@ -2426,7 +2450,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 93";
 		rLen = 0;
-		rLoc = 2677;
+		rLoc = 2725;
 		rType = 0;
 		vrLen = 708;
 		vrLoc = 2775;
@@ -2456,7 +2480,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 167";
 		rLen = 0;
-		rLoc = 5021;
+		rLoc = 4908;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 2551;
@@ -2496,7 +2520,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 93";
 		rLen = 0;
-		rLoc = 2677;
+		rLoc = 2725;
 		rType = 0;
 		vrLen = 937;
 		vrLoc = 3682;
@@ -2506,7 +2530,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 133";
 		rLen = 0;
-		rLoc = 4053;
+		rLoc = 3940;
 		rType = 0;
 		vrLen = 953;
 		vrLoc = 3683;
@@ -2516,7 +2540,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 168";
 		rLen = 0;
-		rLoc = 5021;
+		rLoc = 4908;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 2551;
@@ -2526,7 +2550,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 134";
 		rLen = 0;
-		rLoc = 4182;
+		rLoc = 4069;
 		rType = 0;
 		vrLen = 883;
 		vrLoc = 3754;
@@ -2536,7 +2560,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 168";
 		rLen = 0;
-		rLoc = 5021;
+		rLoc = 4908;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 2551;
@@ -2546,7 +2570,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 134";
 		rLen = 0;
-		rLoc = 4182;
+		rLoc = 4069;
 		rType = 0;
 		vrLen = 883;
 		vrLoc = 3754;
@@ -2556,7 +2580,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 168";
 		rLen = 0;
-		rLoc = 5021;
+		rLoc = 4908;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 2551;
@@ -2566,7 +2590,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 99";
 		rLen = 0;
-		rLoc = 2919;
+		rLoc = 2961;
 		rType = 0;
 		vrLen = 766;
 		vrLoc = 2425;
@@ -2576,7 +2600,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 174";
 		rLen = 0;
-		rLoc = 5021;
+		rLoc = 4908;
 		rType = 0;
 		vrLen = 1148;
 		vrLoc = 2551;
@@ -2586,7 +2610,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 99";
 		rLen = 0;
-		rLoc = 2919;
+		rLoc = 2961;
 		rType = 0;
 		vrLen = 740;
 		vrLoc = 2453;
@@ -2596,10 +2620,264 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 174";
 		rLen = 0;
-		rLoc = 5021;
+		rLoc = 4908;
 		rType = 0;
 		vrLen = 1148;
 		vrLoc = 2551;
+	};
+	D262F07B1308AD4300E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 96";
+		rLen = 0;
+		rLoc = 2804;
+		rType = 0;
+		vrLen = 818;
+		vrLoc = 2270;
+	};
+	D262F07C1308AD4300E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 167";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 1282;
+		vrLoc = 2451;
+	};
+	D262F07F1308ADD000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 101";
+		rLen = 0;
+		rLoc = 3001;
+		rType = 0;
+		vrLen = 813;
+		vrLoc = 2270;
+	};
+	D262F0801308ADD000E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 168";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 2451;
+	};
+	D262F0821308C0F600E75A0F /* AsyncDownloader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 798}}";
+			sepNavSelRange = "{852, 0}";
+			sepNavVisRange = "{178, 697}";
+		};
+	};
+	D262F0831308C0F600E75A0F /* AsyncDownloader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 1785}}";
+			sepNavSelRange = "{1881, 0}";
+			sepNavVisRange = "{0, 445}";
+		};
+	};
+	D262F0851308C25D00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1C8F130826B9007B2D43 /* ApiCaller.h */;
+		name = "ApiCaller.h: 18";
+		rLen = 0;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	D262F0861308C25D00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
+		name = "IconDownloader.m: 73";
+		rLen = 0;
+		rLoc = 3182;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 2937;
+	};
+	D262F0871308C25D00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 211;
+		vrLoc = 0;
+	};
+	D262F0881308C25D00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		name = "AsyncDownloader.h: 17";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 636;
+		vrLoc = 139;
+	};
+	D262F0891308C25D00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 101";
+		rLen = 0;
+		rLoc = 3001;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 3080;
+	};
+	D262F08A1308C25D00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
+		name = "IconDownloader.h: 70";
+		rLen = 0;
+		rLoc = 3296;
+		rType = 0;
+		vrLen = 649;
+		vrLoc = 2854;
+	};
+	D262F08B1308C25D00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D21235981306A4A00024D902 /* MainViewController.m */;
+		name = "MainViewController.m: 20";
+		rLen = 0;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 740;
+		vrLoc = 252;
+	};
+	D262F08C1308C25D00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
+		name = "ApiCaller.m: 23";
+		rLen = 0;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 769;
+		vrLoc = 159;
+	};
+	D262F08D1308C25D00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1D9B13084823007B2D43 /* AdilViewModel.h */;
+		name = "AdilViewModel.h: 22";
+		rLen = 0;
+		rLoc = 457;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	D262F08E1308C25D00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
+		name = "AdilViewModel.m: 19";
+		rLen = 0;
+		rLoc = 309;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 80;
+	};
+	D262F08F1308C25D00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 168";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 2451;
+	};
+	D262F0901308C5DC00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
+		name = "AdilViewModel.m: 19";
+		rLen = 0;
+		rLoc = 309;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 80;
+	};
+	D262F0911308C5DC00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */;
+		name = "IconDownloader.m: 53";
+		rLen = 2428;
+		rLoc = 2855;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 4536;
+	};
+	D262F0921308C5DC00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DC913084C67007B2D43 /* IconDownloader.h */;
+		name = "IconDownloader.h: 70";
+		rLen = 0;
+		rLoc = 3296;
+		rType = 0;
+		vrLen = 649;
+		vrLoc = 2854;
+	};
+	D262F0931308C5DC00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		name = "AsyncDownloader.h: 36";
+		rLen = 0;
+		rLoc = 852;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 178;
+	};
+	D262F0941308C5DC00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 73";
+		rLen = 0;
+		rLoc = 1805;
+		rType = 0;
+		vrLen = 690;
+		vrLoc = 1157;
+	};
+	D262F0951308C5DC00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 69";
+		rLen = 22;
+		rLoc = 1545;
+		rType = 0;
+		vrLen = 649;
+		vrLoc = 906;
+	};
+	D262F0961308C5DC00E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 168";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 2451;
+	};
+	D262F0971308C63800E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		name = "AsyncDownloader.m: 82";
+		rLen = 0;
+		rLoc = 1881;
+		rType = 0;
+		vrLen = 445;
+		vrLoc = 0;
+	};
+	D262F0981308C63800E75A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
+		name = "AdilTableViewController.m: 168";
+		rLen = 0;
+		rLoc = 4908;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 2451;
 	};
 	D26A1C3813079F1E007B2D43 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2772,7 +3050,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "GridTableViewController.m: 39";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 388;
@@ -2797,7 +3075,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "GridTableViewController.m: 41";
 		rLen = 0;
-		rLoc = 3043;
+		rLoc = 3079;
 		rType = 0;
 		vrLen = 948;
 		vrLoc = 388;
@@ -2893,16 +3171,16 @@
 	};
 	D26A1C8F130826B9007B2D43 /* ApiCaller.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 574}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 549}}";
 			sepNavSelRange = "{281, 0}";
 			sepNavVisRange = "{0, 287}";
 		};
 	};
 	D26A1C90130826B9007B2D43 /* ApiCaller.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 882}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 819}}";
 			sepNavSelRange = "{416, 0}";
-			sepNavVisRange = "{159, 876}";
+			sepNavVisRange = "{159, 769}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -3553,16 +3831,16 @@
 	};
 	D26A1D9B13084823007B2D43 /* AdilViewModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 574}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 549}}";
 			sepNavSelRange = "{457, 0}";
 			sepNavVisRange = "{0, 464}";
 		};
 	};
 	D26A1D9C13084823007B2D43 /* AdilViewModel.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 714}}";
-			sepNavSelRange = "{387, 0}";
-			sepNavVisRange = "{80, 474}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 672}}";
+			sepNavSelRange = "{309, 0}";
+			sepNavVisRange = "{80, 350}";
 		};
 	};
 	D26A1D9F13084943007B2D43 /* IconDownloader.h */ = {
@@ -3626,7 +3904,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 527;
+		rLoc = 403;
 		rType = 0;
 		vrLen = 342;
 		vrLoc = 0;
@@ -3686,7 +3964,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 41";
 		rLen = 0;
-		rLoc = 3043;
+		rLoc = 3079;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 402;
@@ -3802,15 +4080,15 @@
 	D26A1DC913084C67007B2D43 /* IconDownloader.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1410, 1764}}";
-			sepNavSelRange = "{3569, 0}";
-			sepNavVisRange = "{2548, 776}";
+			sepNavSelRange = "{3296, 0}";
+			sepNavVisRange = "{2854, 649}";
 		};
 	};
 	D26A1DCA13084C67007B2D43 /* IconDownloader.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 2940}}";
-			sepNavSelRange = "{3182, 0}";
-			sepNavVisRange = "{1913, 1085}";
+			sepNavIntBoundsRect = "{{0, 0}, {1410, 3150}}";
+			sepNavSelRange = "{2855, 2428}";
+			sepNavVisRange = "{4536, 747}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
 	};
@@ -3874,7 +4152,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 527;
+		rLoc = 403;
 		rType = 0;
 		vrLen = 342;
 		vrLoc = 0;
@@ -4014,7 +4292,7 @@
 		comments = "Property 'entries' requires the method 'setEntries:' to be defined - use @synthesize, @dynamic or provide a method implementation";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 173;
+		rLoc = 167;
 		rType = 1;
 	};
 	D26A1E0E13084F7C007B2D43 /* PBXTextBookmark */ = {
@@ -4040,7 +4318,7 @@
 		comments = "Property 'entries' requires method '-entries' to be defined - use @synthesize, @dynamic or provide a method implementation";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 173;
+		rLoc = 167;
 		rType = 1;
 	};
 	D26A1E1313084F88007B2D43 /* PBXTextBookmark */ = {
@@ -4048,7 +4326,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 80";
 		rLen = 0;
-		rLoc = 5021;
+		rLoc = 4908;
 		rType = 0;
 		vrLen = 332;
 		vrLoc = 1581;
@@ -4138,15 +4416,15 @@
 		comments = "Property 'entries' requires method '-entries' to be defined - use @synthesize, @dynamic or provide a method implementation";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 173;
+		rLoc = 167;
 		rType = 1;
 	};
 	D26A1E1F13084F92007B2D43 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 49";
-		rLen = 49;
-		rLoc = 3046;
+		rLen = 0;
+		rLoc = 3081;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 372;
@@ -4166,7 +4444,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 80";
 		rLen = 0;
-		rLoc = 5021;
+		rLoc = 4908;
 		rType = 0;
 		vrLen = 1251;
 		vrLoc = 662;
@@ -4206,7 +4484,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 80";
 		rLen = 0;
-		rLoc = 5021;
+		rLoc = 4908;
 		rType = 0;
 		vrLen = 1251;
 		vrLoc = 662;
@@ -4216,7 +4494,7 @@
 		comments = "Property 'entries' requires method '-entries' to be defined - use @synthesize, @dynamic or provide a method implementation";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 173;
+		rLoc = 167;
 		rType = 1;
 	};
 	D26A1E3B13085001007B2D43 /* PBXTextBookmark */ = {
@@ -4234,7 +4512,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 65";
 		rLen = 0;
-		rLoc = 4445;
+		rLoc = 4332;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 0;
@@ -4244,7 +4522,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 65";
 		rLen = 0;
-		rLoc = 4445;
+		rLoc = 4332;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 0;
@@ -4474,7 +4752,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 527;
+		rLoc = 403;
 		rType = 0;
 		vrLen = 342;
 		vrLoc = 0;
@@ -4622,7 +4900,7 @@
 		comments = "'GridTableCell' may not respond to '-setImg1:andImg2:andImg3:'";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 101;
+		rLoc = 103;
 		rType = 1;
 	};
 	D26A1E861308576D007B2D43 /* PBXTextBookmark */ = {
@@ -4630,7 +4908,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 74";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 1904;
@@ -4670,7 +4948,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 447;
+		rLoc = 323;
 		rType = 0;
 		vrLen = 424;
 		vrLoc = 0;
@@ -4778,7 +5056,7 @@
 		comments = "'GridTableCell' may not respond to '-setImg1:andImg2:andImg3:'";
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		rLen = 1;
-		rLoc = 101;
+		rLoc = 103;
 		rType = 1;
 	};
 	D26A1E9C130858A3007B2D43 /* PBXTextBookmark */ = {
@@ -4786,7 +5064,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 1771;
@@ -4806,7 +5084,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 1995;
@@ -4866,7 +5144,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 1995;
@@ -4876,7 +5154,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 839;
 		vrLoc = 1995;
@@ -4906,7 +5184,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 839;
 		vrLoc = 1995;
@@ -4916,7 +5194,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 447;
+		rLoc = 323;
 		rType = 0;
 		vrLen = 424;
 		vrLoc = 0;
@@ -4926,7 +5204,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 22";
 		rLen = 0;
-		rLoc = 449;
+		rLoc = 325;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 0;
@@ -4956,7 +5234,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 22";
 		rLen = 0;
-		rLoc = 449;
+		rLoc = 325;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 0;
@@ -4966,7 +5244,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 839;
 		vrLoc = 1995;
@@ -5086,7 +5364,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 922;
 		vrLoc = 673;
@@ -5106,7 +5384,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 487;
 		vrLoc = 0;
@@ -5136,7 +5414,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 383;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 495;
 		vrLoc = 0;
@@ -5166,7 +5444,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 431;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 487;
 		vrLoc = 0;
@@ -5236,7 +5514,7 @@
 		fRef = D212350E130697650024D902 /* AdilTableViewController.m */;
 		name = "AdilTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 735;
 		vrLoc = 1771;
@@ -5342,7 +5620,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 431;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 487;
 		vrLoc = 0;
@@ -5352,7 +5630,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 431;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 490;
 		vrLoc = 0;
@@ -5432,7 +5710,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 20";
 		rLen = 0;
-		rLoc = 431;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 490;
 		vrLoc = 0;
@@ -5442,7 +5720,7 @@
 		fRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */;
 		name = "AdilViewModel.m: 21";
 		rLen = 0;
-		rLoc = 431;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 483;
 		vrLoc = 0;

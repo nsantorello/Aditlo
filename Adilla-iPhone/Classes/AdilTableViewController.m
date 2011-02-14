@@ -83,33 +83,27 @@
 		cell = [[[GridTableCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
     }    
 	
-	int index = indexPath.row;
-	AdilTableCellViewModel* adiltcvm = [adiltcvms objectAtIndex:index];
-	// Only load cached images.
+	int row = indexPath.row;
+	AdilTableCellViewModel* adiltcvm = [adiltcvms objectAtIndex:row];
+	
+	// Only load cached images for each three images in the cell.
+	int index = row * 3;
 	if (!adiltcvm.adilvm1.thumb104)
 	{
-		[self startIconDownload:adiltcvm.adilvm1 forIndex:[NSNumber numberWithInt:(index * 3)]];            
+		[self startIconDownload:adiltcvm.adilvm1 forIndex:[NSNumber numberWithInt:index]];            
 	}
 	if (!adiltcvm.adilvm2.thumb104)
 	{
-		[self startIconDownload:adiltcvm.adilvm2 forIndex:[NSNumber numberWithInt:((index * 3) + 1)]];            
+		[self startIconDownload:adiltcvm.adilvm2 forIndex:[NSNumber numberWithInt:(index + 1)]];            
 	}
 	if (!adiltcvm.adilvm3.thumb104)
 	{
-		[self startIconDownload:adiltcvm.adilvm3 forIndex:[NSNumber numberWithInt:((index * 3) + 2)]];            
+		[self startIconDownload:adiltcvm.adilvm3 forIndex:[NSNumber numberWithInt:(index + 2)]];            
 	}
 	
 	[cell setViewModel:adiltcvm];
     
     return cell;
-}
-
-#pragma mark -
-#pragma mark Table view delegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
-{
-	
 }
 
 #pragma mark -

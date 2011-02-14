@@ -18,6 +18,7 @@
 		D212352713069C7E0024D902 /* GridTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D212352513069C7E0024D902 /* GridTable.m */; };
 		D212356013069E720024D902 /* GridTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D212355F13069E720024D902 /* GridTableCell.xib */; };
 		D212359A1306A4A00024D902 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21235981306A4A00024D902 /* MainViewController.m */; };
+		D262F0841308C0F600E75A0F /* AsyncDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */; };
 		D26A1C6E13082269007B2D43 /* TodayResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C6D13082269007B2D43 /* TodayResult.m */; };
 		D26A1C8713082590007B2D43 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C7E13082590007B2D43 /* NSObject+SBJSON.m */; };
 		D26A1C8813082590007B2D43 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C8013082590007B2D43 /* NSString+SBJSON.m */; };
@@ -62,6 +63,8 @@
 		D212355F13069E720024D902 /* GridTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridTableCell.xib; sourceTree = "<group>"; };
 		D21235971306A4A00024D902 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		D21235981306A4A00024D902 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D262F0821308C0F600E75A0F /* AsyncDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncDownloader.h; sourceTree = "<group>"; };
+		D262F0831308C0F600E75A0F /* AsyncDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncDownloader.m; sourceTree = "<group>"; };
 		D26A1C6C13082269007B2D43 /* TodayResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayResult.h; sourceTree = "<group>"; };
 		D26A1C6D13082269007B2D43 /* TodayResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayResult.m; sourceTree = "<group>"; };
 		D26A1C7C13082590007B2D43 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = Lib/JSON/JSON.h; sourceTree = "<group>"; };
@@ -208,6 +211,15 @@
 			name = "Main View";
 			sourceTree = "<group>";
 		};
+		D262F0811308C0E900E75A0F /* Async Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				D262F0821308C0F600E75A0F /* AsyncDownloader.h */,
+				D262F0831308C0F600E75A0F /* AsyncDownloader.m */,
+			);
+			name = "Async Downloader";
+			sourceTree = "<group>";
+		};
 		D26A1C6B13082249007B2D43 /* Result Objects */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +302,7 @@
 		D26A1DC813084BB5007B2D43 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				D262F0811308C0E900E75A0F /* Async Downloader */,
 				D26A1DF813084F17007B2D43 /* Grouped Import Headers */,
 				D26A1D9E13084934007B2D43 /* Icon Downloader */,
 			);
@@ -424,6 +437,7 @@
 				D26A1D9D13084823007B2D43 /* AdilViewModel.m in Sources */,
 				D26A1DCB13084C67007B2D43 /* IconDownloader.m in Sources */,
 				D26A1E631308517E007B2D43 /* AdilTableCellViewModel.m in Sources */,
+				D262F0841308C0F600E75A0F /* AsyncDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
