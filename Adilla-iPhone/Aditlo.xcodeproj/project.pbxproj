@@ -15,7 +15,6 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		D2123510130697650024D902 /* AdilTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D212350E130697650024D902 /* AdilTableViewController.m */; };
 		D212352713069C7E0024D902 /* AdilTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D212352513069C7E0024D902 /* AdilTable.m */; };
-		D212356013069E720024D902 /* GridTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D212355F13069E720024D902 /* GridTableCell.xib */; };
 		D212359A1306A4A00024D902 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21235981306A4A00024D902 /* MainViewController.m */; };
 		D262F0841308C0F600E75A0F /* AsyncDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */; };
 		D26A1C6E13082269007B2D43 /* TodayResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C6D13082269007B2D43 /* TodayResult.m */; };
@@ -60,7 +59,6 @@
 		D212350E130697650024D902 /* AdilTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilTableViewController.m; sourceTree = "<group>"; };
 		D212352413069C7E0024D902 /* AdilTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilTable.h; sourceTree = "<group>"; };
 		D212352513069C7E0024D902 /* AdilTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilTable.m; sourceTree = "<group>"; };
-		D212355F13069E720024D902 /* GridTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridTableCell.xib; sourceTree = "<group>"; };
 		D21235971306A4A00024D902 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		D21235981306A4A00024D902 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		D262F0821308C0F600E75A0F /* AsyncDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncDownloader.h; sourceTree = "<group>"; };
@@ -200,7 +198,6 @@
 				D212350E130697650024D902 /* AdilTableViewController.m */,
 				D212352413069C7E0024D902 /* AdilTable.h */,
 				D212352513069C7E0024D902 /* AdilTable.m */,
-				D212355F13069E720024D902 /* GridTableCell.xib */,
 			);
 			name = "Grid Table";
 			sourceTree = "<group>";
@@ -404,7 +401,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				D212356013069E720024D902 /* GridTableCell.xib in Resources */,
 				D2B5104E13075159006542D9 /* sample.jpg in Resources */,
 				D2B5105313075269006542D9 /* sample2.jpg in Resources */,
 				D2B5105413075269006542D9 /* sample3.jpg in Resources */,
