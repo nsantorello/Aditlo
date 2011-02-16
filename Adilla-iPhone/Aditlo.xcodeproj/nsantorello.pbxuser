@@ -29,7 +29,6 @@
 			1D6058900D05DD3D006BFB54 /* Aditlo */,
 		);
 		breakpoints = (
-			D2FCE18D130B729900A1C8D0 /* AdilTableViewController.m:105 */,
 		);
 		codeSenseManager = D212350A130695400024D902 /* Code sense */;
 		executables = (
@@ -979,7 +978,7 @@
 	D2FCE095130B621A00A1C8D0 /* AdilTableCell.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1410, 2499}}";
-			sepNavSelRange = "{1092, 0}";
+			sepNavSelRange = "{1211, 0}";
 			sepNavVisRange = "{740, 514}";
 			sepNavWindowFrame = "{{-1905, -142}, {1521, 1187}}";
 		};
@@ -1587,24 +1586,6 @@
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 2672;
-	};
-	D2FCE18D130B729900A1C8D0 /* AdilTableViewController.m:105 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = D212350E130697650024D902 /* AdilTableViewController.m */;
-		functionName = "-tableView:cellForRowAtIndexPath:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 105;
-		location = Aditlo;
-		modificationTime = 319517337.237525;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
 	};
 	D2FCE18F130B730B00A1C8D0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
