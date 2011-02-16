@@ -99,15 +99,16 @@
     static NSString *CellIdentifier = @"GridTableCell";
     
 	int row = indexPath.row;
-    //AdilTableCell *cell = (AdilTableCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	AdilTableCellViewModel* adiltcvm = [adiltcvms objectAtIndex:row];
+
 	AdilTableCell* cell = [tableCells objectForKey:indexPath];
     if (cell == nil) {
 		cell = [[[AdilTableCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
 		cell.delegate = self;
+		[cell setViewModel:adiltcvm];
+		
 		[tableCells setObject:cell forKey:indexPath];
     }	
-	
-	AdilTableCellViewModel* adiltcvm = [adiltcvms objectAtIndex:row];
 	
 	// Only load cached images for each three images in the cell.
 	int index = row * 3;
@@ -123,8 +124,6 @@
 	{
 		[self startThumbDownload:adiltcvm.adilvm3 forIndex:[NSNumber numberWithInt:(index + 2)]];            
 	}
-	
-	[cell setViewModel:adiltcvm];
     
     return cell;
 }
