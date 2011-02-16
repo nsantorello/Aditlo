@@ -29,7 +29,7 @@
 		D26A1CFC13083323007B2D43 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1CFB13083323007B2D43 /* Constants.m */; };
 		D26A1D001308347D007B2D43 /* C.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1CFF1308347D007B2D43 /* C.m */; };
 		D26A1D9D13084823007B2D43 /* AdilViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1D9C13084823007B2D43 /* AdilViewModel.m */; };
-		D26A1DCB13084C67007B2D43 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1DCA13084C67007B2D43 /* IconDownloader.m */; };
+		D26A1DCB13084C67007B2D43 /* ThumbDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */; };
 		D26A1E631308517E007B2D43 /* AdilTableCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1E621308517E007B2D43 /* AdilTableCellViewModel.m */; };
 		D2B5104E13075159006542D9 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5104D13075159006542D9 /* sample.jpg */; };
 		D2B5105313075269006542D9 /* sample2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B5105113075269006542D9 /* sample2.jpg */; };
@@ -86,8 +86,8 @@
 		D26A1CFF1308347D007B2D43 /* C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C.m; sourceTree = "<group>"; };
 		D26A1D9B13084823007B2D43 /* AdilViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilViewModel.h; sourceTree = "<group>"; };
 		D26A1D9C13084823007B2D43 /* AdilViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilViewModel.m; sourceTree = "<group>"; };
-		D26A1DC913084C67007B2D43 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconDownloader.h; path = Classes/IconDownloader.h; sourceTree = "<group>"; };
-		D26A1DCA13084C67007B2D43 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconDownloader.m; path = Classes/IconDownloader.m; sourceTree = "<group>"; };
+		D26A1DC913084C67007B2D43 /* ThumbDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThumbDownloader.h; path = Classes/ThumbDownloader.h; sourceTree = "<group>"; };
+		D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThumbDownloader.m; path = Classes/ThumbDownloader.m; sourceTree = "<group>"; };
 		D26A1DF713084EFB007B2D43 /* ResultHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultHeaders.h; sourceTree = "<group>"; };
 		D26A1E611308517E007B2D43 /* AdilTableCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilTableCellViewModel.h; sourceTree = "<group>"; };
 		D26A1E621308517E007B2D43 /* AdilTableCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilTableCellViewModel.m; sourceTree = "<group>"; };
@@ -292,8 +292,8 @@
 		D26A1D9E13084934007B2D43 /* Icon Downloader */ = {
 			isa = PBXGroup;
 			children = (
-				D26A1DC913084C67007B2D43 /* IconDownloader.h */,
-				D26A1DCA13084C67007B2D43 /* IconDownloader.m */,
+				D26A1DC913084C67007B2D43 /* ThumbDownloader.h */,
+				D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */,
 			);
 			name = "Icon Downloader";
 			path = ..;
@@ -434,7 +434,7 @@
 				D26A1CFC13083323007B2D43 /* Constants.m in Sources */,
 				D26A1D001308347D007B2D43 /* C.m in Sources */,
 				D26A1D9D13084823007B2D43 /* AdilViewModel.m in Sources */,
-				D26A1DCB13084C67007B2D43 /* IconDownloader.m in Sources */,
+				D26A1DCB13084C67007B2D43 /* ThumbDownloader.m in Sources */,
 				D26A1E631308517E007B2D43 /* AdilTableCellViewModel.m in Sources */,
 				D262F0841308C0F600E75A0F /* AsyncDownloader.m in Sources */,
 				D2FCE096130B621A00A1C8D0 /* AdilTableCell.m in Sources */,

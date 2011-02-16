@@ -54,26 +54,26 @@
 
 @class AdilViewModel;
 
-@protocol IconDownloaderDelegate;
+@protocol ThumbDownloaderDelegate;
 
-@interface IconDownloader : NSObject<AsyncDownloaderDelegate>
+@interface ThumbDownloader : NSObject<AsyncDownloaderDelegate>
 {
     AdilViewModel *adilvm;
     NSNumber *index;
 	AsyncDownloader* downloader;
-    id <IconDownloaderDelegate> delegate;
+    id <ThumbDownloaderDelegate> delegate;
 }
 
 @property (nonatomic, retain) AdilViewModel *adilvm;
 @property (nonatomic, assign) NSNumber *index;
-@property (nonatomic, assign) id <IconDownloaderDelegate> delegate;
+@property (nonatomic, assign) id <ThumbDownloaderDelegate> delegate;
 
 - (void)startDownload;
 - (void)cancelDownload;
 
 @end
 
-@protocol IconDownloaderDelegate 
+@protocol ThumbDownloaderDelegate 
 
 - (void)thumbDidLoad:(NSNumber *)indexPath;
 

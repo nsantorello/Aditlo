@@ -50,14 +50,14 @@
   
  */
 
-#import "IconDownloader.h"
+#import "ThumbDownloader.h"
 #import "AdilViewModel.h"
 
 #define kThumb104Height 104
 #define kThumb208Height 208
 
 
-@implementation IconDownloader
+@implementation ThumbDownloader
 
 @synthesize adilvm;
 @synthesize index;

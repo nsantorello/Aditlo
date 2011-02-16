@@ -37,13 +37,6 @@ static UIColor* nilThumbColor = nil;
     [super dealloc];
 }
 
-- (BOOL)noImageDataForCell
-{
-	return  adiltcvm.adilvm1.thumb104 == nil && 
-			adiltcvm.adilvm2.thumb104 == nil && 
-			adiltcvm.adilvm2.thumb104 == nil;
-}
-
 // the reason I don't synthesize setters for these is because I need to 
 // call -setNeedsDisplay when they change
 
@@ -53,15 +46,18 @@ static UIColor* nilThumbColor = nil;
 	adiltcvm = vm;
 	[adiltcvm retain];
 	
-	if ([self noImageDataForCell])
-	{
-		[self setNeedsDisplay];
-	}
+	// If you ever decide to reuse table cells, you'll need 
+	// to call redrawImages here since we've just been assigned a new view model.
 }
 
 - (AdilTableCellViewModel*)getViewModel
 {
 	return adiltcvm;
+}
+
+- (void)redrawImages
+{
+	[self setNeedsDisplay];
 }
 
 - (void)drawThumbOrBlank:(UIImage*)img inRect:(CGRect)rect inContext:(CGContextRef)context

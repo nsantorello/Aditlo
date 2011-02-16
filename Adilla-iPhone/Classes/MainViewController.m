@@ -14,7 +14,7 @@
 - (void)setupAdilTableViewController
 {
 	[api fetchToday];
-	adilController.imageDownloadsInProgress = [NSMutableDictionary dictionary];
+	adilController.thumbDownloadsInProgress = [NSMutableDictionary dictionary];
 }
 
 - (void)viewDidLoad

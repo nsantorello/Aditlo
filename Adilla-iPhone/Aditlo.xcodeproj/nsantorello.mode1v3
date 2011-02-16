@@ -285,7 +285,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>38</integer>
+									<integer>36</integer>
 									<integer>33</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -329,7 +329,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AdilTableViewController.m</string>
+								<string>AdilTableCell.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -337,11 +337,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AdilTableViewController.m</string>
+										<string>AdilTableCell.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D2FCE0DA130B654800A1C8D0</string>
+										<string>D2FCE191130B730B00A1C8D0</string>
 										<key>history</key>
 										<array>
 											<string>D2B510B713076378006542D9</string>
@@ -365,31 +365,31 @@
 											<string>D262F0901308C5DC00E75A0F</string>
 											<string>D262F0F21308D16900E75A0F</string>
 											<string>D26BCB431309589F005C3698</string>
-											<string>D26BCB4B1309589F005C3698</string>
 											<string>D26BCB4D1309589F005C3698</string>
 											<string>D26BCB7613095B34005C3698</string>
 											<string>D26BCB7813095B34005C3698</string>
-											<string>D26BCBD213096828005C3698</string>
 											<string>D26BCBE113096957005C3698</string>
 											<string>D26BCC2213096D5F005C3698</string>
-											<string>D26BCC2313096D5F005C3698</string>
 											<string>D26BCC47130985F9005C3698</string>
-											<string>D26BCC49130985F9005C3698</string>
 											<string>D26BCC4A130985F9005C3698</string>
 											<string>D26BCC4B130985F9005C3698</string>
-											<string>D26BCC7D130AB687005C3698</string>
-											<string>D26BCC7F130AB687005C3698</string>
 											<string>D26BCCA1130ABEA0005C3698</string>
-											<string>D2FCE05F130B5E5D00A1C8D0</string>
 											<string>D2FCE060130B5E5D00A1C8D0</string>
 											<string>D2FCE061130B5E5D00A1C8D0</string>
 											<string>D2FCE0CE130B653900A1C8D0</string>
 											<string>D2FCE0CF130B653900A1C8D0</string>
-											<string>D2FCE0D0130B653900A1C8D0</string>
-											<string>D2FCE0D1130B653900A1C8D0</string>
-											<string>D2FCE0D2130B653900A1C8D0</string>
-											<string>D2FCE0D3130B653900A1C8D0</string>
-											<string>D2FCE0D4130B653900A1C8D0</string>
+											<string>D2FCE147130B6E5F00A1C8D0</string>
+											<string>D2FCE148130B6E5F00A1C8D0</string>
+											<string>D2FCE149130B6E5F00A1C8D0</string>
+											<string>D2FCE14A130B6E5F00A1C8D0</string>
+											<string>D2FCE14B130B6E5F00A1C8D0</string>
+											<string>D2FCE14C130B6E5F00A1C8D0</string>
+											<string>D2FCE14D130B6E5F00A1C8D0</string>
+											<string>D2FCE14F130B6E5F00A1C8D0</string>
+											<string>D2FCE150130B6E5F00A1C8D0</string>
+											<string>D2FCE18F130B730B00A1C8D0</string>
+											<string>D2FCE190130B730B00A1C8D0</string>
+											<string>D2FCE189130B728900A1C8D0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -589,10 +589,10 @@
 	<array>
 		<string>D2FCE0D8130B653900A1C8D0</string>
 		<string>D2FCE0D9130B653900A1C8D0</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>D2FCE088130B614E00A1C8D0</string>
 		<string>D2123507130695400024D902</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/nsantorello/Documents/Aditlo/Adilla-iPhone/Aditlo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -612,12 +612,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AdilTableViewController.m</string>
+								<string>AdilTableViewController.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -634,8 +636,6 @@
 							<string>445pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -922,6 +922,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -967,7 +969,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

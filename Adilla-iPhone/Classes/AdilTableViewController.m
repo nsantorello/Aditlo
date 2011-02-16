@@ -11,7 +11,7 @@
 
 @implementation AdilTableViewController
 
-@synthesize imageDownloadsInProgress;
+@synthesize thumbDownloadsInProgress;
 
 - (void)setAdilViewModels:(NSArray*)adils
 {
@@ -57,7 +57,25 @@
 	
 	[self setAdilTableCellViewModels:adilvms];
 	
+	[tableCells release];
+	tableCells = [[NSMutableDictionary alloc] init];
+	
 	[self.tableView reloadData];
+}
+
+- (void)startThumbDownload:(AdilViewModel *)adilvm forIndex:(NSNumber *)index
+{
+    ThumbDownloader *thumbDownloader = [thumbDownloadsInProgress objectForKey:index];
+    if (thumbDownloader == nil) 
+    {
+        thumbDownloader = [[ThumbDownloader alloc] init];
+        thumbDownloader.adilvm = adilvm;
+        thumbDownloader.index = index;
+        thumbDownloader.delegate = self;
+        [thumbDownloadsInProgress setObject:thumbDownloader forKey:index];
+        [thumbDownloader startDownload];
+        [thumbDownloader release];   
+    }
 }
 
 #pragma mark -
@@ -80,31 +98,33 @@
     
     static NSString *CellIdentifier = @"GridTableCell";
     
-    AdilTableCell *cell = (AdilTableCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	int row = indexPath.row;
+    //AdilTableCell *cell = (AdilTableCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	AdilTableCell* cell = [tableCells objectForKey:indexPath];
     if (cell == nil) {
 		cell = [[[AdilTableCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
-    }    
+		cell.delegate = self;
+		[tableCells setObject:cell forKey:indexPath];
+    }	
 	
-	int row = indexPath.row;
 	AdilTableCellViewModel* adiltcvm = [adiltcvms objectAtIndex:row];
 	
 	// Only load cached images for each three images in the cell.
 	int index = row * 3;
 	if (!adiltcvm.adilvm1.thumb104)
 	{
-		[self startIconDownload:adiltcvm.adilvm1 forIndex:[NSNumber numberWithInt:index]];            
+		[self startThumbDownload:adiltcvm.adilvm1 forIndex:[NSNumber numberWithInt:index]];            
 	}
 	if (!adiltcvm.adilvm2.thumb104)
 	{
-		[self startIconDownload:adiltcvm.adilvm2 forIndex:[NSNumber numberWithInt:(index + 1)]];            
+		[self startThumbDownload:adiltcvm.adilvm2 forIndex:[NSNumber numberWithInt:(index + 1)]];            
 	}
 	if (!adiltcvm.adilvm3.thumb104)
 	{
-		[self startIconDownload:adiltcvm.adilvm3 forIndex:[NSNumber numberWithInt:(index + 2)]];            
+		[self startThumbDownload:adiltcvm.adilvm3 forIndex:[NSNumber numberWithInt:(index + 2)]];            
 	}
 	
 	[cell setViewModel:adiltcvm];
-	cell.delegate = self;
     
     return cell;
 }
@@ -112,38 +132,22 @@
 #pragma mark -
 #pragma mark Table cell image support
 
-- (void)startIconDownload:(AdilViewModel *)adilvm forIndex:(NSNumber *)index
-{
-    IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:index];
-    if (iconDownloader == nil) 
-    {
-        iconDownloader = [[IconDownloader alloc] init];
-        iconDownloader.adilvm = adilvm;
-        iconDownloader.index = index;
-        iconDownloader.delegate = self;
-        [imageDownloadsInProgress setObject:iconDownloader forKey:index];
-        [iconDownloader startDownload];
-        [iconDownloader release];   
-    }
-}
-
-// called by our ImageDownloader when an icon is ready to be displayed
 - (void)thumbDidLoad:(NSNumber *)index
 {
-    IconDownloader *iconDownloader = [imageDownloadsInProgress objectForKey:index];
+    ThumbDownloader *iconDownloader = [thumbDownloadsInProgress objectForKey:index];
     if (iconDownloader != nil)
     {
 		int row = ([index intValue] / 3);
         AdilTableCell *cell = (AdilTableCell*)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:row inSection:0]];
         
         // Tell the cell that it needs to redraw itself.
-		[cell setNeedsDisplay];
+		[cell redrawImages];
     }
 }
 
 - (void)performedViewAction:(AdilViewModel *)adilViewModel
 {
-	NSLog([NSString stringWithFormat:@"Clicked on image for adil with hash %@!", adilViewModel.adil.pseudohash]);
+	NSLog(@"Clicked on image for adil with hash %@!", adilViewModel.adil.pseudohash);
 }
 
 
@@ -155,7 +159,7 @@
     [super didReceiveMemoryWarning];
     
 	// terminate all pending download connections
-    NSArray *allDownloads = [self.imageDownloadsInProgress allValues];
+    NSArray *allDownloads = [self.thumbDownloadsInProgress allValues];
     [allDownloads makeObjectsPerformSelector:@selector(cancelDownload)];
 }
 
@@ -168,7 +172,8 @@
 - (void)dealloc {
 	[adilvms release];
 	[adiltcvms release];
-	[imageDownloadsInProgress release];
+	[tableCells release];
+	[thumbDownloadsInProgress release];
     [super dealloc];
 }
 

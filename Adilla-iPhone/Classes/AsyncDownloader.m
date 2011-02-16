@@ -38,6 +38,9 @@
 
 - (void)startDownload:(NSURL*)url forKey:(NSObject*)dlKey
 {
+	// Cancel any currently in progress download for this downloader before starting another.
+	[self cancelDownload];
+	
     self.activeDownload = [NSMutableData data];
 	self.key = dlKey;
     // alloc+init and start an NSURLConnection; release on completion/failure

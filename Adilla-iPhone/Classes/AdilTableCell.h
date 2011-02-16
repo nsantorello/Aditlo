@@ -21,6 +21,7 @@
 
 - (void)setViewModel:(AdilTableCellViewModel*)vm;
 - (AdilTableCellViewModel*)getViewModel;
+- (void)redrawImages;
 
 @end
 
