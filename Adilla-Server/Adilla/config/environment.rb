@@ -6,6 +6,9 @@ RAILS_GEM_VERSION = '2.3.8' unless defined? RAILS_GEM_VERSION
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
 
+AWS_ACCESS_KEY_ID = 'AKIAJJ26WQL3CQ3X73IA'
+AWS_SECRET_ACCESS_KEY = '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'
+
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers

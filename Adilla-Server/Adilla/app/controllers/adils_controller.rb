@@ -1,3 +1,5 @@
+require 'aws/s3'
+
 include Pseudohash
 
 class AdilsController < ApplicationController
@@ -43,15 +45,20 @@ class AdilsController < ApplicationController
   # POST /adils
   # POST /adils.xml
   def create
-    @adil = Adil.new(params[:adil])
+    #@adil = Adil.new(params[:adil])
 
     respond_to do |format|
-      if @adil.save
+      if true#@adil.save
         # Compute and store pseudohash
-      	@adil.pseudohash = Pseudohash.hashify @adil.id
-      	@adil.save
+      	#@adil.pseudohash = Pseudohash.hashify @adil.id
+      	#@adil.save
       	
-        format.html { redirect_to(@adil, :notice => 'Adil was successfully created.') }
+      	AWS::S3::Base.establish_connection! :access_key_id => AWS_ACCESS_KEY_ID, 
+      		:secret_access_key => AWS_SECRET_ACCESS_KEY
+      	AWS::S3::S3Object.store "thumbs/noahlol.jpg", open(params[:upload]), AWS_S3_BUCKET, :access => :public_read
+      	
+      	
+        format.html { render :json => params[:upload].size }#redirect_to(@adil, :notice => 'Adil was successfully created.') }
         format.xml  { render :xml => @adil, :status => :created, :location => @adil }
       else
         format.html { render :action => "new" }

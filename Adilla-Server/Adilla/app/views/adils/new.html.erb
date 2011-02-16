@@ -1,6 +1,6 @@
 <h1>New adil</h1>
 
-<% form_for(@adil) do |f| %>
+<% form_for(@adil, :html => { :multipart => true }) do |f| %>
   <%= f.error_messages %>
 
   <p>
@@ -14,6 +14,10 @@
   <p>
     <%= f.label :thumb_208 %><br />
     <%= f.text_field :thumb_208 %>
+  </p>
+  <p>
+    <%= f.label "upload file" %><br />
+    <input type="file" name="upload" />
   </p>
   <p>
     <%= f.submit 'Create' %>
