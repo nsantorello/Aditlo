@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GridTable.h"
+#import "AdilTable.h"
 #import "AdilTableViewController.h"
 #import "ApiCaller.h"
 
@@ -15,7 +15,7 @@
 	ApiCaller* api;
 	
 	// The grid table containing the image updates.
-	IBOutlet GridTable* gridTable;
+	IBOutlet AdilTable* gridTable;
 	// Reference to the controller so that it gets retained.
 	IBOutlet AdilTableViewController* adilController;
 	

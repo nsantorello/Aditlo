@@ -1,15 +1,19 @@
 //
-//  GridTable.h
+//  GridTable.m
 //  Aditlo
 //
 //  Created by Noah Santorello on 2/12/11.
 //  Copyright 2011 Noah Santorello. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "AdilTable.h"
 
 
-@interface GridTable : UITableView {
+@implementation AdilTable
+
+- (void)dealloc {
+    [super dealloc];
 }
+
 
 @end

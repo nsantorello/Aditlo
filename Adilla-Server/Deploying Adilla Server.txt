@@ -4,4 +4,3 @@ This will tell you the steps to deploying the Adilla server.
 * Install the Amazon AWS S3 gem (see "Required Ruby Gems.txt" in this directory).
 * Run the Rails server by executing 
     ruby script/server
-

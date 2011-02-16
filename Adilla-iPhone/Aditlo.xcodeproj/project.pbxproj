@@ -14,7 +14,7 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		D2123510130697650024D902 /* AdilTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D212350E130697650024D902 /* AdilTableViewController.m */; };
-		D212352713069C7E0024D902 /* GridTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D212352513069C7E0024D902 /* GridTable.m */; };
+		D212352713069C7E0024D902 /* AdilTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D212352513069C7E0024D902 /* AdilTable.m */; };
 		D212356013069E720024D902 /* GridTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D212355F13069E720024D902 /* GridTableCell.xib */; };
 		D212359A1306A4A00024D902 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21235981306A4A00024D902 /* MainViewController.m */; };
 		D262F0841308C0F600E75A0F /* AsyncDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */; };
@@ -58,8 +58,8 @@
 		8D1107310486CEB800E47090 /* Aditlo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Aditlo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D212350D130697650024D902 /* AdilTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilTableViewController.h; sourceTree = "<group>"; };
 		D212350E130697650024D902 /* AdilTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilTableViewController.m; sourceTree = "<group>"; };
-		D212352413069C7E0024D902 /* GridTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridTable.h; sourceTree = "<group>"; };
-		D212352513069C7E0024D902 /* GridTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTable.m; sourceTree = "<group>"; };
+		D212352413069C7E0024D902 /* AdilTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilTable.h; sourceTree = "<group>"; };
+		D212352513069C7E0024D902 /* AdilTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilTable.m; sourceTree = "<group>"; };
 		D212355F13069E720024D902 /* GridTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridTableCell.xib; sourceTree = "<group>"; };
 		D21235971306A4A00024D902 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		D21235981306A4A00024D902 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -198,8 +198,8 @@
 				D2FCE095130B621A00A1C8D0 /* AdilTableCell.m */,
 				D212350D130697650024D902 /* AdilTableViewController.h */,
 				D212350E130697650024D902 /* AdilTableViewController.m */,
-				D212352413069C7E0024D902 /* GridTable.h */,
-				D212352513069C7E0024D902 /* GridTable.m */,
+				D212352413069C7E0024D902 /* AdilTable.h */,
+				D212352513069C7E0024D902 /* AdilTable.m */,
 				D212355F13069E720024D902 /* GridTableCell.xib */,
 			);
 			name = "Grid Table";
@@ -427,7 +427,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AditloAppDelegate.m in Sources */,
 				D2123510130697650024D902 /* AdilTableViewController.m in Sources */,
-				D212352713069C7E0024D902 /* GridTable.m in Sources */,
+				D212352713069C7E0024D902 /* AdilTable.m in Sources */,
 				D212359A1306A4A00024D902 /* MainViewController.m in Sources */,
 				D2B5115613077ACE006542D9 /* VideoDetailViewController.m in Sources */,
 				D2B5129713078977006542D9 /* FastTableViewCell.m in Sources */,

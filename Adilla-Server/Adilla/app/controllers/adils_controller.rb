@@ -54,9 +54,12 @@ class AdilsController < ApplicationController
       	#@adil.save
       	
       	file = params[:upload]
+      	# Establish connection to S3
       	AWS::S3::Base.establish_connection! :access_key_id => AWS_ACCESS_KEY_ID, 
       		:secret_access_key => AWS_SECRET_ACCESS_KEY
-      	AWS::S3::S3Object.store "thumbs/" + file.original_filename, open(file), AWS_S3_BUCKET, :access => :public_read
+      	# Upload file to S3, setting it to be available to be read publicly
+      	AWS::S3::S3Object.store "thumbs/" + file.original_filename, 
+      		open(file), AWS_S3_BUCKET, :access => :public_read
       	
       	
         format.html { redirect_to(@adil, :notice => 'Adil was successfully created.') }
