@@ -118,7 +118,7 @@
 
 - (void)downloadFailedForKey:(NSObject*)key
 {
-	
+	[self cancelDownload];
 }
 
 @end

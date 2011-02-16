@@ -14,7 +14,7 @@
 NSString* const AdillaUrl_Today = @"today.json";
 
 #ifdef DEV_CONSTANTS
-NSString* const AdillaUrl_Server = @"http://adil.la/";//@"http://dev.adil.la";
+NSString* const AdillaUrl_Server = @"http://pnqyo.com/";//@"http://adil.la/";//@"http://dev.adil.la";
 NSString* const AwsUrl_Server = @"http://dl-dev.adil.la.s3.amazonaws.com/";
 NSString* const AwsUrl_Thumbs = @"thumbs/";
 NSString* const AwsUrl_Adils = @"adils/";

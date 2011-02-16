@@ -71,7 +71,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return [adiltcvms count];
+    return adiltcvms != nil ? [adiltcvms count] : 0;
 }
 
 
@@ -135,8 +135,8 @@
 		int row = ([index intValue] / 3);
         GridTableCell *cell = (GridTableCell*)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:row inSection:0]];
         
-        // Display the newly loaded image by triggering a setNeedsDisplay by reassigning the view model of the cell.
-		[cell setViewModel:[cell getViewModel]];
+        // Tell the cell that it needs to redraw itself.
+		[cell setNeedsDisplay];
     }
 }
 

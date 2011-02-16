@@ -24,6 +24,7 @@ static UIColor* nilThumbColor = nil;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
 	self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+	// Set selection style so you don't see blue when you select.
 	[self setSelectionStyle:UITableViewCellSelectionStyleNone];
 	return self;
 }
@@ -42,8 +43,6 @@ static UIColor* nilThumbColor = nil;
 	[adiltcvm release];
 	adiltcvm = vm;
 	[adiltcvm retain];
-	
-	[self setNeedsDisplay];
 }
 
 - (AdilTableCellViewModel*)getViewModel
