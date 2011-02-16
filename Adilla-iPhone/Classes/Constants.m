@@ -6,10 +6,6 @@
 //  Copyright 2011 Noah Santorello. All rights reserved.
 //
 
-#ifdef DEV_BUILD
-#define DEV_CONSTANTS 1
-#endif
-
 // Adilla server controller URLs.
 NSString* const AdillaUrl_Today = @"today.json";
 
@@ -17,9 +13,12 @@ NSString* const AdillaUrl_Today = @"today.json";
 NSString* const AwsUrl_Thumbs = @"t/"; // t for thumbs!
 NSString* const AwsUrl_Adils = @"a/"; // a for adils!
 
-#ifdef DEV_CONSTANTS
+#ifdef DEV_BUILD
 NSString* const AdillaUrl_Server = @"http://pnqyo.com/";//@"http://dev.adil.la";
 NSString* const AwsUrl_Server = @"http://dl.dev.adil.la/";
+#elif TEST_BUILD
+NSString* const AdillaUrl_Server = @"http://test.adil.la/";
+NSString* const AwsUrl_Server = @"http://dl.test.adil.la/";
 #else
 NSString* const AdillaUrl_Server = @"http://adil.la/";
 NSString* const AwsUrl_Server = @"http://dl.adil.la/";
