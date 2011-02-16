@@ -14,7 +14,6 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		D2123510130697650024D902 /* AdilTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D212350E130697650024D902 /* AdilTableViewController.m */; };
-		D2123514130697790024D902 /* GridTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2123513130697790024D902 /* GridTableCell.m */; };
 		D212352713069C7E0024D902 /* GridTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D212352513069C7E0024D902 /* GridTable.m */; };
 		D212356013069E720024D902 /* GridTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D212355F13069E720024D902 /* GridTableCell.xib */; };
 		D212359A1306A4A00024D902 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21235981306A4A00024D902 /* MainViewController.m */; };
@@ -41,6 +40,7 @@
 		D2B5115613077ACE006542D9 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B5115413077ACE006542D9 /* VideoDetailViewController.m */; };
 		D2B5115713077ACE006542D9 /* VideoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B5115513077ACE006542D9 /* VideoDetailViewController.xib */; };
 		D2B5129713078977006542D9 /* FastTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B5129613078977006542D9 /* FastTableViewCell.m */; };
+		D2FCE096130B621A00A1C8D0 /* AdilTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCE095130B621A00A1C8D0 /* AdilTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,8 +56,6 @@
 		8D1107310486CEB800E47090 /* Aditlo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Aditlo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D212350D130697650024D902 /* AdilTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilTableViewController.h; sourceTree = "<group>"; };
 		D212350E130697650024D902 /* AdilTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilTableViewController.m; sourceTree = "<group>"; };
-		D2123512130697790024D902 /* GridTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridTableCell.h; sourceTree = "<group>"; };
-		D2123513130697790024D902 /* GridTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTableCell.m; sourceTree = "<group>"; };
 		D212352413069C7E0024D902 /* GridTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridTable.h; sourceTree = "<group>"; };
 		D212352513069C7E0024D902 /* GridTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTable.m; sourceTree = "<group>"; };
 		D212355F13069E720024D902 /* GridTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridTableCell.xib; sourceTree = "<group>"; };
@@ -104,6 +102,8 @@
 		D2B5115513077ACE006542D9 /* VideoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoDetailViewController.xib; sourceTree = "<group>"; };
 		D2B5129513078977006542D9 /* FastTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastTableViewCell.h; sourceTree = "<group>"; };
 		D2B5129613078977006542D9 /* FastTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastTableViewCell.m; sourceTree = "<group>"; };
+		D2FCE094130B621A00A1C8D0 /* AdilTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilTableCell.h; sourceTree = "<group>"; };
+		D2FCE095130B621A00A1C8D0 /* AdilTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,10 +190,10 @@
 			isa = PBXGroup;
 			children = (
 				D2B511C313077F49006542D9 /* Faster Scrolling */,
+				D2FCE094130B621A00A1C8D0 /* AdilTableCell.h */,
+				D2FCE095130B621A00A1C8D0 /* AdilTableCell.m */,
 				D212350D130697650024D902 /* AdilTableViewController.h */,
 				D212350E130697650024D902 /* AdilTableViewController.m */,
-				D2123512130697790024D902 /* GridTableCell.h */,
-				D2123513130697790024D902 /* GridTableCell.m */,
 				D212352413069C7E0024D902 /* GridTable.h */,
 				D212352513069C7E0024D902 /* GridTable.m */,
 				D212355F13069E720024D902 /* GridTableCell.xib */,
@@ -419,7 +419,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AditloAppDelegate.m in Sources */,
 				D2123510130697650024D902 /* AdilTableViewController.m in Sources */,
-				D2123514130697790024D902 /* GridTableCell.m in Sources */,
 				D212352713069C7E0024D902 /* GridTable.m in Sources */,
 				D212359A1306A4A00024D902 /* MainViewController.m in Sources */,
 				D2B5115613077ACE006542D9 /* VideoDetailViewController.m in Sources */,
@@ -438,6 +437,7 @@
 				D26A1DCB13084C67007B2D43 /* IconDownloader.m in Sources */,
 				D26A1E631308517E007B2D43 /* AdilTableCellViewModel.m in Sources */,
 				D262F0841308C0F600E75A0F /* AsyncDownloader.m in Sources */,
+				D2FCE096130B621A00A1C8D0 /* AdilTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

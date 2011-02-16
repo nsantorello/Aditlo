@@ -80,9 +80,9 @@
     
     static NSString *CellIdentifier = @"GridTableCell";
     
-    GridTableCell *cell = (GridTableCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    AdilTableCell *cell = (AdilTableCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-		cell = [[[GridTableCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
+		cell = [[[AdilTableCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
     }    
 	
 	int row = indexPath.row;
@@ -104,6 +104,7 @@
 	}
 	
 	[cell setViewModel:adiltcvm];
+	cell.delegate = self;
     
     return cell;
 }
@@ -133,11 +134,16 @@
     if (iconDownloader != nil)
     {
 		int row = ([index intValue] / 3);
-        GridTableCell *cell = (GridTableCell*)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:row inSection:0]];
+        AdilTableCell *cell = (AdilTableCell*)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:row inSection:0]];
         
         // Tell the cell that it needs to redraw itself.
 		[cell setNeedsDisplay];
     }
+}
+
+- (void)performedViewAction:(AdilViewModel *)adilViewModel
+{
+	NSLog([NSString stringWithFormat:@"Clicked on image for adil with hash %@!", adilViewModel.adil.pseudohash]);
 }
 
 

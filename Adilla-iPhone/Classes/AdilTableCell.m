@@ -6,11 +6,13 @@
 //  Copyright 2011 Noah Santorello. All rights reserved.
 //
 
-#import "GridTableCell.h"
+#import "AdilTableCell.h"
 
 static UIColor* nilThumbColor = nil;
 
-@implementation GridTableCell
+@implementation AdilTableCell
+
+@synthesize delegate;
 
 + (void)initialize
 {
@@ -35,6 +37,13 @@ static UIColor* nilThumbColor = nil;
     [super dealloc];
 }
 
+- (BOOL)noImageDataForCell
+{
+	return  adiltcvm.adilvm1.thumb104 == nil && 
+			adiltcvm.adilvm2.thumb104 == nil && 
+			adiltcvm.adilvm2.thumb104 == nil;
+}
+
 // the reason I don't synthesize setters for these is because I need to 
 // call -setNeedsDisplay when they change
 
@@ -43,6 +52,11 @@ static UIColor* nilThumbColor = nil;
 	[adiltcvm release];
 	adiltcvm = vm;
 	[adiltcvm retain];
+	
+	if ([self noImageDataForCell])
+	{
+		[self setNeedsDisplay];
+	}
 }
 
 - (AdilTableCellViewModel*)getViewModel
@@ -68,17 +82,18 @@ static UIColor* nilThumbColor = nil;
 	CGPoint touch = [[touches anyObject] locationInView:self];
 	// There is so little space between images in the cell that we'll ignore the whitespace.
 	int x = touch.x;
+	// Fire button click events.
 	if (x < 108)
 	{
-		NSLog(@"Clicked image 1!");
+		[delegate performedViewAction:adiltcvm.adilvm1];
 	}
 	else if (x < 214)
 	{
-		NSLog(@"Clicked image 2!");
+		[delegate performedViewAction:adiltcvm.adilvm2];
 	}
 	else
 	{
-		NSLog(@"Clicked image 3!");
+		[delegate performedViewAction:adiltcvm.adilvm3];
 	}
 }
 

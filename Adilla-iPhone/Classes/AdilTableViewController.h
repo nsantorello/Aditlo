@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GridTableCell.h"
+#import "AdilTableCell.h"
 #import "ResultHeaders.h"
 #import "IconDownloader.h"
 
-@interface AdilTableViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource, IconDownloaderDelegate> {
+@interface AdilTableViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource, 
+											IconDownloaderDelegate, AdilTableCellDelegate> {
 	NSMutableArray *adilvms; // the viewmodels for each adil in the table
 	NSMutableArray *adiltcvms; // the table cell view models for each adil table cell
     NSMutableDictionary *imageDownloadsInProgress;  // the set of IconDownloader objects for each adil
@@ -21,5 +22,8 @@
 
 - (void)setAdils:(NSArray*)adils;
 - (void)startIconDownload:(AdilViewModel *)adilvm forIndex:(NSNumber *)indexPath;
+
+// AdilTableCellDelegate methods.
+- (void)performedViewAction:(AdilViewModel *)adilViewModel;
 
 @end

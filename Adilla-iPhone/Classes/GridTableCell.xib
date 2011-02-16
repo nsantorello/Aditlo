@@ -37,7 +37,7 @@
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
 			<object class="IBUITableViewCell" id="526110054">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -51,7 +51,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{2, 2}, {104, 104}}</string>
 								<reference key="NSSuperview" ref="956445538"/>
-								<reference key="NSWindow"/>
 								<object class="NSColor" key="IBUIBackgroundColor">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MC45MTMyNjUzMDYxIDAuOTEzMjY1MzA2MSAwLjkxMzI2NTMwNjEAA</bytes>
@@ -68,7 +67,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{214, 2}, {104, 104}}</string>
 								<reference key="NSSuperview" ref="956445538"/>
-								<reference key="NSWindow"/>
 								<object class="NSColor" key="IBUIBackgroundColor">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MC45MTMyNjUzMDYxIDAuOTEzMjY1MzA2MSAwLjkxMzI2NTMwNjEAA</bytes>
@@ -85,7 +83,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{108, 2}, {104, 104}}</string>
 								<reference key="NSSuperview" ref="956445538"/>
-								<reference key="NSWindow"/>
 								<object class="NSColor" key="IBUIBackgroundColor">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MC45MTMyNjUzMDYxIDAuOTEzMjY1MzA2MSAwLjkxMzI2NTMwNjEAA</bytes>
@@ -100,7 +97,6 @@
 						</object>
 						<string key="NSFrameSize">{320, 106}</string>
 						<reference key="NSSuperview" ref="526110054"/>
-						<reference key="NSWindow"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MCAwAA</bytes>
@@ -113,8 +109,6 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 106}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -197,7 +191,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>GridTableViewController</string>
 					<string>UIResponder</string>
-					<string>GridTableCell</string>
+					<string>AdilTableCell</string>
 					<string>{{486, 659}, {320, 106}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
@@ -247,11 +241,11 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">GridTableCell</string>
+					<string key="className">AdilTableCell</string>
 					<string key="superclassName">ABTableViewCell</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">Classes/GridTableCell.h</string>
+						<string key="majorKey">IBUserSource</string>
+						<string key="minorKey"/>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
