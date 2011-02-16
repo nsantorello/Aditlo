@@ -12,7 +12,7 @@ module Pseudohash
        end
        
        if len >= maxlen
-           raise Exception.new(num + "out of range!")
+           raise Exception.new(num + 'out of range!')
        end
        
        ceil = base ** len

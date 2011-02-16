@@ -8,6 +8,8 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 AWS_ACCESS_KEY_ID = 'AKIAJJ26WQL3CQ3X73IA'
 AWS_SECRET_ACCESS_KEY = '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'
+AWS_BUCKETS_THUMBS_URL = 't/'
+AWS_BUCKETS_ADILS_URL = 'a/'
 
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence over those specified here.

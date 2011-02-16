@@ -1,7 +1,15 @@
 This will tell you what you need to do to set up Adilla to work with Amazon S3.
 
 * Create a bucket for the environment you are deploying.  Current bucket names are:
-	Development -- dl-dev.adil.la
-	Testing -- dl-test.adil.la
+	Development -- dl.dev.adil.la
+	Testing -- dl.test.adil.la
 	Production -- dl.adil.la
+* Ensure your buckets have the "list" property disabled so that public users cannot
+  see a list of the bucket's contents.
 * Place Robots.txt in the root directory of the bucket.
+* Create CNAME entries in DNS for each S3 bucket on adil.la:
+	Host Name		Record Type		Value
+	dl.dev			CNAME			s3.amazonaws.com.
+	dl.test			CNAME			s3.amazonaws.com.
+	dl  			CNAME			s3.amazonaws.com.
+	(Yes, that's s3.amazonaws.com., with a period at the end.)
