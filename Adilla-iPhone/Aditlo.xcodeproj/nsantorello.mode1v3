@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -285,13 +287,15 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>44</integer>
-									<integer>43</integer>
+									<integer>16</integer>
+									<integer>12</integer>
+									<integer>11</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 262}, {186, 809}}</string>
+							<string>{{0, 0}, {186, 809}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -321,14 +325,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Constants.m</string>
+								<string>AdilTableViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -336,11 +338,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Constants.m</string>
+										<string>AdilTableViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D2FCE28C130C76A600A1C8D0</string>
+										<string>D2FCE338130E30E100A1C8D0</string>
 										<key>history</key>
 										<array>
 											<string>D2B510B713076378006542D9</string>
@@ -370,25 +372,27 @@
 											<string>D26BCC4A130985F9005C3698</string>
 											<string>D26BCC4B130985F9005C3698</string>
 											<string>D2FCE060130B5E5D00A1C8D0</string>
-											<string>D2FCE061130B5E5D00A1C8D0</string>
 											<string>D2FCE0CE130B653900A1C8D0</string>
 											<string>D2FCE0CF130B653900A1C8D0</string>
 											<string>D2FCE149130B6E5F00A1C8D0</string>
 											<string>D2FCE14A130B6E5F00A1C8D0</string>
 											<string>D2FCE14B130B6E5F00A1C8D0</string>
 											<string>D2FCE14C130B6E5F00A1C8D0</string>
-											<string>D2FCE14D130B6E5F00A1C8D0</string>
-											<string>D2FCE14F130B6E5F00A1C8D0</string>
 											<string>D2FCE150130B6E5F00A1C8D0</string>
 											<string>D2FCE190130B730B00A1C8D0</string>
 											<string>D2FCE264130C754000A1C8D0</string>
 											<string>D2FCE265130C754000A1C8D0</string>
 											<string>D2FCE266130C754000A1C8D0</string>
-											<string>D2FCE267130C754000A1C8D0</string>
 											<string>D2FCE268130C754000A1C8D0</string>
-											<string>D2FCE269130C754000A1C8D0</string>
-											<string>D2FCE27C130C768F00A1C8D0</string>
-											<string>D2FCE27D130C768F00A1C8D0</string>
+											<string>D2FCE2F5130DF82400A1C8D0</string>
+											<string>D2FCE2F6130DF82400A1C8D0</string>
+											<string>D2FCE2F7130DF82400A1C8D0</string>
+											<string>D2FCE307130E2E5900A1C8D0</string>
+											<string>D2FCE320130E301500A1C8D0</string>
+											<string>D2FCE330130E308400A1C8D0</string>
+											<string>D2FCE331130E308400A1C8D0</string>
+											<string>D2FCE336130E30E100A1C8D0</string>
+											<string>D2FCE337130E30E100A1C8D0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -446,9 +450,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D2FCE20C130C2D3600A1C8D0</string>
+				<string>D2FCE30A130E2E5900A1C8D0</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D2FCE20D130C2D3600A1C8D0</string>
+				<string>D2FCE30B130E2E5900A1C8D0</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -586,11 +590,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D2FCE26D130C754000A1C8D0</string>
-		<string>D2FCE218130C2D3600A1C8D0</string>
+		<string>D2FCE339130E30E100A1C8D0</string>
+		<string>D2FCE319130E2EAE00A1C8D0</string>
+		<string>D2FCE315130E2E5900A1C8D0</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>D2FCE088130B614E00A1C8D0</string>
 		<string>D2123507130695400024D902</string>
 		<string>/Users/nsantorello/Documents/Aditlo/Adilla-iPhone/Aditlo.xcodeproj</string>
 	</array>
@@ -616,7 +620,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Constants.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -633,8 +637,6 @@
 							<string>445pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -674,7 +676,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D2123507130695400024D902</string>
-				<string>D2FCE20E130C2D3600A1C8D0</string>
+				<string>D2FCE30C130E2E5900A1C8D0</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -796,13 +798,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>D2FCE20F130C2D3600A1C8D0</string>
+				<string>D2FCE30D130E2E5900A1C8D0</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>D2FCE210130C2D3600A1C8D0</string>
-				<string>D2FCE211130C2D3600A1C8D0</string>
-				<string>D2FCE212130C2D3600A1C8D0</string>
-				<string>D2FCE213130C2D3600A1C8D0</string>
-				<string>D2FCE214130C2D3600A1C8D0</string>
+				<string>D2FCE30E130E2E5900A1C8D0</string>
+				<string>D2FCE30F130E2E5900A1C8D0</string>
+				<string>D2FCE310130E2E5900A1C8D0</string>
+				<string>D2FCE311130E2E5900A1C8D0</string>
+				<string>D2FCE312130E2E5900A1C8D0</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -956,7 +958,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>D2FCE215130C2D3600A1C8D0</string>
+				<string>D2FCE313130E2E5900A1C8D0</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

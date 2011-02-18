@@ -21,14 +21,9 @@
 	return [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", [C serverString], AdillaUrl_Today]];
 }
 
-+ (NSString*)thumbsBaseString
-{
-	return [NSString stringWithFormat:@"%@%@", AwsUrl_Server, AwsUrl_Thumbs];
-}
-
 + (NSURL*)resolveThumbURL:(NSString*)url
 {
-	return [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", [C thumbsBaseString], url]];
+	return [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", AwsUrl_Server, url]];
 }
 
 @end
