@@ -46,24 +46,39 @@ class AdilsController < ApplicationController
   # POST /adils
   # POST /adils.xml
   def create
-    #@adil = Adil.new(params[:adil])
+    @adil = Adil.new(params[:adil])
 
     respond_to do |format|
-      if true#@adil.save
+      if @adil.save
         # Compute and store pseudohash
-      	#@adil.pseudohash = Pseudohash.hashify @adil.id
-      	#@adil.save
+      	@adil.pseudohash = Pseudohash.hashify @adil.id
+
+		adil_vid_name = @adil.pseudohash + '.mp4'
+		full_filename = '/Users/nsantorello/tmpvids/' + @adil.pseudohash + '.tmp'  
+		full_adil = '/Users/nsantorello/tmpvids/' + adil_vid_name
+		thumb_name = @adil.pseudohash + '_104.jpg'
+		full_thumb = '/Users/nsantorello/tmpvids/' + thumb_name
+      	file = File.open(full_filename, 'w+') { |f| f.write(params[:upload].read) }
       	
-      	file = params[:upload]
+      	system "/Users/nsantorello/FFmpeg/ffmpeg/ffmpeg -i #{full_filename} -y -acodec libfaac -ab 128k -vcodec libx264 -vpre hq -b 512000 -threads 0 -f ipod #{full_adil}"
+      	system "/Users/nsantorello/FFmpeg/ffmpeg/ffmpeg -itsoffset -4  -i #{full_filename} -vcodec mjpeg -vframes 1 -an -f rawvideo -s 104x104 #{full_thumb}"
+      	
+      	@adil.video_url = 'a/' + adil_vid_name
+      	@adil.thumb_104 = 't/' + thumb_name
+      	
+      	
       	# Establish connection to S3
       	AWS::S3::Base.establish_connection! :access_key_id => AWS_ACCESS_KEY_ID, 
       		:secret_access_key => AWS_SECRET_ACCESS_KEY
       	# Upload file to S3, setting it to be available to be read publicly
-      	AWS::S3::S3Object.store AwsUrlBuilder.thumb_url(file.original_filename), #"thumbs/" + file.original_filename, 
-      		open(file), AWS_S3_BUCKET, :access => :public_read
+      	AWS::S3::S3Object.store 'a/' + adil_vid_name, #"thumbs/" + file.original_filename, 
+      		open(full_adil), AWS_S3_BUCKET, :access => :public_read
+      	AWS::S3::S3Object.store 't/' + thumb_name, #"thumbs/" + file.original_filename, 
+      		open(full_thumb), AWS_S3_BUCKET, :access => :public_read
       	
+      	@adil.save
       	
-        format.html { redirect_to(@adil, :notice => 'Adil was successfully created.') }
+        format.html { redirect_to(@adil, :notice => 'Adil was successfully created.' + AWS_S3_BUCKET) }
         format.xml  { render :xml => @adil, :status => :created, :location => @adil }
       else
         format.html { render :action => "new" }
