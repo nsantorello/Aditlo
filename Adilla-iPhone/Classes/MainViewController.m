@@ -13,13 +13,12 @@
 
 - (void)setupAdilTableViewController
 {
-	[api fetchToday];
+	[TodayRequest fetchTodayWithDelegate:self];
 	adilController.thumbDownloadsInProgress = [NSMutableDictionary dictionary];
 }
 
 - (void)viewDidLoad
 {
-	api = [[ApiCaller alloc] initWithDelegate:self];
 	[self setupAdilTableViewController];
 	[super viewDidLoad];
 }
@@ -75,8 +74,8 @@
 }
 
 
-- (void)dealloc {
-	[api release];
+- (void)dealloc 
+{
 	[gridTable release];
 	[adilController release];
 	[topNavBar release];

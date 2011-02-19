@@ -8,30 +8,28 @@
 
 #import "CreateAdilRequest.h"
 
-
 @implementation CreateAdilRequest
 
 - (void)beginRequestWithVideoURL:(NSString*)url
 {
-	// Remove any previous requests if they exist.
-	[request cancel];
-	[request release];
+	ASIFormDataRequest* request = [ASIFormDataRequest requestWithURL:[C createAdilURL]];
+	[request setDelegate:self];
+	[request setFile:url forKey:AdillaUrl_CreateAdil_Video_PostKey];
+	[request startAsynchronous];
+}
+
+- (void)requestFinished:(ASIHTTPRequest*)request
+{
 	
 }
 
-- (void)requestFinished:(ASIHTTPRequest*)request forKey:(NSObject*)key
-{
-
-}
-
-- (void)requestFailedForKey:(NSObject*)key
+- (void)requestFailed:(ASIHTTPRequest*)request
 {
 	
 }
 
 - (void)dealloc
 {
-	[request release];
 	[videoURL release];
 	[super dealloc];
 }

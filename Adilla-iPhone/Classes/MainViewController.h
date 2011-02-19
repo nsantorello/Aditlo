@@ -10,11 +10,10 @@
 #import "AdilRecorderController.h"
 #import "AdilTable.h"
 #import "AdilTableViewController.h"
-#import "ApiCaller.h"
+#import "TodayRequest.h"
 
-@interface MainViewController : UIViewController<ApiResponseDelegate> {
-	ApiCaller* api;
-	
+@interface MainViewController : UIViewController 
+{	
 	// The grid table containing the image updates.
 	IBOutlet AdilTable* gridTable;
 	// Reference to the controller so that it gets retained.
@@ -25,8 +24,7 @@
 
 - (IBAction)showRecordingView;
 
-// ApiResponseDelegate methods.
-- (void)connectionTimedOut;
+// API Request callbacks.
 - (void)fetchedToday:(TodayResult*)todayResult;
 
 @end

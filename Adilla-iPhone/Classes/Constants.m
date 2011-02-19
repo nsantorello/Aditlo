@@ -8,7 +8,9 @@
 
 // Adilla server controller URLs.
 NSString* const AdillaUrl_Today = @"today.json";
+
 NSString* const AdillaUrl_CreateAdil = @"adils";
+NSString* const AdillaUrl_CreateAdil_Video_PostKey = @"upload";
 
 #ifdef DEV_BUILD
 NSString* const AdillaUrl_Server = @"http://dev.adil.la/";

@@ -1,5 +1,5 @@
 //
-//  CreateAdilRequest.h
+//  JSONParser.h
 //  Aditlo
 //
 //  Created by Noah Santorello on 2/19/11.
@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JSON.h"
 
-@interface CreateAdilRequest : NSObject 
-{
-	NSString* videoURL;
-	id delegate;
+@interface JSONParser : NSObject {
+
 }
 
-@end
++ (SBJsonParser*)parser;
 
+@end

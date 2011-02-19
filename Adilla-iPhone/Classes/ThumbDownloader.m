@@ -70,7 +70,7 @@
     [adilvm release];
     [index release];
     
-    [downloader cancel];
+    [downloader clearDelegatesAndCancel];
 	[downloader release];
     
     [super dealloc];
@@ -78,14 +78,14 @@
 
 - (void)startDownload
 {
-	downloader = [[AsyncRequest alloc] initWithDelegate:self];
-	NSURL* thumbUrl = [C resolveThumbURL:adilvm.adil.thumb104];
-	[downloader start:thumbUrl forKey:nil];
+	downloader = [ASIHTTPRequest requestWithURL:[C resolveThumbURL:adilvm.adil.thumb104]];
+	[downloader setDelegate:self];
+	[downloader startAsynchronous];
 }
 
 - (void)cancelDownload
 {
-    [downloader cancel];
+    [downloader clearDelegatesAndCancel];
 	[downloader release];
 	downloader = nil;
 }
@@ -94,7 +94,7 @@
 #pragma mark -
 #pragma mark Download support (NSURLConnectionDelegate)
 
-- (void)requestFinished:(ASIHTTPRequest*)request forKey:(NSObject*)key
+- (void)requestFinished:(ASIHTTPRequest*)request
 {
 	NSData* downloadedData = [request responseData];
     UIImage *image = [[UIImage alloc] initWithData:downloadedData];
@@ -117,7 +117,7 @@
     [delegate thumbDidLoad:index];
 }
 
-- (void)requestFailedForKey:(NSObject*)key
+- (void)requestFailed:(ASIHTTPRequest*)request
 {
 	[self cancelDownload];
 }

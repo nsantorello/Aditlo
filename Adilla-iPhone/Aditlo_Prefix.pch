@@ -6,4 +6,6 @@
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
 	#import "C.h"
+	#import "ASIHTTPRequest.h"
+	#import "ASIFormDataRequest.h"
 #endif

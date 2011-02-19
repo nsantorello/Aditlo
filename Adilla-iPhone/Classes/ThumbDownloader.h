@@ -50,17 +50,15 @@
   
  */
 
-#import "AsyncRequest.h"
-
 @class AdilViewModel;
 
 @protocol ThumbDownloaderDelegate;
 
-@interface ThumbDownloader : NSObject<AsyncDownloaderDelegate>
+@interface ThumbDownloader : NSObject
 {
     AdilViewModel *adilvm;
     NSNumber *index;
-	AsyncRequest* downloader;
+	ASIHTTPRequest* downloader;
     id <ThumbDownloaderDelegate> delegate;
 }
 
