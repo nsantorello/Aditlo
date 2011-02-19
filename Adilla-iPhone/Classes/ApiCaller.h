@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "JSON.h"
 #import "ResultHeaders.h"
-#import "AsyncDownloader.h"
+#import "AsyncRequest.h"
 
 @protocol  ApiResponseDelegate;
 
 @interface ApiCaller : NSObject<AsyncDownloaderDelegate> {
-	AsyncDownloader* downloader;
+	AsyncRequest* downloader;
 	id<ApiResponseDelegate> delegate;
 }
 

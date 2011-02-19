@@ -27,7 +27,7 @@ static SBJsonParser* parser = nil;
 - (id)init
 {
 	self = [super init];
-	downloader = [[AsyncDownloader alloc] init];
+	downloader = [[AsyncRequest alloc] init];
 	downloader.delegate = self;
 	return self;
 }

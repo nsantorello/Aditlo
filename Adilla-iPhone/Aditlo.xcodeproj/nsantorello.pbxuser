@@ -209,6 +209,9 @@
 			D22E943413107F9600A46975 /* PBXTextBookmark */ = D22E943413107F9600A46975 /* PBXTextBookmark */;
 			D22E943513107F9600A46975 /* PBXTextBookmark */ = D22E943513107F9600A46975 /* PBXTextBookmark */;
 			D22E943613107F9600A46975 /* PBXTextBookmark */ = D22E943613107F9600A46975 /* PBXTextBookmark */;
+			D22E943E1310808B00A46975 /* PBXTextBookmark */ = D22E943E1310808B00A46975 /* PBXTextBookmark */;
+			D22E943F1310808B00A46975 /* PBXTextBookmark */ = D22E943F1310808B00A46975 /* PBXTextBookmark */;
+			D22E94401310808B00A46975 /* PBXTextBookmark */ = D22E94401310808B00A46975 /* PBXTextBookmark */;
 			D262F0901308C5DC00E75A0F = D262F0901308C5DC00E75A0F /* PBXTextBookmark */;
 			D262F0F21308D16900E75A0F = D262F0F21308D16900E75A0F /* PBXTextBookmark */;
 			D26A1C4F1307A258007B2D43 = D26A1C4F1307A258007B2D43 /* PlistBookmark */;
@@ -684,7 +687,7 @@
 	};
 	D22E93421310700100A46975 /* CreateAdilRequest.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1410, 537}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1364, 765}}";
 			sepNavSelRange = "{226, 0}";
 			sepNavVisRange = "{0, 233}";
 		};
@@ -735,7 +738,7 @@
 	D22E9381131076B800A46975 /* XCBuildMessageTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "Unused variable 'responseData'";
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
 		rLoc = 44;
@@ -743,10 +746,10 @@
 	};
 	D22E9382131076B800A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 68";
 		rLen = 0;
-		rLoc = 605;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 491;
 		vrLoc = 1281;
@@ -803,7 +806,7 @@
 	};
 	D22E938C131076C200A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		fRef = D262F0821308C0F600E75A0F /* AsyncRequest.h */;
 		name = "AsyncDownloader.h: 10";
 		rLen = 0;
 		rLoc = 203;
@@ -813,30 +816,30 @@
 	};
 	D22E938D131076C200A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 65";
 		rLen = 0;
-		rLoc = 605;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 1281;
 	};
 	D22E938E131076C200A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 65";
 		rLen = 0;
-		rLoc = 605;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 607;
 		vrLoc = 1281;
 	};
 	D22E93961310791B00A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 45";
 		rLen = 0;
-		rLoc = 757;
+		rLoc = 751;
 		rType = 0;
 		vrLen = 434;
 		vrLoc = 714;
@@ -855,7 +858,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 44";
 		rLen = 0;
-		rLoc = 682;
+		rLoc = 679;
 		rType = 0;
 		vrLen = 517;
 		vrLoc = 568;
@@ -865,7 +868,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 44";
 		rLen = 0;
-		rLoc = 682;
+		rLoc = 679;
 		rType = 0;
 		vrLen = 410;
 		vrLoc = 568;
@@ -884,7 +887,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 80";
 		rLen = 0;
-		rLoc = 1606;
+		rLoc = 1603;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 1244;
@@ -903,7 +906,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 85";
 		rLen = 0;
-		rLoc = 1672;
+		rLoc = 1669;
 		rType = 0;
 		vrLen = 250;
 		vrLoc = 1373;
@@ -935,7 +938,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 62";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1250;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 927;
@@ -945,7 +948,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 62";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1250;
 		rType = 0;
 		vrLen = 576;
 		vrLoc = 970;
@@ -971,10 +974,10 @@
 	};
 	D22E93D513107B4300A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		fRef = D262F0821308C0F600E75A0F /* AsyncRequest.h */;
 		name = "AsyncDownloader.h: 31";
 		rLen = 0;
-		rLoc = 745;
+		rLoc = 742;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 301;
@@ -984,17 +987,17 @@
 		fRef = D26A1DC913084C67007B2D43 /* ThumbDownloader.h */;
 		name = "ThumbDownloader.h: 71";
 		rLen = 13;
-		rLoc = 3310;
+		rLoc = 3304;
 		rType = 0;
 		vrLen = 893;
 		vrLoc = 2548;
 	};
 	D22E93D713107B4300A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 44";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 671;
 		vrLoc = 339;
@@ -1004,7 +1007,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 63";
 		rLen = 0;
-		rLoc = 1298;
+		rLoc = 1295;
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 741;
@@ -1014,7 +1017,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */;
 		name = "ThumbDownloader.m: 89";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 3481;
 		rType = 0;
 		vrLen = 947;
 		vrLoc = 3138;
@@ -1024,7 +1027,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */;
 		name = "ThumbDownloader.m: 89";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 3481;
 		rType = 0;
 		vrLen = 1012;
 		vrLoc = 3143;
@@ -1034,7 +1037,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */;
 		name = "ThumbDownloader.m: 89";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 3481;
 		rType = 0;
 		vrLen = 1012;
 		vrLoc = 3143;
@@ -1054,7 +1057,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 63";
 		rLen = 0;
-		rLoc = 1296;
+		rLoc = 1293;
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 828;
@@ -1064,7 +1067,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 63";
 		rLen = 0;
-		rLoc = 1262;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 682;
@@ -1074,7 +1077,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 63";
 		rLen = 0;
-		rLoc = 1262;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 890;
 		vrLoc = 738;
@@ -1084,97 +1087,97 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 63";
 		rLen = 0;
-		rLoc = 1262;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 945;
 		vrLoc = 601;
 	};
 	D22E93EE13107BAE00A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 44";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 671;
 		vrLoc = 339;
 	};
 	D22E93EF13107BAE00A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 44";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 669;
 		vrLoc = 341;
 	};
 	D22E93F513107BBD00A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 44";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 799;
 		vrLoc = 550;
 	};
 	D22E93F613107BBD00A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 44";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 814;
 		vrLoc = 552;
 	};
 	D22E93FE13107BF500A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 47";
 		rLen = 0;
-		rLoc = 760;
+		rLoc = 754;
 		rType = 0;
 		vrLen = 814;
 		vrLoc = 552;
 	};
 	D22E93FF13107BF500A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 47";
 		rLen = 0;
-		rLoc = 760;
+		rLoc = 754;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 553;
 	};
 	D22E940513107C3000A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 47";
 		rLen = 0;
-		rLoc = 760;
+		rLoc = 754;
 		rType = 0;
 		vrLen = 820;
 		vrLoc = 553;
 	};
 	D22E940613107C3000A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 47";
 		rLen = 0;
-		rLoc = 760;
+		rLoc = 754;
 		rType = 0;
 		vrLen = 774;
 		vrLoc = 599;
 	};
 	D22E940813107C4B00A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 47";
 		rLen = 0;
-		rLoc = 760;
+		rLoc = 754;
 		rType = 0;
 		vrLen = 774;
 		vrLoc = 599;
@@ -1184,7 +1187,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 63";
 		rLen = 0;
-		rLoc = 1255;
+		rLoc = 1252;
 		rType = 0;
 		vrLen = 924;
 		vrLoc = 622;
@@ -1201,7 +1204,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */;
 		name = "ThumbDownloader.m: 99";
 		rLen = 0;
-		rLoc = 3702;
+		rLoc = 3699;
 		rType = 0;
 		vrLen = 1012;
 		vrLoc = 3143;
@@ -1224,7 +1227,7 @@
 		fRef = D26A1C90130826B9007B2D43 /* ApiCaller.m */;
 		name = "ApiCaller.m: 62";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1250;
 		rType = 0;
 		vrLen = 469;
 		vrLoc = 1077;
@@ -1253,27 +1256,27 @@
 		fRef = D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */;
 		name = "ThumbDownloader.m: 124";
 		rLen = 0;
-		rLoc = 4435;
+		rLoc = 4432;
 		rType = 0;
 		vrLen = 357;
 		vrLoc = 4035;
 	};
 	D22E943213107F9600A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 61";
 		rLen = 0;
-		rLoc = 1137;
+		rLoc = 1131;
 		rType = 0;
 		vrLen = 820;
 		vrLoc = 529;
 	};
 	D22E943313107F9600A46975 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		fRef = D262F0821308C0F600E75A0F /* AsyncRequest.h */;
 		name = "AsyncDownloader.h: 37";
 		rLen = 0;
-		rLoc = 822;
+		rLoc = 819;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 36;
@@ -1282,8 +1285,8 @@
 		isa = PBXTextBookmark;
 		fRef = D26A1DC913084C67007B2D43 /* ThumbDownloader.h */;
 		name = "ThumbDownloader.h: 59";
-		rLen = 23;
-		rLoc = 2981;
+		rLen = 0;
+		rLoc = 2869;
 		rType = 0;
 		vrLen = 893;
 		vrLoc = 2548;
@@ -1293,7 +1296,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */;
 		name = "ThumbDownloader.m: 98";
 		rLen = 0;
-		rLoc = 3702;
+		rLoc = 3699;
 		rType = 0;
 		vrLen = 910;
 		vrLoc = 3093;
@@ -1303,19 +1306,49 @@
 		fRef = D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */;
 		name = "ThumbDownloader.m: 97";
 		rLen = 7;
-		rLoc = 3588;
+		rLoc = 3585;
 		rType = 0;
 		vrLen = 995;
 		vrLoc = 3411;
 	};
-	D262F0821308C0F600E75A0F /* AsyncDownloader.h */ = {
+	D22E943E1310808B00A46975 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */;
+		name = "ThumbDownloader.m: 97";
+		rLen = 7;
+		rLoc = 3585;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 3412;
+	};
+	D22E943F1310808B00A46975 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D22E93421310700100A46975 /* CreateAdilRequest.h */;
+		name = "CreateAdilRequest.h: 15";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 233;
+		vrLoc = 0;
+	};
+	D22E94401310808B00A46975 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D262F0821308C0F600E75A0F /* AsyncRequest.h */;
+		name = "AsyncRequest.h: 40";
+		rLen = 0;
+		rLoc = 917;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 39;
+	};
+	D262F0821308C0F600E75A0F /* AsyncRequest.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1364, 840}}";
-			sepNavSelRange = "{822, 0}";
-			sepNavVisRange = "{36, 884}";
+			sepNavSelRange = "{917, 0}";
+			sepNavVisRange = "{39, 878}";
 		};
 	};
-	D262F0831308C0F600E75A0F /* AsyncDownloader.m */ = {
+	D262F0831308C0F600E75A0F /* AsyncRequest.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1364, 1575}}";
 			sepNavSelRange = "{1137, 0}";
@@ -1573,7 +1606,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1364, 2877}}";
 			sepNavSelRange = "{3588, 7}";
-			sepNavVisRange = "{3411, 995}";
+			sepNavVisRange = "{3412, 1020}";
 			sepNavWindowFrame = "{{0, 91}, {1521, 937}}";
 		};
 	};
@@ -1650,10 +1683,10 @@
 	};
 	D26BCB7613095B34005C3698 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0821308C0F600E75A0F /* AsyncDownloader.h */;
+		fRef = D262F0821308C0F600E75A0F /* AsyncRequest.h */;
 		name = "AsyncDownloader.h: 16";
 		rLen = 0;
-		rLoc = 343;
+		rLoc = 340;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 253;
@@ -1817,7 +1850,7 @@
 		fRef = D26A1C8F130826B9007B2D43 /* ApiCaller.h */;
 		name = "ApiCaller.h: 24";
 		rLen = 0;
-		rLoc = 520;
+		rLoc = 514;
 		rType = 0;
 		vrLen = 519;
 		vrLoc = 137;
@@ -1834,10 +1867,10 @@
 	};
 	D2FCE14B130B6E5F00A1C8D0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */;
+		fRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */;
 		name = "AsyncDownloader.m: 43";
 		rLen = 0;
-		rLoc = 1252;
+		rLoc = 1246;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 568;
@@ -1857,7 +1890,7 @@
 		fRef = D26A1DC913084C67007B2D43 /* ThumbDownloader.h */;
 		name = "ThumbDownloader.h: 69";
 		rLen = 0;
-		rLoc = 3289;
+		rLoc = 3283;
 		rType = 0;
 		vrLen = 537;
 		vrLoc = 2854;
@@ -1937,7 +1970,7 @@
 		fRef = D26A1DCA13084C67007B2D43 /* ThumbDownloader.m */;
 		name = "ThumbDownloader.m: 98";
 		rLen = 0;
-		rLoc = 3702;
+		rLoc = 3699;
 		rType = 0;
 		vrLen = 1119;
 		vrLoc = 3228;

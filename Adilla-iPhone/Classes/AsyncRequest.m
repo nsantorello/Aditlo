@@ -6,9 +6,9 @@
 //  Copyright 2011 Noah Santorello. All rights reserved.
 //
 
-#import "AsyncDownloader.h"
+#import "AsyncRequest.h"
 
-@implementation AsyncDownloader
+@implementation AsyncRequest
 
 @synthesize key;
 @synthesize delegate;

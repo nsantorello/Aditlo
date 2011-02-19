@@ -31,7 +31,7 @@
 		D22E93671310755000A46975 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22E93661310755000A46975 /* SystemConfiguration.framework */; };
 		D22E936B1310755F00A46975 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D22E936A1310755F00A46975 /* libz.dylib */; };
 		D22E9377131075F500A46975 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D22E9376131075F500A46975 /* Reachability.m */; };
-		D262F0841308C0F600E75A0F /* AsyncDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */; };
+		D262F0841308C0F600E75A0F /* AsyncRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D262F0831308C0F600E75A0F /* AsyncRequest.m */; };
 		D26A1C6E13082269007B2D43 /* TodayResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C6D13082269007B2D43 /* TodayResult.m */; };
 		D26A1C8713082590007B2D43 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C7E13082590007B2D43 /* NSObject+SBJSON.m */; };
 		D26A1C8813082590007B2D43 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C8013082590007B2D43 /* NSString+SBJSON.m */; };
@@ -106,8 +106,8 @@
 		D22E936A1310755F00A46975 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		D22E9375131075F500A46975 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		D22E9376131075F500A46975 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		D262F0821308C0F600E75A0F /* AsyncDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncDownloader.h; sourceTree = "<group>"; };
-		D262F0831308C0F600E75A0F /* AsyncDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncDownloader.m; sourceTree = "<group>"; };
+		D262F0821308C0F600E75A0F /* AsyncRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncRequest.h; sourceTree = "<group>"; };
+		D262F0831308C0F600E75A0F /* AsyncRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncRequest.m; sourceTree = "<group>"; };
 		D26A1C6C13082269007B2D43 /* TodayResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayResult.h; sourceTree = "<group>"; };
 		D26A1C6D13082269007B2D43 /* TodayResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayResult.m; sourceTree = "<group>"; };
 		D26A1C7C13082590007B2D43 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = Lib/JSON/JSON.h; sourceTree = "<group>"; };
@@ -354,8 +354,8 @@
 		D262F0811308C0E900E75A0F /* Download Wrappers */ = {
 			isa = PBXGroup;
 			children = (
-				D262F0821308C0F600E75A0F /* AsyncDownloader.h */,
-				D262F0831308C0F600E75A0F /* AsyncDownloader.m */,
+				D262F0821308C0F600E75A0F /* AsyncRequest.h */,
+				D262F0831308C0F600E75A0F /* AsyncRequest.m */,
 			);
 			name = "Download Wrappers";
 			sourceTree = "<group>";
@@ -568,7 +568,7 @@
 				D26A1D9D13084823007B2D43 /* AdilViewModel.m in Sources */,
 				D26A1DCB13084C67007B2D43 /* ThumbDownloader.m in Sources */,
 				D26A1E631308517E007B2D43 /* AdilTableCellViewModel.m in Sources */,
-				D262F0841308C0F600E75A0F /* AsyncDownloader.m in Sources */,
+				D262F0841308C0F600E75A0F /* AsyncRequest.m in Sources */,
 				D2FCE096130B621A00A1C8D0 /* AdilTableCell.m in Sources */,
 				D22E93341310639000A46975 /* AdilRecorderController.m in Sources */,
 				D22E93441310700100A46975 /* CreateAdilRequest.m in Sources */,

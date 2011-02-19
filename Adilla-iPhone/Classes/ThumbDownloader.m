@@ -78,7 +78,7 @@
 
 - (void)startDownload
 {
-	downloader = [[AsyncDownloader alloc] initWithDelegate:self];
+	downloader = [[AsyncRequest alloc] initWithDelegate:self];
 	NSURL* thumbUrl = [C resolveThumbURL:adilvm.adil.thumb104];
 	[downloader start:thumbUrl forKey:nil];
 }

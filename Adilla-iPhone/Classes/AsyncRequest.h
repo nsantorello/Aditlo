@@ -11,7 +11,7 @@
 
 @protocol AsyncDownloaderDelegate;
 
-@interface AsyncDownloader : NSObject 
+@interface AsyncRequest : NSObject 
 {
     NSObject* key;
     id <AsyncDownloaderDelegate> delegate;

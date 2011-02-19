@@ -50,7 +50,7 @@
   
  */
 
-#import "AsyncDownloader.h"
+#import "AsyncRequest.h"
 
 @class AdilViewModel;
 
@@ -60,7 +60,7 @@
 {
     AdilViewModel *adilvm;
     NSNumber *index;
-	AsyncDownloader* downloader;
+	AsyncRequest* downloader;
     id <ThumbDownloaderDelegate> delegate;
 }
 
