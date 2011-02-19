@@ -53,6 +53,14 @@
 	[adilController setAdils:todayResult.todaysAdils];
 }
 
+- (IBAction)showRecordingView
+{
+	// Show adil recorder.
+	AdilRecorderController *recorder = [[AdilRecorderController alloc] init];	
+	[self presentModalViewController:recorder animated:YES];
+	[recorder release];
+}
+
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AdilRecorderController.h"
 #import "AdilTable.h"
 #import "AdilTableViewController.h"
 #import "ApiCaller.h"
@@ -21,6 +22,8 @@
 	
 	IBOutlet UINavigationBar* topNavBar;
 }
+
+- (IBAction)showRecordingView;
 
 // ApiResponseDelegate methods.
 - (void)connectionTimedOut;

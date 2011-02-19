@@ -16,6 +16,8 @@
 		D2123510130697650024D902 /* AdilTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D212350E130697650024D902 /* AdilTableViewController.m */; };
 		D212352713069C7E0024D902 /* AdilTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D212352513069C7E0024D902 /* AdilTable.m */; };
 		D212359A1306A4A00024D902 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21235981306A4A00024D902 /* MainViewController.m */; };
+		D22E9326131061DB00A46975 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22E9325131061DB00A46975 /* MobileCoreServices.framework */; };
+		D22E93341310639000A46975 /* AdilRecorderController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22E93331310639000A46975 /* AdilRecorderController.m */; };
 		D262F0841308C0F600E75A0F /* AsyncDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D262F0831308C0F600E75A0F /* AsyncDownloader.m */; };
 		D26A1C6E13082269007B2D43 /* TodayResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C6D13082269007B2D43 /* TodayResult.m */; };
 		D26A1C8713082590007B2D43 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C7E13082590007B2D43 /* NSObject+SBJSON.m */; };
@@ -61,6 +63,9 @@
 		D212352513069C7E0024D902 /* AdilTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilTable.m; sourceTree = "<group>"; };
 		D21235971306A4A00024D902 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		D21235981306A4A00024D902 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D22E9325131061DB00A46975 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D22E93321310639000A46975 /* AdilRecorderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilRecorderController.h; sourceTree = "<group>"; };
+		D22E93331310639000A46975 /* AdilRecorderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilRecorderController.m; sourceTree = "<group>"; };
 		D262F0821308C0F600E75A0F /* AsyncDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncDownloader.h; sourceTree = "<group>"; };
 		D262F0831308C0F600E75A0F /* AsyncDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncDownloader.m; sourceTree = "<group>"; };
 		D26A1C6C13082269007B2D43 /* TodayResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayResult.h; sourceTree = "<group>"; };
@@ -116,6 +121,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				D22E9326131061DB00A46975 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,9 +135,7 @@
 				D26A1CCE13082C4F007B2D43 /* Core Objects */,
 				D26A1C8E13082649007B2D43 /* API */,
 				D26A1D97130847AB007B2D43 /* ViewModels */,
-				D2B5114213077941006542D9 /* Detail View */,
-				D21235961306A4670024D902 /* Main View */,
-				D212350C130697400024D902 /* Grid Table */,
+				D22E92E513105FD200A46975 /* Views */,
 				1D3623240D0F684500981E51 /* AditloAppDelegate.h */,
 				1D3623250D0F684500981E51 /* AditloAppDelegate.m */,
 			);
@@ -184,13 +188,15 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				D22E9325131061DB00A46975 /* MobileCoreServices.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D212350C130697400024D902 /* Grid Table */ = {
+		D212350C130697400024D902 /* Adil Table */ = {
 			isa = PBXGroup;
 			children = (
+				D22E92E613105FED00A46975 /* Recording View */,
 				D2B511C313077F49006542D9 /* Faster Scrolling */,
 				D2FCE094130B621A00A1C8D0 /* AdilTableCell.h */,
 				D2FCE095130B621A00A1C8D0 /* AdilTableCell.m */,
@@ -199,7 +205,7 @@
 				D212352413069C7E0024D902 /* AdilTable.h */,
 				D212352513069C7E0024D902 /* AdilTable.m */,
 			);
-			name = "Grid Table";
+			name = "Adil Table";
 			sourceTree = "<group>";
 		};
 		D21235961306A4670024D902 /* Main View */ = {
@@ -210,6 +216,25 @@
 				D2B510811307616D006542D9 /* MainView.xib */,
 			);
 			name = "Main View";
+			sourceTree = "<group>";
+		};
+		D22E92E513105FD200A46975 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D212350C130697400024D902 /* Adil Table */,
+				D21235961306A4670024D902 /* Main View */,
+				D2B5114213077941006542D9 /* Detail View */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D22E92E613105FED00A46975 /* Recording View */ = {
+			isa = PBXGroup;
+			children = (
+				D22E93321310639000A46975 /* AdilRecorderController.h */,
+				D22E93331310639000A46975 /* AdilRecorderController.m */,
+			);
+			name = "Recording View";
 			sourceTree = "<group>";
 		};
 		D262F0811308C0E900E75A0F /* Async Downloader */ = {
@@ -354,9 +379,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* Aditlo */ = {
+		1D6058900D05DD3D006BFB54 /* Adilla */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Aditlo" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Adilla" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -366,7 +391,7 @@
 			);
 			dependencies = (
 			);
-			name = Aditlo;
+			name = Adilla;
 			productName = Aditlo;
 			productReference = 1D6058910D05DD3D006BFB54 /* Aditlo.app */;
 			productType = "com.apple.product-type.application";
@@ -390,7 +415,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* Aditlo */,
+				1D6058900D05DD3D006BFB54 /* Adilla */,
 			);
 		};
 /* End PBXProject section */
@@ -442,6 +467,7 @@
 				D26A1E631308517E007B2D43 /* AdilTableCellViewModel.m in Sources */,
 				D262F0841308C0F600E75A0F /* AsyncDownloader.m in Sources */,
 				D2FCE096130B621A00A1C8D0 /* AdilTableCell.m in Sources */,
+				D22E93341310639000A46975 /* AdilRecorderController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Aditlo" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Adilla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,

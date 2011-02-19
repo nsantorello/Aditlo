@@ -10,7 +10,7 @@
 NSString* const AdillaUrl_Today = @"today.json";
 
 #ifdef DEV_BUILD
-NSString* const AdillaUrl_Server = @"http://adil.la/";//@"http://dev.adil.la";
+NSString* const AdillaUrl_Server = @"http://dev.adil.la/";
 NSString* const AwsUrl_Server = @"http://dl.dev.adil.la/";
 #elif TEST_BUILD
 NSString* const AdillaUrl_Server = @"http://test.adil.la/";
