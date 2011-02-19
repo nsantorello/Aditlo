@@ -15,6 +15,7 @@
 
 // Retrieving constants.
 + (NSURL*)todayURL;
++ (NSURL*)createAdilURL;
 
 // Resolving against constants.
 + (NSURL*)resolveThumbURL:(NSString*)url;

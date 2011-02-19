@@ -290,7 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				D22E93991310793500A46975 /* Downloaders */,
-				D262F0811308C0E900E75A0F /* Download Wrappers */,
+				D262F0811308C0E900E75A0F /* Async Wrappers */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -351,13 +351,13 @@
 			name = Downloaders;
 			sourceTree = "<group>";
 		};
-		D262F0811308C0E900E75A0F /* Download Wrappers */ = {
+		D262F0811308C0E900E75A0F /* Async Wrappers */ = {
 			isa = PBXGroup;
 			children = (
 				D262F0821308C0F600E75A0F /* AsyncRequest.h */,
 				D262F0831308C0F600E75A0F /* AsyncRequest.m */,
 			);
-			name = "Download Wrappers";
+			name = "Async Wrappers";
 			sourceTree = "<group>";
 		};
 		D26A1C6B13082249007B2D43 /* Result Objects */ = {

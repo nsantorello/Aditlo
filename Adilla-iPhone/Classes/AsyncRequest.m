@@ -54,20 +54,23 @@
 	}
 }
 
-- (void)start:(NSURL*)url forKey:(NSObject*)dlKey
+- (void)startRequest:(ASIHTTPRequest*)req forKey:(NSObject*)dlKey
 {
-	// Cancel any currently in progress download for this downloader before starting another.
-	[self cancel];
 	self.key = dlKey;
 	
+	[req setDelegate:self];
+	[req startAsynchronous];
+}
+
+- (void)start:(NSURL*)url forKey:(NSObject*)dlKey
+{
 	self.request = [ASIHTTPRequest requestWithURL:url];
-	[request setDelegate:self];
-	[request startAsynchronous];
+	[self startRequest:self.request forKey:dlKey];
 }
 
 - (void)cancel
 {
-    [request cancel];
+    [request clearDelegatesAndCancel];
     self.request = nil;
     self.activeDownload = nil;
 	self.key = nil;

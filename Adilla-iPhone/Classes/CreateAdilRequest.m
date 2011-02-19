@@ -11,4 +11,29 @@
 
 @implementation CreateAdilRequest
 
+- (void)beginRequestWithVideoURL:(NSString*)url
+{
+	// Remove any previous requests if they exist.
+	[request cancel];
+	[request release];
+	
+}
+
+- (void)requestFinished:(ASIHTTPRequest*)request forKey:(NSObject*)key
+{
+
+}
+
+- (void)requestFailedForKey:(NSObject*)key
+{
+	
+}
+
+- (void)dealloc
+{
+	[request release];
+	[videoURL release];
+	[super dealloc];
+}
+
 @end

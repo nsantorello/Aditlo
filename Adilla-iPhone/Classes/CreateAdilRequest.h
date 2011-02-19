@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "AsyncRequest.h"
 
 @interface CreateAdilRequest : NSObject 
 {
-
+	ASIHTTPRequest* request;
+	NSString* videoURL;
 }
 
 @end

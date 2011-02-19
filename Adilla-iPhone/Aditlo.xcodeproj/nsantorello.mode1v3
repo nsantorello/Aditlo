@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -289,6 +287,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>8</integer>
 									<integer>6</integer>
 									<integer>2</integer>
 									<integer>1</integer>
@@ -296,7 +295,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {232, 809}}</string>
+							<string>{{0, 1}, {232, 809}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -326,12 +325,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AsyncRequest.h</string>
+								<string>AsyncRequest.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -339,11 +340,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AsyncRequest.h</string>
+										<string>AsyncRequest.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D22E94401310808B00A46975</string>
+										<string>D22E948C1310873100A46975</string>
 										<key>history</key>
 										<array>
 											<string>D2B510B713076378006542D9</string>
@@ -377,28 +378,28 @@
 											<string>D2FCE264130C754000A1C8D0</string>
 											<string>D2FCE265130C754000A1C8D0</string>
 											<string>D2FCE266130C754000A1C8D0</string>
-											<string>D2FCE268130C754000A1C8D0</string>
 											<string>D2FCE2F5130DF82400A1C8D0</string>
-											<string>D2FCE2F6130DF82400A1C8D0</string>
 											<string>D2FCE307130E2E5900A1C8D0</string>
 											<string>D2FCE320130E301500A1C8D0</string>
-											<string>D2FCE336130E30E100A1C8D0</string>
 											<string>D2FCE356130EBE4100A1C8D0</string>
-											<string>D2FCE357130EBE4100A1C8D0</string>
 											<string>D22E933A13106F0300A46975</string>
-											<string>D22E933B13106F0300A46975</string>
 											<string>D22E933C13106F0300A46975</string>
-											<string>D22E933D13106F0300A46975</string>
 											<string>D22E9387131076C200A46975</string>
-											<string>D22E9389131076C200A46975</string>
 											<string>D22E938B131076C200A46975</string>
 											<string>D22E93DF13107B6400A46975</string>
-											<string>D22E940913107C4B00A46975</string>
-											<string>D22E943213107F9600A46975</string>
-											<string>D22E943413107F9600A46975</string>
-											<string>D22E943E1310808B00A46975</string>
-											<string>D22E943F1310808B00A46975</string>
-											<string>D22E943313107F9600A46975</string>
+											<string>D22E94491310829A00A46975</string>
+											<string>D22E944C1310829A00A46975</string>
+											<string>D22E9468131086AB00A46975</string>
+											<string>D22E9469131086AB00A46975</string>
+											<string>D22E946A131086AB00A46975</string>
+											<string>D22E946B131086AB00A46975</string>
+											<string>D22E946C131086AB00A46975</string>
+											<string>D22E946E131086AB00A46975</string>
+											<string>D22E946F131086AB00A46975</string>
+											<string>D22E9470131086AB00A46975</string>
+											<string>D22E9471131086AB00A46975</string>
+											<string>D22E9479131086CF00A46975</string>
+											<string>D22E9483131086E200A46975</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -596,7 +597,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D22E94421310808B00A46975</string>
+		<string>D22E948B1310872A00A46975</string>
 		<string>D2FCE088130B614E00A1C8D0</string>
 		<string>D22E930A131060DD00A46975</string>
 		<string>D22E930C131060DD00A46975</string>
@@ -622,12 +623,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ThumbDownloader.m</string>
+								<string>CreateAdilRequest.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -644,8 +647,6 @@
 							<string>445pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -698,7 +699,7 @@
 			<key>WindowToolGUID</key>
 			<string>D2123507130695400024D902</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

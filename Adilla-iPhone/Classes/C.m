@@ -21,6 +21,11 @@
 	return [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", [C serverString], AdillaUrl_Today]];
 }
 
++ (NSURL*)createAdilURL
+{
+	return [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", [C serverString], AdillaUrl_CreateAdil]];
+}
+
 + (NSURL*)resolveThumbURL:(NSString*)url
 {
 	return [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", AwsUrl_Server, url]];
