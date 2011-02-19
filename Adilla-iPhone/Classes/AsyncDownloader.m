@@ -13,7 +13,7 @@
 @synthesize key;
 @synthesize delegate;
 @synthesize activeDownload;
-@synthesize dlConnection;
+@synthesize request;
 
 #pragma mark
 
@@ -30,65 +30,47 @@
     
     [activeDownload release];
     
-    [dlConnection cancel];
-    [dlConnection release];
+    [request cancel];
+    [request release];
     
     [super dealloc];
 }
 
-- (void)startDownload:(NSURL*)url forKey:(NSObject*)dlKey
+- (void)requestFinished:(ASIHTTPRequest *)req
+{
+	// Signal that download finished.
+	if ([delegate respondsToSelector:@selector(requestFinished:forKey:)])
+	{
+		[delegate requestFinished:req forKey:key];
+	}
+}
+
+- (void)requestFailed:(ASIHTTPRequest *)request
+{	
+	// Signal that download failed.
+	if ([delegate respondsToSelector:@selector(requestFailedForKey:)])
+	{
+		[delegate requestFailedForKey:key];
+	}
+}
+
+- (void)start:(NSURL*)url forKey:(NSObject*)dlKey
 {
 	// Cancel any currently in progress download for this downloader before starting another.
-	[self cancelDownload];
-	
-    self.activeDownload = [NSMutableData data];
+	[self cancel];
 	self.key = dlKey;
-    // alloc+init and start an NSURLConnection; release on completion/failure
-    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:
-                             [NSURLRequest requestWithURL:url] delegate:self];
-    self.dlConnection = conn;
-    [conn release];
+	
+	self.request = [ASIHTTPRequest requestWithURL:url];
+	[request setDelegate:self];
+	[request startAsynchronous];
 }
 
-- (void)cancelDownload
+- (void)cancel
 {
-    [self.dlConnection cancel];
-    self.dlConnection = nil;
+    [request cancel];
+    self.request = nil;
     self.activeDownload = nil;
 	self.key = nil;
-}
-
-
-#pragma mark -
-#pragma mark Download support (NSURLConnectionDelegate)
-
-- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
-{
-    [self.activeDownload appendData:data];
-}
-
-- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
-{
-	// Signal that download failed.
-	if ([delegate respondsToSelector:@selector(downloadFailedForKey:)])
-	{
-		[delegate downloadFailedForKey:key];
-	}
-	
-	// Release resources now that we're finished.
-	[self cancelDownload];
-}
-
-- (void)connectionDidFinishLoading:(NSURLConnection *)connection
-{    	
-    // Signal that download is complete.
-	if ([delegate respondsToSelector:@selector(didDownload:forKey:)])
-	{
-		[delegate didDownload:activeDownload forKey:key];
-	}
-	
-	// Release resources now that we're finished.
-	[self cancelDownload];
 }
 
 @end

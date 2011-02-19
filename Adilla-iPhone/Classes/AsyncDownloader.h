@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ASIHTTPRequest.h"
 
 @protocol AsyncDownloaderDelegate;
 
@@ -16,24 +17,24 @@
     id <AsyncDownloaderDelegate> delegate;
     
     NSMutableData *activeDownload;
-    NSURLConnection *dlConnection;
+    ASIHTTPRequest *request;
 }
 
 @property (nonatomic, retain) NSObject *key;
 @property (nonatomic, assign) id <AsyncDownloaderDelegate> delegate;
 
 @property (nonatomic, retain) NSMutableData *activeDownload;
-@property (nonatomic, retain) NSURLConnection *dlConnection;
+@property (nonatomic, retain) ASIHTTPRequest *request;
 
 - (id)initWithDelegate:(id)del;
-- (void)startDownload:(NSURL*)url forKey:(NSObject*)dlKey;
-- (void)cancelDownload;
+- (void)start:(NSURL*)url forKey:(NSObject*)dlKey;
+- (void)cancel;
 
 @end
 
 @protocol AsyncDownloaderDelegate<NSObject>
 
-- (void)didDownload:(NSData*)dledData forKey:(NSObject*)key;
-- (void)downloadFailedForKey:(NSObject*)key;
+- (void)requestFinished:(ASIHTTPRequest*)request forKey:(NSObject*)key;
+- (void)requestFailedForKey:(NSObject*)key;
 
 @end

@@ -41,7 +41,7 @@ static SBJsonParser* parser = nil;
 
 - (void)fetchToday
 {
-	[downloader startDownload:[C todayURL] forKey:AsyncKey_Today];
+	[downloader start:[C todayURL] forKey:AsyncKey_Today];
 }
 
 - (void)parseToday:(NSData*)dledData
@@ -58,8 +58,9 @@ static SBJsonParser* parser = nil;
 	}
 }
 
-- (void)didDownload:(NSData*)dledData forKey:(NSObject*)key
+- (void)requestFinished:(ASIHTTPRequest*)request forKey:(NSObject*)key
 {
+	NSData* dledData = [request responseData];
 	// Go through each key to see which type of call we should handle.
 	if (key == AsyncKey_Today)
 	{
@@ -67,7 +68,7 @@ static SBJsonParser* parser = nil;
 	}
 }
 
-- (void)downloadFailedForKey:(NSObject*)key
+- (void)requestFailedForKey:(NSObject*)key
 {
 	if ([delegate respondsToSelector:@selector(connectionTimedOut:)])
 	{
@@ -77,7 +78,7 @@ static SBJsonParser* parser = nil;
 
 - (void)dealloc
 {
-	[downloader cancelDownload];
+	[downloader cancel];
 	[downloader release];
 	[super dealloc];
 }
