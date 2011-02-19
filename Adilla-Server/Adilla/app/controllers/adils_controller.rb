@@ -54,14 +54,14 @@ class AdilsController < ApplicationController
       	@adil.pseudohash = Pseudohash.hashify @adil.id
 
 		adil_vid_name = @adil.pseudohash + '.mp4'
-		full_filename = '/Users/nsantorello/tmpvids/' + @adil.pseudohash + '.tmp'  
-		full_adil = '/Users/nsantorello/tmpvids/' + adil_vid_name
+		full_filename = '/tmp/' + @adil.pseudohash + '.tmp'  
+		full_adil = '/tmp/' + adil_vid_name
 		thumb_name = @adil.pseudohash + '_104.jpg'
-		full_thumb = '/Users/nsantorello/tmpvids/' + thumb_name
-      	file = File.open(full_filename, 'w+') { |f| f.write(params[:upload].read) }
+		full_thumb = '/tmp/' + thumb_name
+      	File.open(full_filename, 'w+') { |f| f.write(params[:upload].read) }
       	
-      	system "/Users/nsantorello/FFmpeg/ffmpeg/ffmpeg -i #{full_filename} -y -acodec libfaac -ab 128k -vcodec libx264 -vpre hq -b 512000 -threads 0 -f ipod #{full_adil}"
-      	system "/Users/nsantorello/FFmpeg/ffmpeg/ffmpeg -itsoffset -4  -i #{full_filename} -vcodec mjpeg -vframes 1 -an -f rawvideo -s 104x104 #{full_thumb}"
+      	system "ffmpeg -i #{full_filename} -y -acodec libfaac -ab 128k -vcodec libx264 -vpre hq -b 512000 -threads 0 -f ipod #{full_adil}"
+      	system "ffmpeg -itsoffset -4  -i #{full_filename} -vcodec mjpeg -vframes 1 -an -f rawvideo -s 104x104 #{full_thumb}"
       	
       	@adil.video_url = 'a/' + adil_vid_name
       	@adil.thumb_104 = 't/' + thumb_name
@@ -78,7 +78,9 @@ class AdilsController < ApplicationController
       	
       	@adil.save
       	
-        format.html { redirect_to(@adil, :notice => 'Adil was successfully created.' + AWS_S3_BUCKET) }
+      	File.delete (full_filename, full_thumb, full_adil)
+      	
+        format.html { redirect_to(@adil, :notice => 'Adil was successfully created.') }
         format.xml  { render :xml => @adil, :status => :created, :location => @adil }
       else
         format.html { render :action => "new" }

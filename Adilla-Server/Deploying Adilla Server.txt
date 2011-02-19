@@ -1,6 +1,17 @@
 This will tell you the steps to deploying the Adilla server.
 
-* Make sure that you have Ruby installed on the machine.
+* Make sure that you have Ruby installed on the machine (should come by
+  default on EC2 Linux images).  If not:
+  sudo yum install ruby rdoc
+* Install the gem package manager and ruby on rails.  See:
+  http://rubyonrails.org/download
+* Install MySQL, then install the MySQL gem by running:
+  sudo gem install mysql
 * Install the Amazon AWS S3 gem (see "Required Ruby Gems.txt" in this directory).
-* Run the Rails server by executing 
+* Clone the Adilla Server Rails app from GitHub.
+  1. Generate an SSH key if one doesn't exist:
+     http://help.github.com/mac-key-setup/
+  2. Add the deployment key to GitHub through admin settings.
+* Set up Amazon S3 (see "Amazon-S3/Setting up S3.txt")
+* CD into the Adilla directory and run the Rails server by executing 
     ruby script/server
