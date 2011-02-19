@@ -78,7 +78,9 @@ class AdilsController < ApplicationController
       	
       	@adil.save
       	
-      	File.delete (full_filename, full_thumb, full_adil)
+      	File.delete full_filename
+      	File.delete full_thumb
+      	File.delete full_adil
       	
         format.html { redirect_to(@adil, :notice => 'Adil was successfully created.') }
         format.xml  { render :xml => @adil, :status => :created, :location => @adil }
