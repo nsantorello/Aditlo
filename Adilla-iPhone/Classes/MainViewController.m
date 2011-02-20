@@ -13,7 +13,7 @@
 
 - (void)setupAdilTableViewController
 {
-	[TodayRequest fetchTodayWithDelegate:self];
+	[TodayRequest requestWithDelegate:self];
 	adilController.thumbDownloadsInProgress = [NSMutableDictionary dictionary];
 }
 
@@ -56,6 +56,8 @@
 {
 	// Show adil recorder.
 	AdilRecorderController *recorder = [[AdilRecorderController alloc] init];	
+	recorder.delegate = self;
+	recorder.videoQuality = UIImagePickerControllerQualityTypeLow;
 	[self presentModalViewController:recorder animated:YES];
 	[recorder release];
 }
@@ -73,6 +75,22 @@
     // e.g. self.myOutlet = nil;
 }
 
+-(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info 
+{
+	NSURL* recordingURL = [info objectForKey:UIImagePickerControllerMediaURL];
+	NSString* recordingPath = [recordingURL path];
+	
+	UISaveVideoAtPathToSavedPhotosAlbum(recordingPath, self, @selector(video:didFinishSavingWithError:contextInfo:), nil);
+	NSString *filePath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"latest_adil.mov"];
+	NSError *error = nil;
+	[[NSFileManager defaultManager] copyItemAtPath:recordingPath toPath:filePath error:&error];
+	if (error) {
+		[[NSFileManager defaultManager] removeItemAtPath:filePath error:&error];
+		[[NSFileManager defaultManager] copyItemAtPath:recordingPath toPath:filePath error:&error];
+	}
+	
+	[CreateAdilRequest requestWithDelegate:nil andVideoURL:filePath];
+}
 
 - (void)dealloc 
 {

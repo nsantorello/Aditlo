@@ -1,5 +1,5 @@
 //
-//  TodayRequest.h
+//  RequestBase.h
 //  Aditlo
 //
 //  Created by Noah Santorello on 2/19/11.
@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TodayResult.h"
-#import "RequestBase.h"
+#import "JSONParser.h"
 
-@interface TodayRequest : RequestBase 
+@interface RequestBase : NSObject 
 {
+	id delegate;
 }
 
-+ (void)requestWithDelegate:(id)delegate;
+@property (nonatomic, retain) id delegate;
 
 @end

@@ -86,8 +86,6 @@
 - (void)cancelDownload
 {
     [downloader clearDelegatesAndCancel];
-	[downloader release];
-	downloader = nil;
 }
 
 

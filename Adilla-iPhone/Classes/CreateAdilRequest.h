@@ -7,12 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RequestBase.h"
 
-@interface CreateAdilRequest : NSObject 
+@interface CreateAdilRequest : RequestBase 
 {
 	NSString* videoURL;
-	id delegate;
 }
+
++ (void)requestWithDelegate:(id)delegate andVideoURL:(NSString*)url;
 
 @end
 

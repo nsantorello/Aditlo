@@ -10,17 +10,22 @@
 
 @implementation CreateAdilRequest
 
-- (void)beginRequestWithVideoURL:(NSString*)url
++ (void)requestWithDelegate:(id)del andVideoURL:(NSString*)url
 {
+	CreateAdilRequest* createRequest = [[CreateAdilRequest alloc] init];
+	createRequest.delegate = del;
 	ASIFormDataRequest* request = [ASIFormDataRequest requestWithURL:[C createAdilURL]];
-	[request setDelegate:self];
+	[request setDelegate:createRequest];
 	[request setFile:url forKey:AdillaUrl_CreateAdil_Video_PostKey];
 	[request startAsynchronous];
 }
 
 - (void)requestFinished:(ASIHTTPRequest*)request
 {
-	
+	if ([delegate respondsToSelector:@selector(createdAdil)])
+	{
+		[delegate performSelector:@selector(createdAdil)];
+	}
 }
 
 - (void)requestFailed:(ASIHTTPRequest*)request

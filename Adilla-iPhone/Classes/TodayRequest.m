@@ -11,9 +11,7 @@
 
 @implementation TodayRequest
 
-@synthesize delegate;
-
-+ (void)fetchTodayWithDelegate:(id)del
++ (void)requestWithDelegate:(id)del
 {
 	TodayRequest* today = [[TodayRequest alloc] init];
 	today.delegate = del;

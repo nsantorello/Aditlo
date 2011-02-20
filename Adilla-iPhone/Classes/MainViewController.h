@@ -10,9 +10,9 @@
 #import "AdilRecorderController.h"
 #import "AdilTable.h"
 #import "AdilTableViewController.h"
-#import "TodayRequest.h"
+#import "RequestHeaders.h"
 
-@interface MainViewController : UIViewController 
+@interface MainViewController : UIViewController
 {	
 	// The grid table containing the image updates.
 	IBOutlet AdilTable* gridTable;
