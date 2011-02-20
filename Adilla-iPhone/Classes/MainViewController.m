@@ -77,10 +77,11 @@
 
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info 
 {
+	[picker dismissModalViewControllerAnimated:YES];
 	NSURL* recordingURL = [info objectForKey:UIImagePickerControllerMediaURL];
 	NSString* recordingPath = [recordingURL path];
 	
-	UISaveVideoAtPathToSavedPhotosAlbum(recordingPath, self, @selector(video:didFinishSavingWithError:contextInfo:), nil);
+	//UISaveVideoAtPathToSavedPhotosAlbum(recordingPath, self, @selector(SELECTOR HERE), nil);
 	NSString *filePath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"latest_adil.mov"];
 	NSError *error = nil;
 	[[NSFileManager defaultManager] copyItemAtPath:recordingPath toPath:filePath error:&error];
@@ -89,7 +90,7 @@
 		[[NSFileManager defaultManager] copyItemAtPath:recordingPath toPath:filePath error:&error];
 	}
 	
-	[CreateAdilRequest requestWithDelegate:nil andVideoURL:filePath];
+	[CreateAdilRequest requestWithDelegate:self andVideoURL:filePath];
 }
 
 - (void)dealloc 
