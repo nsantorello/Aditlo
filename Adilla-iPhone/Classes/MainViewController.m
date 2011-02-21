@@ -57,7 +57,7 @@
 	// Show adil recorder.
 	AdilRecorderController *recorder = [[AdilRecorderController alloc] init];	
 	recorder.delegate = self;
-	recorder.videoQuality = UIImagePickerControllerQualityTypeLow;
+	recorder.videoQuality = UIImagePickerControllerQualityTypeMedium;
 	[self presentModalViewController:recorder animated:YES];
 	[recorder release];
 }
