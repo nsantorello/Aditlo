@@ -1,8 +1,11 @@
 #!/bin/bash
 
-################################################################
-# Before you run this, you need to enable multiverse packages. #
-################################################################
+#######################################################################################
+# Before you run this, you need to enable multiverse packages and add                 #
+#   deb http://ppa.launchpad.net/shiki/mediainfo/ubuntu YOUR_UBUNTU_VERSION_HERE main #
+#   deb-src http://ppa.launchpad.net/shiki/mediainfo/ubuntu YOUR_UBUNTU_VERSION_HERE. #
+# to /etc/apt/sources.list															  #
+#######################################################################################
 
 # Uninstall x264, libx264-dev, and ffmpeg if they are already installed.
 sudo apt-get remove ffmpeg x264 libx264-dev
@@ -43,3 +46,6 @@ make tools/qt-faststart
 sudo checkinstall --pkgname=qt-faststart --pkgversion="$(./version.sh)" --backup=no \
     --deldoc=yes --fstrans=no --default install -D -m755 tools/qt-faststart \
     /usr/local/bin/qt-faststart
+    
+# Install mediainfo library
+sudo apt-get install mediainfo

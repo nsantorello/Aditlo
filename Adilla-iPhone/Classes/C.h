@@ -19,5 +19,6 @@
 
 // Resolving against constants.
 + (NSURL*)resolveThumbURL:(NSString*)url;
++ (NSURL*)resolveAdilURL:(NSString*)url;
 
 @end

@@ -31,4 +31,9 @@
 	return [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", AwsUrl_Server, url]];
 }
 
++ (NSURL*)resolveAdilURL:(NSString*)url
+{
+	return [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", AwsUrl_Server, url]];
+}
+
 @end

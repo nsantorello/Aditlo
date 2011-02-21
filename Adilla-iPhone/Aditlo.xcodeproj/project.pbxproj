@@ -34,6 +34,7 @@
 		D22E94BA1310894100A46975 /* TodayRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D22E94B91310894100A46975 /* TodayRequest.m */; };
 		D22E94CB13108B9200A46975 /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D22E94CA13108B9200A46975 /* JSONParser.m */; };
 		D22E952D13108EDE00A46975 /* RequestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D22E952C13108EDE00A46975 /* RequestBase.m */; };
+		D22E97A11312B0A500A46975 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22E97A01312B0A500A46975 /* MediaPlayer.framework */; };
 		D26A1C6E13082269007B2D43 /* TodayResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C6D13082269007B2D43 /* TodayResult.m */; };
 		D26A1C8713082590007B2D43 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C7E13082590007B2D43 /* NSObject+SBJSON.m */; };
 		D26A1C8813082590007B2D43 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A1C8013082590007B2D43 /* NSString+SBJSON.m */; };
@@ -114,6 +115,7 @@
 		D22E952B13108EDE00A46975 /* RequestBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestBase.h; sourceTree = "<group>"; };
 		D22E952C13108EDE00A46975 /* RequestBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestBase.m; sourceTree = "<group>"; };
 		D22E95721310945F00A46975 /* RequestHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHeaders.h; sourceTree = "<group>"; };
+		D22E97A01312B0A500A46975 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		D26A1C6C13082269007B2D43 /* TodayResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayResult.h; sourceTree = "<group>"; };
 		D26A1C6D13082269007B2D43 /* TodayResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayResult.m; sourceTree = "<group>"; };
 		D26A1C7C13082590007B2D43 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = Lib/JSON/JSON.h; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				D22E93631310753700A46975 /* CFNetwork.framework in Frameworks */,
 				D22E93671310755000A46975 /* SystemConfiguration.framework in Frameworks */,
 				D22E936B1310755F00A46975 /* libz.dylib in Frameworks */,
+				D22E97A11312B0A500A46975 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,9 +210,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				D22E93621310753700A46975 /* CFNetwork.framework */,
-				D22E93661310755000A46975 /* SystemConfiguration.framework */,
-				D22E936A1310755F00A46975 /* libz.dylib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -239,9 +239,13 @@
 				D22E93451310752400A46975 /* ASIHTTPRequest */,
 				D26A1C75130824C6007B2D43 /* JSON */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				D22E93621310753700A46975 /* CFNetwork.framework */,
+				D22E93661310755000A46975 /* SystemConfiguration.framework */,
+				D22E936A1310755F00A46975 /* libz.dylib */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				D22E9325131061DB00A46975 /* MobileCoreServices.framework */,
+				D22E97A01312B0A500A46975 /* MediaPlayer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

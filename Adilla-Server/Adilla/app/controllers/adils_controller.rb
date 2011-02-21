@@ -56,14 +56,14 @@ class AdilsController < ApplicationController
       	@adil.pseudohash = Pseudohash.hashify @adil.id
 
 		adil_vid_name = @adil.pseudohash + '.mp4'
-		full_filename = '/tmp/' + @adil.pseudohash + '.tmp'  
-		full_adil = '/tmp/' + adil_vid_name
+		full_filename = '/home/ubuntu/tmp/' + @adil.pseudohash + '.tmp'  
+		full_adil = '/home/ubuntu/tmp/' + adil_vid_name
 		thumb_name = @adil.pseudohash + '_104.jpg'
-		full_thumb = '/tmp/' + thumb_name
+		full_thumb = '/home/ubuntu/tmp/' + thumb_name
       	File.open(full_filename, 'w+') { |f| f.write(params[:upload].read) }
       	
-      	system "ffmpeg -i #{full_filename} -y -acodec libfaac -ab 128k -vcodec libx264 -vpre hq -b 512000 -threads 0 -f ipod #{full_adil}"
-      	system "ffmpeg -itsoffset -4  -i #{full_filename} -vcodec mjpeg -vframes 1 -an -f rawvideo -s 104x104 #{full_thumb}"
+      	`ffmpeg -i #{full_filename} -y -acodec libfaac -ab 128k -vcodec libx264 -vpre hq -b 512000 -threads 0 -f ipod #{full_adil}`
+      	`ffmpeg -itsoffset -4  -i #{full_filename} -vcodec mjpeg -vframes 1 -an -f rawvideo -s 104x104 #{full_thumb}`
       	
       	@adil.video_url = 'a/' + adil_vid_name
       	@adil.thumb_104 = 't/' + thumb_name

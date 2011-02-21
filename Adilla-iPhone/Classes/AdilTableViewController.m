@@ -146,7 +146,12 @@
 
 - (void)performedViewAction:(AdilViewModel *)adilViewModel
 {
-	NSLog(@"Clicked on image for adil with hash %@!", adilViewModel.adil.pseudohash);
+	MPMoviePlayerViewController *mplayervc = [[[MPMoviePlayerViewController alloc] initWithContentURL:[C resolveAdilURL:adilViewModel.adil.videoUrl]] autorelease] ;
+	mplayervc.moviePlayer.shouldAutoplay = NO;
+	mplayervc.view.backgroundColor = [UIColor blackColor];
+	
+	[self presentMoviePlayerViewControllerAnimated:mplayervc];
+	[mplayervc.moviePlayer play];	
 }
 
 

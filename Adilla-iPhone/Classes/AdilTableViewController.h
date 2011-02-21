@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 #import "AdilTableCell.h"
 #import "ResultHeaders.h"
 #import "ThumbDownloader.h"
 
-@interface AdilTableViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource, ThumbDownloaderDelegate, AdilTableCellDelegate> {
+@interface AdilTableViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource, 
+							ThumbDownloaderDelegate, AdilTableCellDelegate> {
 	NSMutableArray *adilvms; // the viewmodels for each adil in the table
 	NSMutableArray *adiltcvms; // the table cell view models for each adil table cell
 	NSMutableDictionary *tableCells; // We store the table cells so that we don't have to redraw them.
