@@ -11,15 +11,20 @@
 
 @implementation MainViewController
 
-- (void)setupAdilTableViewController
+- (void)setupAdilTableView
 {
-	[TodayRequest requestWithDelegate:self];
-	adilController.thumbDownloadsInProgress = [NSMutableDictionary dictionary];
+	// For table cells to signal view actions.
+	adilTable.tableCellDelegate = self; 
+	// The adil table is able to be its own delegate and data source.
+	adilTable.delegate = adilTable;
+	adilTable.dataSource = adilTable;
+	
+	[self refreshAdils];
 }
 
 - (void)viewDidLoad
 {
-	[self setupAdilTableViewController];
+	[self setupAdilTableView];
 	[super viewDidLoad];
 }
 
@@ -45,11 +50,12 @@
 - (void)connectionTimedOut
 {
 	// Todo: (ns): Display a message eventually (but just do nothing for now).
+	
 }
 
 - (void)fetchedToday:(TodayResult*)todayResult
 {
-	[adilController setAdils:todayResult.todaysAdils];
+	[adilTable setAdils:todayResult.todaysAdils];
 }
 
 - (IBAction)showRecordingView
@@ -93,10 +99,24 @@
 	[CreateAdilRequest requestWithDelegate:self andVideoURL:filePath];
 }
 
+- (void)performedViewAction:(AdilViewModel *)adilViewModel
+{
+	MPMoviePlayerViewController *mplayervc = [[[MPMoviePlayerViewController alloc] initWithContentURL:[C resolveAdilURL:adilViewModel.adil.videoUrl]] autorelease] ;
+	mplayervc.moviePlayer.shouldAutoplay = NO;
+	mplayervc.view.backgroundColor = [UIColor blackColor];
+	
+	[self presentMoviePlayerViewControllerAnimated:mplayervc];
+	[mplayervc.moviePlayer play];	
+}
+
+- (IBAction)refreshAdils
+{
+	[TodayRequest requestWithDelegate:self];
+}
+
 - (void)dealloc 
 {
-	[gridTable release];
-	[adilController release];
+	[adilTable release];
 	[topNavBar release];
     [super dealloc];
 }

@@ -4,7 +4,7 @@ include Pseudohash
 include AwsUrlBuilder
 
 class AdilsController < ApplicationController
-  
+
   skip_before_filter :verify_authenticity_token
   
   # GET /adils
@@ -61,9 +61,11 @@ class AdilsController < ApplicationController
 		thumb_name = @adil.pseudohash + '_104.jpg'
 		full_thumb = '/home/ubuntu/tmp/' + thumb_name
       	File.open(full_filename, 'w+') { |f| f.write(params[:upload].read) }
+      	rotation = ["180", "90", "270"].index(`mediainfo #{full_filename} | grep Rotation`[/[0-9]{1,3}/])
+      	transpose = (rotation && ((rotation > 0 && '-vf transpose=' + rotation.to_s + '') || '-vf vflip,hflip')) || ""
       	
-      	`ffmpeg -i #{full_filename} -y -acodec libfaac -ab 128k -vcodec libx264 -vpre hq -b 512000 -threads 0 -f ipod #{full_adil}`
-      	`ffmpeg -itsoffset -4  -i #{full_filename} -vcodec mjpeg -vframes 1 -an -f rawvideo -s 104x104 #{full_thumb}`
+      	`ffmpeg -i #{full_filename} -y -acodec libfaac -ab 128k -vcodec libx264 #{transpose} -vpre hq -b 512000 -threads 0 #{full_adil}`
+      	`ffmpeg -itsoffset -4  -i #{full_filename} #{transpose} -vcodec mjpeg -vframes 1 -an -f rawvideo -s 104x104 #{full_thumb}`
       	
       	@adil.video_url = 'a/' + adil_vid_name
       	@adil.thumb_104 = 't/' + thumb_name

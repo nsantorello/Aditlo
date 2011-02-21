@@ -63,7 +63,7 @@
 }
 
 @property (nonatomic, retain) AdilViewModel *adilvm;
-@property (nonatomic, assign) NSNumber *index;
+@property (nonatomic, retain) NSNumber *index;
 @property (nonatomic, assign) id <ThumbDownloaderDelegate> delegate;
 
 - (void)startDownload;

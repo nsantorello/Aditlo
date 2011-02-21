@@ -70,9 +70,6 @@
     [adilvm release];
     [index release];
     
-    [downloader clearDelegatesAndCancel];
-	[downloader release];
-    
     [super dealloc];
 }
 
