@@ -2,7 +2,7 @@
 # An S3ThumbOperation job message takes the following format (no brackets):
 # 	S3ThumbOperation,[dest_bucket],[dest_file],[min_thumb_dimension]
 # 
-# e.g. "S3ThumbOperation,dl.dev.adil.la,t/4xi9p.jpg,104"
+# e.g. "S3ThumbOperation,dl.dev.adil.la,t/4xi9p_104.jpg,104"
 #########################################################################################
 
 require 'operations/s3_encoding_operation'

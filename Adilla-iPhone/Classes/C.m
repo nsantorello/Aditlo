@@ -8,8 +8,21 @@
 
 #import "C.h"
 
+static AmazonS3Client* s3 = nil;
 
 @implementation C
+
++(AmazonS3Client*)s3 {
+	if ( s3 == nil ) {
+		s3 = [[AmazonS3Client alloc] initWithAccessKey:AwsAccessKeyId withSecretKey:AwsSecretAccessKey];
+	}
+	return s3;
+}
+
++ (NSString*)s3UploadBucket
+{
+	return AwsS3_UploadBucket;
+}
 
 + (NSString*)serverString
 {

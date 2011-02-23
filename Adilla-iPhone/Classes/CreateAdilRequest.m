@@ -12,12 +12,24 @@
 
 + (void)requestWithDelegate:(id)del andVideoURL:(NSString*)url
 {
-	CreateAdilRequest* createRequest = [[CreateAdilRequest alloc] init];
+	/*CreateAdilRequest* createRequest = [[CreateAdilRequest alloc] init];
 	createRequest.delegate = del;
 	ASIFormDataRequest* request = [ASIFormDataRequest requestWithURL:[C createAdilURL]];
 	[request setDelegate:createRequest];
 	[request setFile:url forKey:AdillaUrl_CreateAdil_Video_PostKey];
-	[request startAsynchronous];
+	[request startAsynchronous];*/
+	
+	@try 
+	{
+		S3PutObjectRequest *por = [[S3PutObjectRequest alloc] initWithKey:[Randomness randomAdilFilename] inBucket:[C s3UploadBucket]];
+		por.filename = url;
+		
+		[[C s3] putObject:por];
+	}
+	@catch ( NSException* exception ) 
+	{
+		NSLog( @"Failed to Create Object [%@]", exception );
+	}
 }
 
 - (void)requestFinished:(ASIHTTPRequest*)request

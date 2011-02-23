@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "RequestBase.h"
+#import "Randomness.h"
 
 @interface CreateAdilRequest : RequestBase 
 {

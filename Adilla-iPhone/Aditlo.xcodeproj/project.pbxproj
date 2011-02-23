@@ -55,6 +55,8 @@
 		D2B5115613077ACE006542D9 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B5115413077ACE006542D9 /* VideoDetailViewController.m */; };
 		D2B5115713077ACE006542D9 /* VideoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B5115513077ACE006542D9 /* VideoDetailViewController.xib */; };
 		D2B5129713078977006542D9 /* FastTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B5129613078977006542D9 /* FastTableViewCell.m */; };
+		D2E978211314B22E008BE5B0 /* AWSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E978201314B22E008BE5B0 /* AWSiOSSDK.framework */; };
+		D2E9785F1314B87D008BE5B0 /* Randomness.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E9785E1314B87D008BE5B0 /* Randomness.m */; };
 		D2FCE096130B621A00A1C8D0 /* AdilTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FCE095130B621A00A1C8D0 /* AdilTableCell.m */; };
 		D2FCE19F130B7A3D00A1C8D0 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D2FCE19D130B7A3D00A1C8D0 /* app_icon.png */; };
 		D2FCE1A0130B7A3D00A1C8D0 /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2FCE19E130B7A3D00A1C8D0 /* app_icon@2x.png */; };
@@ -150,6 +152,9 @@
 		D2B5115513077ACE006542D9 /* VideoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoDetailViewController.xib; sourceTree = "<group>"; };
 		D2B5129513078977006542D9 /* FastTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastTableViewCell.h; sourceTree = "<group>"; };
 		D2B5129613078977006542D9 /* FastTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastTableViewCell.m; sourceTree = "<group>"; };
+		D2E978201314B22E008BE5B0 /* AWSiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSiOSSDK.framework; path = Lib/AWSiOSSDK.framework; sourceTree = "<group>"; };
+		D2E9785D1314B87D008BE5B0 /* Randomness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Randomness.h; sourceTree = "<group>"; };
+		D2E9785E1314B87D008BE5B0 /* Randomness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Randomness.m; sourceTree = "<group>"; };
 		D2FCE094130B621A00A1C8D0 /* AdilTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdilTableCell.h; sourceTree = "<group>"; };
 		D2FCE095130B621A00A1C8D0 /* AdilTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdilTableCell.m; sourceTree = "<group>"; };
 		D2FCE19D130B7A3D00A1C8D0 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_icon.png; path = Images/app_icon.png; sourceTree = "<group>"; };
@@ -169,6 +174,7 @@
 				D22E93671310755000A46975 /* SystemConfiguration.framework in Frameworks */,
 				D22E936B1310755F00A46975 /* libz.dylib in Frameworks */,
 				D22E97A11312B0A500A46975 /* MediaPlayer.framework in Frameworks */,
+				D2E978211314B22E008BE5B0 /* AWSiOSSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +249,7 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				D22E9325131061DB00A46975 /* MobileCoreServices.framework */,
 				D22E97A01312B0A500A46975 /* MediaPlayer.framework */,
+				D2E978201314B22E008BE5B0 /* AWSiOSSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -439,6 +446,8 @@
 		D26A1DC813084BB5007B2D43 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				D2E9785D1314B87D008BE5B0 /* Randomness.h */,
+				D2E9785E1314B87D008BE5B0 /* Randomness.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -587,6 +596,7 @@
 				D22E94BA1310894100A46975 /* TodayRequest.m in Sources */,
 				D22E94CB13108B9200A46975 /* JSONParser.m in Sources */,
 				D22E952D13108EDE00A46975 /* RequestBase.m in Sources */,
+				D2E9785F1314B87D008BE5B0 /* Randomness.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +608,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Lib\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -612,6 +626,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Lib\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Aditlo_Prefix.pch;
 				INFOPLIST_FILE = "Aditlo-Info.plist";
@@ -669,6 +687,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Lib\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Aditlo_Prefix.pch;
 				INFOPLIST_FILE = "Aditlo-Info.plist";

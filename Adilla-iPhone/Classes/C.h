@@ -8,10 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "Constants.h"
+#import <AWSiOSSDK/S3/AmazonS3Client.h>
 
 @interface C : NSObject {
 
 }
+// Amazon API objects.
++ (AmazonS3Client*)s3;
++ (NSString*)s3UploadBucket;
 
 // Retrieving constants.
 + (NSURL*)todayURL;
