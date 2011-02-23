@@ -9,8 +9,8 @@
 # For specifics on the params for each operation, see that operation's .rb file.		#
 #########################################################################################
 
-require 'operations/s3_encoding_operation'
-require 'encoding_info'
+require_relative 'operations/s3_encoding_operation'
+require_relative 'encoding_info'
 
 class S3EncodingProcess
 	attr_accessor :src_bucket, :src_file, :operations, :info

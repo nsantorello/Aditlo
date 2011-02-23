@@ -5,7 +5,7 @@
 # e.g. "S3ThumbOperation,dl.dev.adil.la,t/4xi9p_104.jpg,104"
 #########################################################################################
 
-require 'operations/s3_encoding_operation'
+require_relative 'operations/s3_encoding_operation'
 
 class S3ThumbOperation < S3EncodingOperation
 	attr_accessor :min_dimension
