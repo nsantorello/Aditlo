@@ -10,7 +10,8 @@
 NSString* const AdillaUrl_Today = @"today.json";
 
 NSString* const AdillaUrl_CreateAdil = @"adils";
-NSString* const AdillaUrl_CreateAdil_Video_PostKey = @"upload";
+NSString* const AdillaUrl_CreateAdil_SourceBucket_PostKey = @"src_bucket";
+NSString* const AdillaUrl_CreateAdil_SourceFile_PostKey = @"src_file";
 
 #ifdef DEV_BUILD
 NSString* const AdillaUrl_Server = @"http://dev.adil.la/";

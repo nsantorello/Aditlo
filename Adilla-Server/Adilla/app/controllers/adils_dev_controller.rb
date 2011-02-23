@@ -1,5 +1,7 @@
 include Pseudohash
 
+require 'right_aws'
+
 class AdilsDevController < ApplicationController
   
   # GET /adils

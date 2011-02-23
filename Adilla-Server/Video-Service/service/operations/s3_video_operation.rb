@@ -16,6 +16,10 @@ class S3VideoOperation < S3EncodingOperation
 		op
 	end
 	
+	def inspect
+		["S3VideoOperation", dest_bucket, dest_file].join ','
+	end
+	
 	def process
 		# Encode video.
 		local_dest_file = info.local_src_file + ".mp4"
@@ -23,7 +27,7 @@ class S3VideoOperation < S3EncodingOperation
 		
 		# Push to S3.
 		info.s3.bucket(dest_bucket).put dest_file, open(local_dest_file)
-		# Remove local file.
+		# Remove local output file.
 		File.delete local_dest_file 
 	end
 end

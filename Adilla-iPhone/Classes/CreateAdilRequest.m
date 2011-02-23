@@ -11,24 +11,28 @@
 @implementation CreateAdilRequest
 
 + (void)requestWithDelegate:(id)del andVideoURL:(NSString*)url
-{
-	/*CreateAdilRequest* createRequest = [[CreateAdilRequest alloc] init];
-	createRequest.delegate = del;
-	ASIFormDataRequest* request = [ASIFormDataRequest requestWithURL:[C createAdilURL]];
-	[request setDelegate:createRequest];
-	[request setFile:url forKey:AdillaUrl_CreateAdil_Video_PostKey];
-	[request startAsynchronous];*/
-	
+{	
 	@try 
 	{
-		S3PutObjectRequest *por = [[S3PutObjectRequest alloc] initWithKey:[Randomness randomAdilFilename] inBucket:[C s3UploadBucket]];
+		// Upload video to S3.
+		NSString* randomFilename = [Randomness randomAdilFilename];
+		S3PutObjectRequest *por = [[S3PutObjectRequest alloc] initWithKey:randomFilename inBucket:[C s3UploadBucket]];
 		por.filename = url;
-		
 		[[C s3] putObject:por];
+		
+		// Signal upload to Adilla server, and pass it the location of the uploaded file.
+		CreateAdilRequest* createRequest = [[CreateAdilRequest alloc] init];
+		createRequest.delegate = del;
+		ASIFormDataRequest* request = [ASIFormDataRequest requestWithURL:[C createAdilURL]];
+		[request setDelegate:createRequest];
+		[request setPostValue:[C s3UploadBucket] forKey:AdillaUrl_CreateAdil_SourceBucket_PostKey];
+		[request setPostValue:randomFilename forKey:AdillaUrl_CreateAdil_SourceFile_PostKey];
+		[request startAsynchronous];
 	}
 	@catch ( NSException* exception ) 
 	{
-		NSLog( @"Failed to Create Object [%@]", exception );
+		// Failed to create object!  Should: (todo): (ns):
+		// 1. Save video so that the user can resubmit.
 	}
 }
 

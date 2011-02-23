@@ -1,4 +1,5 @@
 require 'aws/s3'
+require 's3_encoding_process'
 
 include Pseudohash
 include AwsUrlBuilder
@@ -54,45 +55,44 @@ class AdilsController < ApplicationController
       if @adil.save
         # Compute and store pseudohash
       	@adil.pseudohash = Pseudohash.hashify @adil.id
-
-		adil_vid_name = @adil.pseudohash + '.mp4'
-		full_filename = '/home/ubuntu/tmp/' + @adil.pseudohash + '.tmp'  
-		full_adil = '/home/ubuntu/tmp/' + adil_vid_name
-		thumb_name = @adil.pseudohash + '_104.jpg'
-		full_thumb = '/home/ubuntu/tmp/' + thumb_name
-      	File.open(full_filename, 'w+') { |f| f.write(params[:upload].read) }
-      	rotation = ["180", "90", "270"].index(`mediainfo #{full_filename} | grep Rotation`[/[0-9]{1,3}/])
-      	transpose = (rotation && ((rotation > 0 && '-vf transpose=' + rotation.to_s + '') || '-vf vflip,hflip')) || ""
       	
-      	`ffmpeg -i #{full_filename} -y -acodec libfaac -ab 128k -vcodec libx264 #{transpose} -vpre hq -b 512000 -threads 0 #{full_adil}`
-      	`ffmpeg -itsoffset -4  -i #{full_filename} #{transpose} -vcodec mjpeg -vframes 1 -an -f rawvideo -s 104x104 #{full_thumb}`
-      	
-      	@adil.video_url = 'a/' + adil_vid_name
-      	@adil.thumb_104 = 't/' + thumb_name
-      	
-      	
-      	# Establish connection to S3
-      	AWS::S3::Base.establish_connection! :access_key_id => AWS_ACCESS_KEY_ID, 
-      		:secret_access_key => AWS_SECRET_ACCESS_KEY
-      	# Upload file to S3, setting it to be available to be read publicly
-      	AWS::S3::S3Object.store 'a/' + adil_vid_name, #"thumbs/" + file.original_filename, 
-      		open(full_adil), AWS_S3_BUCKET, :access => :public_read
-      	AWS::S3::S3Object.store 't/' + thumb_name, #"thumbs/" + file.original_filename, 
-      		open(full_thumb), AWS_S3_BUCKET, :access => :public_read
-      	
+      	# Create URLs to each media component.
+      	@adil.video_url = AWS_BUCKETS_ADILS_URL + @adil.pseudohash + ".mp4"
+      	@adil.thumb_104 = AWS_BUCKETS_THUMBS_URL + @adil.pseudohash + "_104.jpg"
+      	@adil.thumb_208 = AWS_BUCKETS_THUMBS_URL + @adil.pseudohash + "_208.jpg"
       	@adil.save
       	
-      	File.delete full_filename
-      	File.delete full_thumb
-      	File.delete full_adil
+      	# Push encoding job to SQS video encoding queue.
+      	sqs = RightAws::SqsGen2.new AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
+      	queue = sqs.queue AWS_SQS_VIDENC_QUEUE_NAME
+      	job = encoding_job_from_params params, @adil
+      	queue.push job.inspect
       	
-        format.html { redirect_to(@adil, :notice => 'Adil was successfully created.') }
+        format.html { render :json => @adil }
         format.xml  { render :xml => @adil, :status => :created, :location => @adil }
       else
         format.html { render :action => "new" }
         format.xml  { render :xml => @adil.errors, :status => :unprocessable_entity }
       end
     end
+  end
+  
+  def encoding_job_from_params params, adil
+  	job = S3EncodingProcess.new
+	job.src_bucket = params[:src_bucket]
+	job.src_file = params[:src_file]
+	job.operations = []
+	vidop = S3VideoOperation.new
+	t104op = S3ThumbOperation.new
+	t208op = S3ThumbOperation.new
+	vidop.dest_bucket = t104op.dest_bucket = t208op.dest_bucket = AWS_S3_BUCKET
+	vidop.dest_file = adil.video_url
+	t104op.dest_file = adil.thumb_104
+	t104op.min_dimension = 104
+	t208op.dest_file = adil.thumb_208
+	t208op.min_dimension = 208
+	job.operations << vidop << t104op << t208op
+	job
   end
 
   # PUT /adils/1

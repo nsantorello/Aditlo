@@ -19,6 +19,10 @@ class S3ThumbOperation < S3EncodingOperation
 		op
 	end
 	
+	def inspect
+		["S3ThumbOperation", dest_bucket, dest_file, min_dimension].join ','
+	end
+	
 	def process
 		# Create thumbnail.
 		local_dest_file = info.local_src_file  + ".jpg"

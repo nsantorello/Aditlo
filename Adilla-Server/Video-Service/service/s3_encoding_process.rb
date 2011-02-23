@@ -38,6 +38,10 @@ class S3EncodingProcess
 		proc
 	end
 	
+	def inspect
+		[src_bucket, src_file, operations].flatten(1).join ';'
+	end
+	
 	def start
 		# Get source vid.
 		downloaded_src = src_bucket.get src_file
