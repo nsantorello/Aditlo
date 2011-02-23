@@ -19,8 +19,8 @@ class S3ThumbOperation < S3EncodingOperation
 		op
 	end
 	
-	def inspect
-		["S3ThumbOperation", dest_bucket, dest_file, min_dimension].join ','
+	def to_s
+		"S3ThumbOperation,#{dest_bucket},#{dest_file},#{min_dimension}"
 	end
 	
 	def process

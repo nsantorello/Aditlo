@@ -1,5 +1,7 @@
-require 'aws/s3'
+require 'right_aws'
 require 's3_encoding_process'
+require 'operations/s3_thumb_operation'
+require 'operations/s3_video_operation'
 
 include Pseudohash
 include AwsUrlBuilder
@@ -66,7 +68,7 @@ class AdilsController < ApplicationController
       	sqs = RightAws::SqsGen2.new AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
       	queue = sqs.queue AWS_SQS_VIDENC_QUEUE_NAME
       	job = encoding_job_from_params params, @adil
-      	queue.push job.inspect
+      	queue.push job.to_s
       	
         format.html { render :json => @adil }
         format.xml  { render :xml => @adil, :status => :created, :location => @adil }

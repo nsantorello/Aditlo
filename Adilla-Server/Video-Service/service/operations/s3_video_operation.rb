@@ -16,8 +16,8 @@ class S3VideoOperation < S3EncodingOperation
 		op
 	end
 	
-	def inspect
-		["S3VideoOperation", dest_bucket, dest_file].join ','
+	def to_s
+		"S3VideoOperation,#{dest_bucket},#{dest_file}"
 	end
 	
 	def process

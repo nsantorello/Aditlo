@@ -38,8 +38,10 @@ class S3EncodingProcess
 		proc
 	end
 	
-	def inspect
-		[src_bucket, src_file, operations].flatten(1).join ';'
+	def to_s
+		str = "#{src_bucket};#{src_file};"
+		operations.each { |op| str += op.to_s + ";" }
+		str
 	end
 	
 	def start
