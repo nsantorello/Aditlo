@@ -1,5 +1,14 @@
 #!/usr/bin/env ruby
 
+# Gets around differences in Ruby 1.8 vs. 1.9 with require vs. relative_require
+unless Kernel.respond_to?(:require_relative)
+  module Kernel
+    def require_relative(path)
+      require File.join(File.dirname(caller[0]), path.to_str)
+    end
+  end
+end
+
 require 'rubygems'
 require 'right_aws'
 require_relative 'operations/s3_thumb_operation'
