@@ -5,7 +5,7 @@
 # e.g. "S3VideoOperation,dl.dev.adil.la,a/4xi9p.mp4"
 #########################################################################################
 
-require 'operations/s3_encoding_operation'
+require './operations/s3_encoding_operation'
 
 class S3VideoOperation < S3EncodingOperation
 	def S3VideoOperation.from_str message

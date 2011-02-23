@@ -2,9 +2,9 @@
 
 require 'rubygems'
 require 'right_aws'
-require 'operations/s3_thumb_operation'
-require 'operations/s3_video_operation'
-require 's3_encoding_process'
+require './operations/s3_thumb_operation'
+require './operations/s3_video_operation'
+require './s3_encoding_process'
 
 # Access constants
 AWS_ACCESS_KEY_ID = 'AKIAJJ26WQL3CQ3X73IA'
