@@ -49,3 +49,9 @@ sudo checkinstall --pkgname=qt-faststart --pkgversion="$(./version.sh)" --backup
     
 # Install mediainfo library
 sudo apt-get install mediainfo
+
+# Install Ruby and RubyGems
+sudo apt-get install ruby rdoc rubygems
+
+# Install the RightAws gem
+sudo gem install right_aws

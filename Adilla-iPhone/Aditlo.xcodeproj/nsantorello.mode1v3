@@ -288,15 +288,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>38</integer>
-									<integer>32</integer>
-									<integer>31</integer>
-									<integer>1</integer>
+									<integer>56</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 260}, {232, 809}}</string>
+							<string>{{0, 163}, {232, 823}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -308,14 +305,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {249, 827}}</string>
+						<string>{{0, 0}, {249, 841}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>232</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>1 151 1679 868 0 0 1680 1028 </string>
+						<string>1 146 1679 882 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -333,7 +330,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AdilTable.m</string>
+								<string>MainViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -341,11 +338,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AdilTable.m</string>
+										<string>MainViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D22E984F1312E62600A46975</string>
+										<string>D22E987D1313FE1D00A46975</string>
 										<key>history</key>
 										<array>
 											<string>D2B510B713076378006542D9</string>
@@ -378,7 +375,6 @@
 											<string>D22E938B131076C200A46975</string>
 											<string>D22E93DF13107B6400A46975</string>
 											<string>D22E94FB13108D3900A46975</string>
-											<string>D22E94FD13108D3900A46975</string>
 											<string>D22E94FF13108D3900A46975</string>
 											<string>D22E953E13108F7700A46975</string>
 											<string>D22E95801310949900A46975</string>
@@ -389,9 +385,6 @@
 											<string>D22E965613109EC700A46975</string>
 											<string>D22E966213109F8E00A46975</string>
 											<string>D22E966913109FA900A46975</string>
-											<string>D22E96A01310A14E00A46975</string>
-											<string>D22E96B21310A21100A46975</string>
-											<string>D22E96E51310A75800A46975</string>
 											<string>D22E97B11312B17400A46975</string>
 											<string>D22E97B51312B17400A46975</string>
 											<string>D22E97B61312B17400A46975</string>
@@ -400,8 +393,12 @@
 											<string>D22E98111312C2E400A46975</string>
 											<string>D22E984B1312E62600A46975</string>
 											<string>D22E984C1312E62600A46975</string>
-											<string>D22E984D1312E62600A46975</string>
-											<string>D22E984E1312E62600A46975</string>
+											<string>D22E98651312F95700A46975</string>
+											<string>D22E98661312F95700A46975</string>
+											<string>D22E986B1312FA2B00A46975</string>
+											<string>D22E987A1313FE1D00A46975</string>
+											<string>D22E987B1313FE1D00A46975</string>
+											<string>D22E987C1313FE1D00A46975</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -413,14 +410,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1425, 575}}</string>
+								<string>{{0, 0}, {1425, 589}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1 151 1679 868 0 0 1680 1028 </string>
+								<string>1 146 1679 882 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>575pt</string>
+							<string>589pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -433,9 +430,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 580}, {1425, 247}}</string>
+								<string>{{0, 594}, {1425, 247}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1 151 1679 868 0 0 1680 1028 </string>
+								<string>1 146 1679 882 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -599,7 +596,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D22E98501312E62600A46975</string>
 		<string>D2FCE088130B614E00A1C8D0</string>
 		<string>D22E930A131060DD00A46975</string>
 		<string>D22E930C131060DD00A46975</string>
@@ -609,7 +605,7 @@
 		<string>/Users/nsantorello/Documents/Aditlo/Adilla-iPhone/Aditlo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>1 151 1679 868 0 0 1680 1028 </string>
+	<string>1 146 1679 882 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

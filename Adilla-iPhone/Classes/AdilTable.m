@@ -146,7 +146,7 @@
         // Tell the cell that it needs to redraw itself.
 		[cell redrawImages];
 		
-		//[thumbDownloadsInProgress removeObjectForKey:index];
+		[thumbDownloadsInProgress removeObjectForKey:index];
     }
 }
 
